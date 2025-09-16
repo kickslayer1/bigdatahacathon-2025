@@ -37,5 +37,24 @@ def chart():
     buf.seek(0)
     return send_file(buf, mimetype='image/png')
 
+
+# Endpoint to serve options for form
+@app.route('/options')
+def get_options():
+    df = pd.read_csv('datasetx.csv')
+    items = sorted(df['item'].unique())
+    times = sorted(df['time'].unique())
+    amounts = sorted(df['amount'].unique())
+    return {'items': items, 'times': times, 'amounts': amounts}
+
+# Dummy prediction endpoint (replace with model logic as needed)
+from flask import request, jsonify
+@app.route('/predict', methods=['POST'])
+def predict():
+    data = request.get_json()
+    # Example: Dummy prediction using amount
+    price = float(data.get('amount', 0)) * 1.1  # Replace with your model
+    return jsonify({'price': price})
+
 if __name__ == '__main__':
     app.run(debug=True)
