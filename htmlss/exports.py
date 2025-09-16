@@ -24,3 +24,4 @@ plt.savefig('htmlss/exports_chart.png', dpi=120)
 plt.close()
 
 print('Bar chart saved as htmlss/exports_chart.png')
+
