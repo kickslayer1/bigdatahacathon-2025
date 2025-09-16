@@ -1,25 +1,57 @@
-<html>
-<head>
-<style>
-main {
+/* Modern navy blue & silver theme */
+
+body {
   margin: 0;
-  padding: 5px;
-  background-color: lightgray;
+  padding: 0;
+  background: linear-gradient(135deg, #001f3f 60%, #003366 100%);
+  font-family: 'Segoe UI', 'Roboto', 'Montserrat', Arial, sans-serif;
+  color: #C0C0C0;
 }
 
-main > h1, p, .browser {
-  margin: 10px;
-  padding: 5px;
+main {
+  margin: 20px auto;
+  padding: 24px;
+  background: rgba(0, 31, 63, 0.95);
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.2);
+  max-width: 900px;
 }
+
+
+main > h1, main > p, .browser {
+  margin: 16px 0;
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+
 
 .browser {
-  background: white;
+  background: linear-gradient(90deg, #001f3f 80%, #C0C0C0 100%);
+  color: #C0C0C0;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+  border: 1px solid #C0C0C0;
+  border-radius: 12px;
+  transition: box-shadow 0.3s;
 }
 
-.browser > h2, p {
-  margin: 4px;
-  font-size: 90%;
+.browser:hover {
+  box-shadow: 0 6px 24px rgba(0,0,0,0.18);
+  border-color: #fff;
 }
-</style>
-</head>
-<body>
+
+
+.browser > h2, .browser > p {
+  margin: 8px 0;
+  font-size: 1rem;
+  color: #fff;
+}
+
+a {
+  color: #C0C0C0;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
