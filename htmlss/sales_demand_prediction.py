@@ -1,4 +1,5 @@
-# Sales Demand Prediction using Random Forest
+
+# Sales Amount Prediction using Random Forest
 # Requires: pandas, scikit-learn, matplotlib
 # Usage: python sales_demand_prediction.py
 
@@ -16,9 +17,11 @@ df = pd.read_csv('datasetx.csv')
 le_item = LabelEncoder()
 df['item_encoded'] = le_item.fit_transform(df['item'])
 
-# Feature selection
-features = ['item_encoded', 'export', 'import', 'price', 'market_trend', 'seasonality']
-target = 'sales_demand'
+# Feature selection (use item_encoded and time)
+le_time = LabelEncoder()
+df['time_encoded'] = le_time.fit_transform(df['time'])
+features = ['item_encoded', 'time_encoded']
+target = 'amount'
 
 X = df[features]
 y = df[target]
@@ -43,7 +46,7 @@ print(f'R^2 Score: {r2:.2f}')
 importances = model.feature_importances_
 plt.figure(figsize=(8,5))
 plt.bar(features, importances, color='navy')
-plt.title('Feature Importance for Sales Demand Prediction')
+plt.title('Feature Importance for Sales Amount Prediction')
 plt.ylabel('Importance')
 plt.tight_layout()
 plt.savefig('htmlss/sales_feature_importance.png', dpi=120)
@@ -53,11 +56,7 @@ print('Feature importance chart saved as htmlss/sales_feature_importance.png')
 # Example: Predict for new data
 # new_data = pd.DataFrame({
 #     'item_encoded': [le_item.transform(['Gold'])[0]],
-#     'export': [1000],
-#     'import': [500],
-#     'price': [1200],
-#     'market_trend': [1.2],
-#     'seasonality': [0.8]
+#     'time_encoded': [le_time.transform(['2025-Q1'])[0]]
 # })
-# predicted_demand = model.predict(new_data)
-# print('Predicted sales demand:', predicted_demand)
+# predicted_amount = model.predict(new_data)
+# print('Predicted sales amount:', predicted_amount)
