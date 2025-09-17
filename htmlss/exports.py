@@ -13,10 +13,10 @@ pivot = df.pivot_table(index='time', columns='item', values='amount', aggfunc='s
 
 # Plot
 ax = pivot.plot(kind='bar', figsize=(10,6), colormap='tab20')
-plt.title('Exports Over Time by Item')
+plt.title('Exports Over Time by item')
 plt.xlabel('Time')
 plt.ylabel('Amount')
-plt.legend(title='Item', bbox_to_anchor=(1.05, 1), loc='upper left')
+plt.legend(title='item', bbox_to_anchor=(1.05, 1), loc='upper left')
 plt.tight_layout()
 
 # Save chart to htmlss folder

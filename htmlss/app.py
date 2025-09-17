@@ -1,58 +1,69 @@
-from flask import Flask, send_file, render_template_string, jsonify, request
+from flask import Flask, jsonify, request, send_from_directory
 import pandas as pd
-import matplotlib.pyplot as plt
-import io
+import os
 
 app = Flask(__name__)
 
+# In-memory user store for demonstration
+users = {}
+
+# Serve the HTML page
 @app.route('/')
-def home():
-    # HTML template with embedded chart
-    html = '''
-    <html>
-    <head><title>Exports Dashboard</title></head>
-    <body>
-        <h1>Exports Data Visualization</h1>
-        <img src="/chart.png" alt="Exports Chart" style="max-width:100%;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.12);">
-    </body>
-    </html>
-    '''
-    return render_template_string(html)
+def serve_gateway():
+    return send_from_directory('.', 'gateway.html')
 
-@app.route('/chart.png')
-def chart():
-    # Load and plot data
-    df = pd.read_csv('datasetx.csv')
-    pivot = df.pivot_table(index='time', columns='item', values='amount', aggfunc='sum', fill_value=0)
-    ax = pivot.plot(kind='bar', figsize=(10,6), colormap='tab20')
-    plt.title('Exports Over Time by Item')
-    plt.xlabel('Time')
-    plt.ylabel('Amount')
-    plt.tight_layout()
+@app.route('/login', methods=['POST'])
+def login():
+    data = request.json
+    username = data.get('username')
+    password = data.get('password')
+    if username in users and users[username] == password:
+        return jsonify({'success': True})
+    else:
+        return jsonify({'success': False, 'message': 'Invalid username or password.'})
 
-    # Save to in-memory buffer
-    buf = io.BytesIO()
-    plt.savefig(buf, format='png')
-    plt.close()
-    buf.seek(0)
-    return send_file(buf, mimetype='image/png')
-
+@app.route('/register', methods=['POST'])
+def register():
+    data = request.json
+    username = data.get('username')
+    password = data.get('password')
+    if username in users:
+        return jsonify({'success': False, 'message': 'Username already exists.'})
+    users[username] = password
+    return jsonify({'success': True})
 
 # Endpoint to serve options for form
 @app.route('/options')
 def get_options():
     df = pd.read_csv('datasetx.csv')
-    items = sorted(df['Item'].unique())
-    times = sorted(df['time'].unique())
-    amounts = sorted(df['amount'].unique())
+    items = sorted(df['item'].unique())
+    # Convert times and amounts to Python int
+    times = sorted([int(t) for t in df['time'].unique()])
+    amounts = sorted([int(a) for a in df['amount'].unique()])
     return jsonify({'items': items, 'times': times, 'amounts': amounts})
 
-# Example prediction endpoint (dummy)
-@app.route('/predict', methods=['POST'])
-def predict():
+# Endpoint to get predicted amount for selected item and year
+@app.route('/predict_amount', methods=['POST'])
+def predict_amount():
     data = request.json
-    # You can add your model logic here
-    return jsonify({'predicted_price': 12345})
+    item = data.get('item')
+    year = int(data.get('year'))
+    df = pd.read_csv('datasetx.csv')
+    result = df[(df['item'] == item) & (df['time'] == year)]
+    if not result.empty:
+        amount = int(result.iloc[0]['amount'])
+        return jsonify({'amount': amount})
+    else:
+        return jsonify({'amount': None, 'error': 'No data found for the selected item and year.'})
+
+# Serve static files (like JS)
+@app.route('/<path:filename>')
+def serve_static(filename):
+    return send_from_directory('.', filename)
+
+@app.route('/styles.css')
+def serve_css():
+    return send_from_directory('..', 'styles.css')
 
 if __name__ == '__main__':
     app.run(debug=True)

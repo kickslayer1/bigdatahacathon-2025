@@ -11,7 +11,8 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 
-  fetch('http://127.0.0.1:5000/options')
+  // Fetch options for dropdowns
+  fetch('/options')
     .then(response => response.json())
     .then(data => {
       const itemSelect = document.getElementById('item');
@@ -41,6 +42,29 @@ document.addEventListener('DOMContentLoaded', function() {
         amountSelect.appendChild(option);
       });
     });
+
+  // Handle form submission
+  document.getElementById('predictionForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    const item = document.getElementById('item').value;
+    const year = document.getElementById('time').value;
+
+    fetch('/predict_amount', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({item, year})
+    })
+    .then(response => response.json())
+    .then(data => {
+      const resultDiv = document.getElementById('predictionResult');
+      if (data.amount !== null) {
+        resultDiv.textContent = `Predicted amount for ${item} in ${year}: ${data.amount}`;
+      } else {
+        resultDiv.textContent = data.error;
+      }
+    });
+});
+
 });
 
 async function predictPrice() {
