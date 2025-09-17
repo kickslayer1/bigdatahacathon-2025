@@ -1,4 +1,3 @@
-
 # Sales Amount Prediction using Random Forest
 # Requires: pandas, scikit-learn, matplotlib
 # Usage: python sales_demand_prediction.py
@@ -13,14 +12,12 @@ import matplotlib.pyplot as plt
 # Load dataset
 df = pd.read_csv('datasetx.csv')
 
-# Encode categorical variables
+# Encode Item (categorical)
 le_item = LabelEncoder()
-df['item_encoded'] = le_item.fit_transform(df['item'])
+df['Item_encoded'] = le_item.fit_transform(df['Item'])
 
-# Feature selection (use item_encoded and time)
-le_time = LabelEncoder()
-df['time_encoded'] = le_time.fit_transform(df['time'])
-features = ['item_encoded', 'time_encoded']
+# Features: Item_encoded, time (year as integer)
+features = ['Item_encoded', 'time']
 target = 'amount'
 
 X = df[features]
@@ -30,33 +27,15 @@ y = df[target]
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
 # Model
-model = RandomForestRegressor(n_estimators=100, random_state=42)
+model = RandomForestRegressor(random_state=42)
 model.fit(X_train, y_train)
 
-# Predict
+# Predict and evaluate
 y_pred = model.predict(X_test)
-
-# Evaluation
-mse = mean_squared_error(y_test, y_pred)
-r2 = r2_score(y_test, y_pred)
-print(f'Mean Squared Error: {mse:.2f}')
-print(f'R^2 Score: {r2:.2f}')
+print("MSE:", mean_squared_error(y_test, y_pred))
+print("R2:", r2_score(y_test, y_pred))
 
 # Feature importance plot
-importances = model.feature_importances_
-plt.figure(figsize=(8,5))
-plt.bar(features, importances, color='navy')
-plt.title('Feature Importance for Sales Amount Prediction')
-plt.ylabel('Importance')
-plt.tight_layout()
-plt.savefig('htmlss/sales_feature_importance.png', dpi=120)
-plt.close()
-print('Feature importance chart saved as htmlss/sales_feature_importance.png')
-
-# Example: Predict for new data
-# new_data = pd.DataFrame({
-#     'item_encoded': [le_item.transform(['Gold'])[0]],
-#     'time_encoded': [le_time.transform(['2025-Q1'])[0]]
-# })
-# predicted_amount = model.predict(new_data)
-# print('Predicted sales amount:', predicted_amount)
+plt.bar(features, model.feature_importances_)
+plt.title("Feature Importance")
+plt.show()

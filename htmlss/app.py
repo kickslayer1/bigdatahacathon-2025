@@ -1,4 +1,4 @@
-from flask import Flask, send_file, render_template_string
+from flask import Flask, send_file, render_template_string, jsonify, request
 import pandas as pd
 import matplotlib.pyplot as plt
 import io
@@ -42,19 +42,17 @@ def chart():
 @app.route('/options')
 def get_options():
     df = pd.read_csv('datasetx.csv')
-    items = sorted(df['item'].unique())
+    items = sorted(df['Item'].unique())
     times = sorted(df['time'].unique())
     amounts = sorted(df['amount'].unique())
-    return {'items': items, 'times': times, 'amounts': amounts}
+    return jsonify({'items': items, 'times': times, 'amounts': amounts})
 
-# Dummy prediction endpoint (replace with model logic as needed)
-from flask import request, jsonify
+# Example prediction endpoint (dummy)
 @app.route('/predict', methods=['POST'])
 def predict():
-    data = request.get_json()
-    # Example: Dummy prediction using amount
-    price = float(data.get('amount', 0)) * 1.1  # Replace with your model
-    return jsonify({'price': price})
+    data = request.json
+    # You can add your model logic here
+    return jsonify({'predicted_price': 12345})
 
 if __name__ == '__main__':
     app.run(debug=True)

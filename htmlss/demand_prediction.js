@@ -11,11 +11,9 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 
-  // Fetch options from backend and populate form
   fetch('http://127.0.0.1:5000/options')
     .then(response => response.json())
     .then(data => {
-      // Populate item select
       const itemSelect = document.getElementById('item');
       itemSelect.innerHTML = '';
       data.items.forEach(item => {
@@ -24,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
         option.textContent = item;
         itemSelect.appendChild(option);
       });
-      // Populate time select
+
       const timeSelect = document.getElementById('time');
       timeSelect.innerHTML = '';
       data.times.forEach(time => {
@@ -33,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
         option.textContent = time;
         timeSelect.appendChild(option);
       });
-      // Populate amount select
+
       const amountSelect = document.getElementById('amount');
       amountSelect.innerHTML = '';
       data.amounts.forEach(amount => {

@@ -1,4 +1,3 @@
-
 <html>
 <head>
   <link rel="stylesheet" href="../styles.css">
@@ -37,22 +36,14 @@
       <button id="showFormBtn" style="background:#001f3f;color:#C0C0C0;padding:10px 24px;border:none;border-radius:8px;cursor:pointer;margin-bottom:20px;">Show Interactive Price Prediction</button>
       <div id="predictionFormContainer" style="display:none;">
         <h3>Interactive Price Prediction</h3>
-        <form id="predictForm" style="background:#003366;padding:16px;border-radius:12px;color:#C0C0C0;max-width:500px;margin:auto;">
+        <form id="predictionForm" style="background:#003366;padding:16px;border-radius:12px;color:#C0C0C0;max-width:500px;margin:auto;">
           <label for="item">Item:</label>
           <select id="item" name="item"></select><br><br>
           <label for="time">Time:</label>
           <select id="time" name="time"></select><br><br>
           <label for="amount">Amount:</label>
           <select id="amount" name="amount"></select><br><br>
-          <label for="export">Export:</label>
-          <input type="number" id="export" name="export" min="0"><br><br>
-          <label for="import">Import:</label>
-          <input type="number" id="import" name="import" min="0"><br><br>
-          <label for="market_trend">Market Trend:</label>
-          <input type="number" step="0.01" id="market_trend" name="market_trend"><br><br>
-          <label for="seasonality">Seasonality:</label>
-          <input type="number" step="0.01" id="seasonality" name="seasonality"><br><br>
-          <button type="button" onclick="predictPrice()">Predict Price</button>
+          <button type="submit">Predict</button>
         </form>
         <div id="predictionResult" style="margin-top:20px;font-size:1.2em;color:#fff;text-align:center;"></div>
       </div>
