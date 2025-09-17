@@ -2,7 +2,7 @@
 import pandas as pd
 
 df = pd.read_csv('datasetx.csv')
-items = df['item'].unique()
+items = df['Item'].unique()
 print('Items in datasetx.csv:')
 for item in items:
     print(item)
