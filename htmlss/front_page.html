@@ -1,13 +1,14 @@
-
 <html>
 <head>
   <link rel="stylesheet" href="../styles.css">
-  <title>Front Page - NISR Data Science Hackathon 2025</title>
+  <title>Front Page - NISR Data Science Hackathon 2025
+  </title>
 </head>
 <body>
-  <header style="background: #001f3f; color: #C0C0C0; padding: 16px 0; text-align: center; border-bottom: 2px solid #C0C0C0;">
+  <header style="background: #001f3f; color: #C0C0C0; padding: 16px 0; text-align: center; border-bottom: 2px solid #C0C0C0; position: relative;">
     <h1>NISR Data Science Hackathon 2025</h1>
     <p>Rwanda's next biggest export opportunity</p>
+    <button id="logoutBtn" style="position:absolute; top:24px; right:32px; background:#d9534f; color:#fff; border:none; border-radius:8px; padding:8px 16px; cursor:pointer;">Logout</button>
   </header>
   <nav style="background: #003366; padding: 8px 0;">
     <ul style="display: flex; justify-content: center; list-style: none; gap: 2em; margin: 0; padding: 0;">
@@ -39,5 +40,11 @@
   <footer style="background: #001f3f; color: #C0C0C0; text-align: center; padding: 12px 0; margin-top: 32px; border-top: 2px solid #C0C0C0;">
     <p>&copy; 2025 NISR Data Science Hackathon</p>
   </footer>
+  <script>
+    document.getElementById('logoutBtn').onclick = function() {
+      fetch('/logout')
+        .then(() => window.location.href = 'gateway.html');
+    };
+  </script>
 </body>
 </html>

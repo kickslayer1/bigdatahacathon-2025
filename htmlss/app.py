@@ -1,11 +1,9 @@
-from flask import Flask, jsonify, request, send_from_directory
-import pandas as pd
+from flask import Flask, jsonify, request, send_from_directory, session
 import os
+from db import register_user, check_user, get_db_connection
 
 app = Flask(__name__)
-
-# In-memory user store for demonstration
-users = {}
+app.secret_key = os.urandom(24)  # Needed for session management
 
 # Serve the HTML page
 @app.route('/')
@@ -17,7 +15,8 @@ def login():
     data = request.json
     username = data.get('username')
     password = data.get('password')
-    if username in users and users[username] == password:
+    if check_user(username, password):
+        session['username'] = username  # Store username in session
         return jsonify({'success': True})
     else:
         return jsonify({'success': False, 'message': 'Invalid username or password.'})
@@ -27,34 +26,70 @@ def register():
     data = request.json
     username = data.get('username')
     password = data.get('password')
-    if username in users:
-        return jsonify({'success': False, 'message': 'Username already exists.'})
-    users[username] = password
+    success, message = register_user(username, password)
+    if success:
+        return jsonify({'success': True})
+    else:
+        return jsonify({'success': False, 'message': message})
+
+@app.route('/logout')
+def logout():
+    session.pop('username', None)
     return jsonify({'success': True})
 
-# Endpoint to serve options for form
+@app.route('/check_session')
+def check_session():
+    if 'username' in session:
+        return jsonify({'logged_in': True, 'username': session['username']})
+    else:
+        return jsonify({'logged_in': False})
+
+# Endpoint to serve options for form (from 'dataset' table)
 @app.route('/options')
 def get_options():
-    df = pd.read_csv('datasetx.csv')
-    items = sorted(df['item'].unique())
-    # Convert times and amounts to Python int
-    times = sorted([int(t) for t in df['time'].unique()])
-    amounts = sorted([int(a) for a in df['amount'].unique()])
+    conn = get_db_connection()
+    cursor = conn.cursor()
+    cursor.execute("SELECT DISTINCT item FROM datasetx")  # updated table name
+    items = [row[0] for row in cursor.fetchall()]
+    cursor.execute("SELECT DISTINCT time FROM datasetx")  # updated table name
+    times = sorted([int(row[0]) for row in cursor.fetchall()])
+    cursor.execute("SELECT DISTINCT amount FROM datasetx")  # updated table name
+    amounts = sorted([int(row[0]) for row in cursor.fetchall()])
+    cursor.close()
+    conn.close()
     return jsonify({'items': items, 'times': times, 'amounts': amounts})
 
-# Endpoint to get predicted amount for selected item and year
 @app.route('/predict_amount', methods=['POST'])
 def predict_amount():
     data = request.json
     item = data.get('item')
     year = int(data.get('year'))
-    df = pd.read_csv('datasetx.csv')
-    result = df[(df['item'] == item) & (df['time'] == year)]
-    if not result.empty:
-        amount = int(result.iloc[0]['amount'])
+    conn = get_db_connection()
+    cursor = conn.cursor()
+    cursor.execute("SELECT amount FROM datasetx WHERE item=%s AND time=%s", (item, year))  # updated table name
+    result = cursor.fetchone()
+    cursor.close()
+    conn.close()
+    if result:
+        amount = int(result[0])
         return jsonify({'amount': amount})
     else:
         return jsonify({'amount': None, 'error': 'No data found for the selected item and year.'})
+# ...existing code...
+# Example: Endpoint to get data from 'datamap' table
+@app.route('/datamap_options')
+def datamap_options():
+    conn = get_db_connection()
+    cursor = conn.cursor()
+    cursor.execute("SELECT DISTINCT item FROM datamap")
+    items = [row[0] for row in cursor.fetchall()]
+    cursor.execute("SELECT DISTINCT time FROM datamap")
+    times = sorted([int(row[0]) for row in cursor.fetchall()])
+    cursor.execute("SELECT DISTINCT amount FROM datamap")
+    amounts = sorted([int(row[0]) for row in cursor.fetchall()])
+    cursor.close()
+    conn.close()
+    return jsonify({'items': items, 'times': times, 'amounts': amounts})
 
 # Serve static files (like JS)
 @app.route('/<path:filename>')
