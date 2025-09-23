@@ -75,7 +75,6 @@ def predict_amount():
         return jsonify({'amount': amount})
     else:
         return jsonify({'amount': None, 'error': 'No data found for the selected item and year.'})
-# ...existing code...
 # Example: Endpoint to get data from 'datamap' table
 @app.route('/datamap_options')
 def datamap_options():
@@ -90,6 +89,31 @@ def datamap_options():
     cursor.close()
     conn.close()
     return jsonify({'items': items, 'times': times, 'amounts': amounts})
+
+# Endpoint to get export commodities data
+@app.route('/export_commodities_data')
+def export_commodities_data():
+    conn = get_db_connection()
+    cursor = conn.cursor()
+    cursor.execute("SELECT * FROM export_commodities")
+    data = cursor.fetchall()
+    columns = [desc[0] for desc in cursor.description]
+    cursor.close()
+    conn.close()
+    # Return as list of dicts
+    return jsonify([dict(zip(columns, row)) for row in data])
+
+# Endpoint to get trade data
+@app.route('/trade20_25q2_data')
+def trade20_25q2_data():
+    conn = get_db_connection()
+    cursor = conn.cursor()
+    cursor.execute("SELECT * FROM trade20_25q2")
+    data = cursor.fetchall()
+    columns = [desc[0] for desc in cursor.description]
+    cursor.close()
+    conn.close()
+    return jsonify([dict(zip(columns, row)) for row in data])
 
 # Serve static files (like JS)
 @app.route('/<path:filename>')
