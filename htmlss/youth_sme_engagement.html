@@ -1,0 +1,50 @@
+<html>
+<head>
+  <link rel="stylesheet" href="../styles.css">
+  <title>Front Page - NISR Data Science Hackathon 2025
+  </title>
+</head>
+<body>
+  <header style="background: #001f3f; color: #C0C0C0; padding: 16px 0; text-align: center; border-bottom: 2px solid #C0C0C0; position: relative;">
+    <h1>NISR Data Science Hackathon 2025</h1>
+    <p>Rwanda's next biggest export opportunity</p>
+    <button id="logoutBtn" style="position:absolute; top:24px; right:32px; background:#d9534f; color:#fff; border:none; border-radius:8px; padding:8px 16px; cursor:pointer;">Logout</button>
+  </header>
+  <nav style="background: #003366; padding: 8px 0;">
+    <ul style="display: flex; justify-content: center; list-style: none; gap: 2em; margin: 0; padding: 0;">
+      <li><a href="front_page.html">Home</a></li>
+      <li><a href="global_trade_2025.html">Global Trade 2025</a></li>
+      <li><a href="demand_prediction_2026.html">2026 Demand Prediction</a></li>
+      <li><a href="policy_recommendation.html">Policy Recommendation</a></li>
+      <li><a href="youth_sme_engagement.html">Youth & SME Engagement</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section>
+      <h2>Youth & SME Engagement</h2>
+      <p>Empowering youth and SMEs is crucial for Rwanda's economic growth. This can be achieved through targeted training programs, access to funding, and fostering innovation.</p>
+    </section>
+
+    <article>
+      <h3>Investment in AI and Edge Technologies</h3>
+      <p>Investment in AI industry has quadrupled in the last 3 years marking a significant development in tech industry.</p>
+    </article>
+
+    <section>
+      <h3>Exports Data Visualization</h3>
+      <img src="exports_chart.png" alt="Exports Data Bar Chart" style="max-width:100%;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.12);">
+    </section>
+  </main>
+
+  <footer style="background: #001f3f; color: #C0C0C0; text-align: center; padding: 12px 0; margin-top: 32px; border-top: 2px solid #C0C0C0;">
+    <p>&copy; 2025 NISR Data Science Hackathon</p>
+  </footer>
+  <script>
+    document.getElementById('logoutBtn').onclick = function() {
+      fetch('/logout')
+        .then(() => window.location.href = 'gateway.html');
+    };
+  </script>
+</body>
+</html>
