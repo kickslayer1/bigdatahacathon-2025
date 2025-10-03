@@ -115,6 +115,18 @@ def trade20_25q2_data():
     conn.close()
     return jsonify([dict(zip(columns, row)) for row in data])
 
+# Endpoint to get exports data
+@app.route('/exports_data')
+def exports_data():
+    conn = get_db_connection()
+    cursor = conn.cursor()
+    cursor.execute("SELECT period, exports, imports, `re-imports` FROM exportss")
+    data = cursor.fetchall()
+    columns = [desc[0] for desc in cursor.description]
+    cursor.close()
+    conn.close()
+    return jsonify([dict(zip(columns, row)) for row in data])
+
 # Serve static files (like JS)
 @app.route('/<path:filename>')
 def serve_static(filename):
