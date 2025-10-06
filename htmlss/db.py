@@ -4,8 +4,8 @@ import mysql.connector
 def get_db_connection():
     return mysql.connector.connect(
         host='localhost',
-        user='root',              # <-- your MySQL username
-        password='kickslayer', # <-- your MySQL password
+        user='root',         
+        password='kickslayer',
         database='bigdatahackaton'
     )
 

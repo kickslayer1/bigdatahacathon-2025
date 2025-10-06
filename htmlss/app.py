@@ -127,6 +127,28 @@ def exports_data():
     conn.close()
     return jsonify([dict(zip(columns, row)) for row in data])
 
+@app.route('/exports_share_data')
+def exports_share_data():
+    conn = get_db_connection()
+    cursor = conn.cursor()
+    cursor.execute("SELECT country, share, value, change1, change2 FROM exports_share")
+    data = cursor.fetchall()
+    columns = [desc[0] for desc in cursor.description]
+    cursor.close()
+    conn.close()
+    return jsonify([dict(zip(columns, row)) for row in data])
+
+@app.route('/imports_share_data')
+def imports_share_data():
+    conn = get_db_connection()
+    cursor = conn.cursor()
+    cursor.execute("SELECT country, share, value, change1, change2 FROM imports_share")
+    data = cursor.fetchall()
+    columns = [desc[0] for desc in cursor.description]
+    cursor.close()
+    conn.close()
+    return jsonify([dict(zip(columns, row)) for row in data])
+
 # Serve static files (like JS)
 @app.route('/<path:filename>')
 def serve_static(filename):
