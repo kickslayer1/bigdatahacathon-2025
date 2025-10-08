@@ -1,0 +1,17 @@
+[Unit]
+Description=Rwanda Trade Dashboard
+After=network.target
+
+[Service]
+Type=notify
+User=app
+Group=app
+WorkingDirectory=/opt/rwanda-trade-dashboard
+Environment=PATH=/opt/rwanda-trade-dashboard/venv/bin
+ExecStart=/opt/rwanda-trade-dashboard/venv/bin/gunicorn --bind 0.0.0.0:5000 --workers 4 app:app
+ExecReload=/bin/kill -s HUP $MAINPID
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

@@ -1,1 +1,1 @@
-web: python htmlss/app.py
+web: python run.py
