@@ -145,46 +145,49 @@ def commodity_timeline(commodity):
     conn = get_db_connection()
     cursor = conn.cursor()
     
-    # Generate quarters from 2020Q1 to 2025Q2
-    quarters = []
-    for year in range(2020, 2026):
-        for q in range(1, 5):
-            quarter = f"{year}Q{q}"
-            if year == 2025 and q > 2:
-                break
-            quarters.append(quarter)
-    
     # Try to get actual data from database
+    timeline_data = []
     try:
         cursor.execute("SELECT * FROM export_commodities WHERE period = %s", (commodity,))
         data = cursor.fetchone()
+        
         if data:
-            print(f"Found data for {commodity}: {data}")
-            # If real data exists, try to extract quarterly values
-            # This would need to be adapted based on your actual table structure
+            print(f"Found export data for {commodity}: {data[:5]}...")  # Show first few values
+            
+            # Get column names (quarters)
+            cursor.execute("SHOW COLUMNS FROM export_commodities")
+            columns = cursor.fetchall()
+            quarter_columns = [col[0] for col in columns if col[0] != 'period']
+            
+            # Extract actual data for each quarter
+            for i, quarter in enumerate(quarter_columns):
+                if i + 1 < len(data):  # Skip the first column (period name)
+                    value = data[i + 1]  # Get the value for this quarter
+                    if value is not None:
+                        # Convert to dollars (data is in millions)
+                        value_in_dollars = int(float(value) * 1000000)
+                        timeline_data.append({
+                            'quarter': quarter,
+                            'value': value_in_dollars,
+                            'is_actual': True
+                        })
+            
+            print(f"Extracted {len(timeline_data)} quarters of real data for {commodity}")
+            
+        else:
+            print(f"No data found for commodity: {commodity}")
+            # Return empty if no data found
+            cursor.close()
+            conn.close()
+            return jsonify({'error': f'No data found for commodity: {commodity}'})
+            
     except Exception as e:
         print(f"Database error for commodity {commodity}: {e}")
-        data = None
+        cursor.close()
+        conn.close()
+        return jsonify({'error': f'Database error: {str(e)}'})
     
-    # Generate historical timeline data (simulated for demonstration)
-    timeline_data = []
-    base_value = 1000000  # Base export value
-    
-    for i, quarter in enumerate(quarters):
-        # Simulate realistic export values with trends and seasonality
-        trend_factor = 1 + (i * 0.015)  # 1.5% quarterly growth trend
-        seasonal_factor = 1 + (0.08 * np.sin(2 * np.pi * (i % 4) / 4))  # Seasonal variation
-        random_factor = 1 + ((hash(quarter + commodity) % 20 - 10) / 200)  # Controlled randomness
-        
-        value = int(base_value * trend_factor * seasonal_factor * random_factor)
-        
-        timeline_data.append({
-            'quarter': quarter,
-            'value': value,
-            'is_actual': True
-        })
-    
-    # Generate ML predictions for 2025Q3 and 2025Q4
+    # Generate ML predictions for 2025Q3 and 2025Q4 using real data
     try:
         ml_results = generate_ml_predictions(timeline_data, commodity)
         ml_predictions = ml_results['predictions']
@@ -208,35 +211,40 @@ def commodity_timeline(commodity):
         prediction_info = {
             'model_performance': model_performance,
             'models_used': models_used,
-            'ml_enabled': True
+            'ml_enabled': True,
+            'data_source': 'Real database values'
         }
         
     except Exception as e:
         print(f"ML prediction error: {e}")
-        # Fallback to simple predictions
-        last_value = timeline_data[-1]['value']
-        
-        timeline_data.append({
-            'quarter': '2025Q3',
-            'value': int(last_value * 1.08),
-            'is_actual': False,
-            'is_prediction': True,
-            'confidence_level': 'Medium',
-            'fallback': True
-        })
-        
-        timeline_data.append({
-            'quarter': '2025Q4',
-            'value': int(last_value * 1.15),
-            'is_actual': False,
-            'is_prediction': True,
-            'confidence_level': 'Medium',
-            'fallback': True
-        })
+        # Fallback to simple predictions based on real data trend
+        if len(timeline_data) >= 2:
+            last_value = timeline_data[-1]['value']
+            prev_value = timeline_data[-2]['value']
+            growth_rate = (last_value - prev_value) / prev_value if prev_value > 0 else 0.05
+            
+            timeline_data.append({
+                'quarter': '2025Q3',
+                'value': int(last_value * (1 + growth_rate)),
+                'is_actual': False,
+                'is_prediction': True,
+                'confidence_level': 'Medium',
+                'fallback': True
+            })
+            
+            timeline_data.append({
+                'quarter': '2025Q4',
+                'value': int(last_value * (1 + growth_rate * 1.5)),
+                'is_actual': False,
+                'is_prediction': True,
+                'confidence_level': 'Medium',
+                'fallback': True
+            })
         
         prediction_info = {
             'ml_enabled': False,
             'fallback_used': True,
+            'data_source': 'Real database values',
             'error': str(e)
         }
     
@@ -255,46 +263,49 @@ def import_commodity_timeline(commodity):
     conn = get_db_connection()
     cursor = conn.cursor()
     
-    # Generate quarters from 2020Q1 to 2025Q2
-    quarters = []
-    for year in range(2020, 2026):
-        for q in range(1, 5):
-            quarter = f"{year}Q{q}"
-            if year == 2025 and q > 2:
-                break
-            quarters.append(quarter)
-    
     # Try to get actual data from database
+    timeline_data = []
     try:
         cursor.execute("SELECT * FROM imports_commodities WHERE period = %s", (commodity,))
         data = cursor.fetchone()
+        
         if data:
-            print(f"Found import data for {commodity}: {data}")
-            # If real data exists, try to extract quarterly values
-            # This would need to be adapted based on your actual table structure
+            print(f"Found import data for {commodity}: {data[:5]}...")  # Show first few values
+            
+            # Get column names (quarters)
+            cursor.execute("SHOW COLUMNS FROM imports_commodities")
+            columns = cursor.fetchall()
+            quarter_columns = [col[0] for col in columns if col[0] != 'period']
+            
+            # Extract actual data for each quarter
+            for i, quarter in enumerate(quarter_columns):
+                if i + 1 < len(data):  # Skip the first column (period name)
+                    value = data[i + 1]  # Get the value for this quarter
+                    if value is not None:
+                        # Convert to dollars (data is in millions)
+                        value_in_dollars = int(float(value) * 1000000)
+                        timeline_data.append({
+                            'quarter': quarter,
+                            'value': value_in_dollars,
+                            'is_actual': True
+                        })
+            
+            print(f"Extracted {len(timeline_data)} quarters of real import data for {commodity}")
+            
+        else:
+            print(f"No import data found for commodity: {commodity}")
+            # Return empty if no data found
+            cursor.close()
+            conn.close()
+            return jsonify({'error': f'No import data found for commodity: {commodity}'})
+            
     except Exception as e:
         print(f"Database error for import commodity {commodity}: {e}")
-        data = None
+        cursor.close()
+        conn.close()
+        return jsonify({'error': f'Database error: {str(e)}'})
     
-    # Generate historical timeline data (simulated for demonstration)
-    timeline_data = []
-    base_value = 800000  # Base import value (slightly lower than exports)
-    
-    for i, quarter in enumerate(quarters):
-        # Simulate realistic import values with trends and seasonality
-        trend_factor = 1 + (i * 0.012)  # 1.2% quarterly growth trend (slower than exports)
-        seasonal_factor = 1 + (0.06 * np.sin(2 * np.pi * (i % 4) / 4))  # Seasonal variation
-        random_factor = 1 + ((hash(quarter + commodity + 'import') % 20 - 10) / 200)  # Controlled randomness
-        
-        value = int(base_value * trend_factor * seasonal_factor * random_factor)
-        
-        timeline_data.append({
-            'quarter': quarter,
-            'value': value,
-            'is_actual': True
-        })
-    
-    # Generate ML predictions for 2025Q3 and 2025Q4
+    # Generate ML predictions for 2025Q3 and 2025Q4 using real data
     try:
         ml_results = generate_ml_predictions(timeline_data, commodity)
         ml_predictions = ml_results['predictions']
@@ -318,35 +329,40 @@ def import_commodity_timeline(commodity):
         prediction_info = {
             'model_performance': model_performance,
             'models_used': models_used,
-            'ml_enabled': True
+            'ml_enabled': True,
+            'data_source': 'Real database values'
         }
         
     except Exception as e:
         print(f"ML prediction error for imports: {e}")
-        # Fallback to simple predictions
-        last_value = timeline_data[-1]['value']
-        
-        timeline_data.append({
-            'quarter': '2025Q3',
-            'value': int(last_value * 1.06),  # Lower growth for imports
-            'is_actual': False,
-            'is_prediction': True,
-            'confidence_level': 'Medium',
-            'fallback': True
-        })
-        
-        timeline_data.append({
-            'quarter': '2025Q4',
-            'value': int(last_value * 1.12),
-            'is_actual': False,
-            'is_prediction': True,
-            'confidence_level': 'Medium',
-            'fallback': True
-        })
+        # Fallback to simple predictions based on real data trend
+        if len(timeline_data) >= 2:
+            last_value = timeline_data[-1]['value']
+            prev_value = timeline_data[-2]['value']
+            growth_rate = (last_value - prev_value) / prev_value if prev_value > 0 else 0.05
+            
+            timeline_data.append({
+                'quarter': '2025Q3',
+                'value': int(last_value * (1 + growth_rate)),
+                'is_actual': False,
+                'is_prediction': True,
+                'confidence_level': 'Medium',
+                'fallback': True
+            })
+            
+            timeline_data.append({
+                'quarter': '2025Q4',
+                'value': int(last_value * (1 + growth_rate * 1.2)),
+                'is_actual': False,
+                'is_prediction': True,
+                'confidence_level': 'Medium',
+                'fallback': True
+            })
         
         prediction_info = {
             'ml_enabled': False,
             'fallback_used': True,
+            'data_source': 'Real database values',
             'error': str(e)
         }
     
