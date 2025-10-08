@@ -48,17 +48,71 @@
     <div id="predictionResult" style="margin-top:20px;"></div>
       </div>
     </section>
+
+    <!-- Commodity Timeline Analysis Section -->
+    <section style="margin-top: 40px;">
+      <h3>Interactive Export Commodity Timeline Analysis</h3>
+      <p>Select a commodity to view its export trends from 2020Q1 to 2025Q2 with predictions for 2025Q3 and 2025Q4</p>
+      
+      <div style="margin: 20px 0;">
+        <label for="commoditySelect" style="font-weight: bold; margin-right: 10px;">Select Export Commodity:</label>
+        <select id="commoditySelect" style="padding: 8px 12px; border: 2px solid #001f3f; border-radius: 5px; background: white; min-width: 200px;">
+          <option value="">Loading commodities...</option>
+        </select>
+      </div>
+
+      <!-- Chart Container -->
+      <div style="margin: 30px 0; background: white; padding: 20px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        <canvas id="commodityChart" width="800" height="400"></canvas>
+      </div>
+
+      <!-- Table Container -->
+      <div id="commodityTable" style="margin: 20px 0; background: white; padding: 20px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        <!-- Table will be populated by JavaScript -->
+      </div>
+
+      <!-- Error Container -->
+      <div id="commodityError"></div>
+    </section>
+
+    <!-- Import Commodity Timeline Analysis Section -->
+    <section style="margin-top: 40px;">
+      <h3>Interactive Import Commodity Timeline Analysis</h3>
+      <p>Select a commodity to view its import trends from 2020Q1 to 2025Q2 with predictions for 2025Q3 and 2025Q4</p>
+      
+      <div style="margin: 20px 0;">
+        <label for="importCommoditySelect" style="font-weight: bold; margin-right: 10px;">Select Import Commodity:</label>
+        <select id="importCommoditySelect" style="padding: 8px 12px; border: 2px solid #d2691e; border-radius: 5px; background: white; min-width: 200px;">
+          <option value="">Loading commodities...</option>
+        </select>
+      </div>
+
+      <!-- Import Chart Container -->
+      <div style="margin: 30px 0; background: white; padding: 20px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        <canvas id="importCommodityChart" width="800" height="400"></canvas>
+      </div>
+
+      <!-- Import Table Container -->
+      <div id="importCommodityTable" style="margin: 20px 0; background: white; padding: 20px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        <!-- Table will be populated by JavaScript -->
+      </div>
+
+      <!-- Import Error Container -->
+      <div id="importCommodityError"></div>
+    </section>
     
   </main>
 
   <footer style="background: #001f3f; color: #C0C0C0; text-align: center; padding: 12px 0; margin-top: 32px; border-top: 2px solid #C0C0C0;">
     <p>&copy; 2025 NISR Data Science Hackathon</p>
   </footer>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script src="demand_prediction.js"></script>
+  <script src="commodity_analysis.js"></script>
   <script>
     document.getElementById('logoutBtn').onclick = function() {
-      // Add your logout logic here
-      alert('Logout button clicked!');
+      fetch('/logout')
+        .then(() => window.location.href = 'gateway.html');
     }
   </script>
 </body>
