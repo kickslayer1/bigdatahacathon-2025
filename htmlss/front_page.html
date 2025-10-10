@@ -34,18 +34,38 @@
 
     <section>
       <h3>Exports Data Visualization</h3>
-      <canvas id="exportsLineChart" width="900" height="400"></canvas>
+      <div style="margin: 20px 0;">
+        <canvas id="exportsLineChart" width="900" height="400" style="max-width: 100%; background: rgba(255,255,255,0.1); border-radius: 8px;"></canvas>
+      </div>
       
       <h3>Exports Share by Country</h3>
-      <canvas id="exportsSharePie" width="200" height="200"></canvas>
+      <div style="margin: 20px 0; display: inline-block;">
+        <canvas id="exportsSharePie" width="400" height="400" style="max-width: 100%; background: rgba(255,255,255,0.1); border-radius: 8px;"></canvas>
+      </div>
       
       <h3>Imports Share by Country</h3>
-      <canvas id="importsSharePie" width="200" height="200"></canvas>
+      <div style="margin: 20px 0; display: inline-block;">
+        <canvas id="importsSharePie" width="400" height="400" style="max-width: 100%; background: rgba(255,255,255,0.1); border-radius: 8px;"></canvas>
+      </div>
     </section>
     
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="exports_chart.js"></script>
-    <script src="share_piecharts.js"></script>
+    <script>
+      // Wait for Chart.js to load before loading our scripts
+      window.addEventListener('load', function() {
+        // Load exports chart script
+        const exportsScript = document.createElement('script');
+        exportsScript.src = 'exports_chart.js';
+        exportsScript.onerror = function() { console.error('Failed to load exports_chart.js'); };
+        document.head.appendChild(exportsScript);
+        
+        // Load share piecharts script
+        const shareScript = document.createElement('script');
+        shareScript.src = 'share_piecharts.js';
+        shareScript.onerror = function() { console.error('Failed to load share_piecharts.js'); };
+        document.head.appendChild(shareScript);
+      });
+    </script>
   </main>
 
   <footer style="background: #001f3f; color: #C0C0C0; text-align: center; padding: 12px 0; margin-top: 32px; border-top: 2px solid #C0C0C0;">
