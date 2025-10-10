@@ -1,13 +1,30 @@
 from werkzeug.security import generate_password_hash, check_password_hash
 import mysql.connector
+import os
+from urllib.parse import urlparse
 
 def get_db_connection():
-    return mysql.connector.connect(
-        host='localhost',
-        user='root',         
-        password='kickslayer',
-        database='bigdatahackaton'
-    )
+    # Check for cloud database URL (Heroku ClearDB, PlanetScale, etc.)
+    database_url = os.environ.get('CLEARDB_DATABASE_URL') or os.environ.get('DATABASE_URL')
+    
+    if database_url:
+        # Parse cloud database URL
+        url = urlparse(database_url)
+        return mysql.connector.connect(
+            host=url.hostname,
+            user=url.username,
+            password=url.password,
+            database=url.path[1:],  # Remove leading slash
+            port=url.port or 3306
+        )
+    else:
+        # Local development fallback
+        return mysql.connector.connect(
+            host=os.environ.get('DATABASE_HOST', 'localhost'),
+            user=os.environ.get('DATABASE_USER', 'root'),         
+            password=os.environ.get('DATABASE_PASSWORD', 'kickslayer'),
+            database=os.environ.get('DATABASE_NAME', 'bigdatahackaton')
+        )
 
 def register_user(username, password):
     conn = get_db_connection()

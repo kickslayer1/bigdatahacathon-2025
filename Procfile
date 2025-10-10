@@ -1,1 +1,1 @@
-web: python app_heroku.py
+web: cd htmlss && python app.py
