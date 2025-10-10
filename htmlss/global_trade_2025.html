@@ -24,42 +24,143 @@
       <h2>Rwanda Economic Overview 2025</h2>
       <p><strong>Population:</strong> 13.7 million | <strong>GDP:</strong> $13.3B (2022) | <strong>GDP Growth:</strong> 8.2% (2022)</p>
       <p><strong>GDP per Capita:</strong> $966 | <strong>Data Source:</strong> U.S. International Trade Administration</p>
+      
+      <!-- Economic Stats Visual Cards -->
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin: 20px 0;">
+        <div style="background: linear-gradient(135deg, #001f3f, #003366); color: white; padding: 20px; border-radius: 10px; text-align: center; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+          <div style="font-size: 2em; font-weight: bold;">$2.99B</div>
+          <div style="font-size: 0.9em; margin-top: 5px;">Total Exports</div>
+          <div style="font-size: 0.8em; color: #90EE90;">↗ +38.5%</div>
+        </div>
+        <div style="background: linear-gradient(135deg, #003366, #0066cc); color: white; padding: 20px; border-radius: 10px; text-align: center; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+          <div style="font-size: 2em; font-weight: bold;">$4.98B</div>
+          <div style="font-size: 0.9em; margin-top: 5px;">Total Imports</div>
+          <div style="font-size: 0.8em; color: #90EE90;">↗ +29%</div>
+        </div>
+        <div style="background: linear-gradient(135deg, #0066cc, #4da6ff); color: white; padding: 20px; border-radius: 10px; text-align: center; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+          <div style="font-size: 2em; font-weight: bold;">$445M</div>
+          <div style="font-size: 0.9em; margin-top: 5px;">Tourism Revenue</div>
+          <div style="font-size: 0.8em; color: #90EE90;">↗ +171.3%</div>
+        </div>
+      </div>
     </section>
 
     <article>
       <h3>Trade Performance Dashboard</h3>
-      <p><strong>Total Exports (2022):</strong> $2.99B (+38.5% growth from 2021)</p>
-      <p><strong>Total Imports (2022):</strong> $4.98B (+29% growth from 2021)</p>
-      <p><strong>US-Rwanda Bilateral Trade:</strong> $122.4M (+49.6% growth)</p>
-      <p><strong>Tourism Revenue (2022):</strong> $445M (+171.3% recovery from 2021)</p>
+      <!-- Trade Performance Chart -->
+      <div style="background: white; padding: 20px; border-radius: 10px; margin: 15px 0; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <canvas id="tradePerformanceChart" width="800" height="400"></canvas>
+      </div>
     </article>
 
     <section>
       <h3>Key Export Markets</h3>
-      <ul>
-        <li><strong>United Arab Emirates:</strong> 28.3% market share - Leading export destination</li>
-        <li><strong>Congo DRC:</strong> 20.19% market share - Regional trade partner</li>
-        <li><strong>China:</strong> 11.81% market share - Strategic partner</li>
-        <li><strong>Pakistan:</strong> Growing market with significant trade potential</li>
-      </ul>
+      <!-- Export Markets Visual -->
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px; margin: 15px 0;">
+        <div style="background: rgba(0, 51, 102, 0.1); padding: 15px; border-radius: 8px; border-left: 4px solid #001f3f;">
+          <div style="display: flex; justify-content: space-between; align-items: center;">
+            <div>
+              <div style="font-weight: bold; color: #001f3f;">🇦🇪 United Arab Emirates</div>
+              <div style="font-size: 0.9em; color: #666;">Leading export destination</div>
+            </div>
+            <div style="font-size: 1.5em; font-weight: bold; color: #001f3f;">28.3%</div>
+          </div>
+          <div style="background: #001f3f; height: 8px; border-radius: 4px; margin-top: 10px;">
+            <div style="background: #4da6ff; height: 100%; width: 28.3%; border-radius: 4px;"></div>
+          </div>
+        </div>
+        
+        <div style="background: rgba(0, 51, 102, 0.1); padding: 15px; border-radius: 8px; border-left: 4px solid #003366;">
+          <div style="display: flex; justify-content: space-between; align-items: center;">
+            <div>
+              <div style="font-weight: bold; color: #003366;">🇨🇩 Congo DRC</div>
+              <div style="font-size: 0.9em; color: #666;">Regional trade partner</div>
+            </div>
+            <div style="font-size: 1.5em; font-weight: bold; color: #003366;">20.19%</div>
+          </div>
+          <div style="background: #003366; height: 8px; border-radius: 4px; margin-top: 10px;">
+            <div style="background: #66b3ff; height: 100%; width: 20.19%; border-radius: 4px;"></div>
+          </div>
+        </div>
+        
+        <div style="background: rgba(0, 51, 102, 0.1); padding: 15px; border-radius: 8px; border-left: 4px solid #0066cc;">
+          <div style="display: flex; justify-content: space-between; align-items: center;">
+            <div>
+              <div style="font-weight: bold; color: #0066cc;">🇨🇳 China</div>
+              <div style="font-size: 0.9em; color: #666;">Strategic partner</div>
+            </div>
+            <div style="font-size: 1.5em; font-weight: bold; color: #0066cc;">11.81%</div>
+          </div>
+          <div style="background: #0066cc; height: 8px; border-radius: 4px; margin-top: 10px;">
+            <div style="background: #99ccff; height: 100%; width: 11.81%; border-radius: 4px;"></div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Export Markets Pie Chart -->
+      <div style="background: white; padding: 20px; border-radius: 10px; margin: 15px 0; box-shadow: 0 2px 8px rgba(0,0,0,0.1); text-align: center;">
+        <h4>Export Markets Distribution</h4>
+        <canvas id="exportMarketsChart" width="400" height="400"></canvas>
+      </div>
     </section>
 
     <article>
       <h3>Principal Export Products</h3>
-      <ul>
-        <li><strong>Gold:</strong> Leading export commodity</li>
-        <li><strong>Coffee:</strong> Premium quality export</li>
-        <li><strong>Tea:</strong> Export grade production</li>
-        <li><strong>Sanitary Products:</strong> Towels & diapers</li>
-        <li><strong>Steel Products:</strong> Flat-rolled steel</li>
-      </ul>
+      <!-- Export Products Visual Grid -->
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 15px; margin: 15px 0;">
+        <div style="background: linear-gradient(135deg, #ffd700, #ffed4e); padding: 15px; border-radius: 10px; text-align: center; color: #333; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+          <div style="font-size: 2em;">🥇</div>
+          <div style="font-weight: bold;">Gold</div>
+          <div style="font-size: 0.9em;">Leading Export</div>
+        </div>
+        <div style="background: linear-gradient(135deg, #8b4513, #d2691e); padding: 15px; border-radius: 10px; text-align: center; color: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+          <div style="font-size: 2em;">☕</div>
+          <div style="font-weight: bold;">Coffee</div>
+          <div style="font-size: 0.9em;">Premium Quality</div>
+        </div>
+        <div style="background: linear-gradient(135deg, #228b22, #90ee90); padding: 15px; border-radius: 10px; text-align: center; color: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+          <div style="font-size: 2em;">🍃</div>
+          <div style="font-weight: bold;">Tea</div>
+          <div style="font-size: 0.9em;">Export Grade</div>
+        </div>
+        <div style="background: linear-gradient(135deg, #ff69b4, #ffc0cb); padding: 15px; border-radius: 10px; text-align: center; color: #333; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+          <div style="font-size: 2em;">🧻</div>
+          <div style="font-weight: bold;">Sanitary Products</div>
+          <div style="font-size: 0.8em;">Towels & Diapers</div>
+        </div>
+        <div style="background: linear-gradient(135deg, #696969, #a9a9a9); padding: 15px; border-radius: 10px; text-align: center; color: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+          <div style="font-size: 2em;">🔧</div>
+          <div style="font-weight: bold;">Steel Products</div>
+          <div style="font-size: 0.8em;">Flat-Rolled</div>
+        </div>
+      </div>
     </article>
 
     <section>
       <h3>Economic Sectors Analysis</h3>
-      <p><strong>Services Sector:</strong> 47% of GDP with 11% annual growth (Tourism: $445M leading foreign exchange earner)</p>
-      <p><strong>Industry Sector:</strong> 21% of GDP employing 19% of population (Mining, Construction, Manufacturing)</p>
-      <p><strong>Agriculture Sector:</strong> Overwhelmingly rural economy with coffee, tea, and agricultural exports</p>
+      <!-- Sectors Chart -->
+      <div style="background: white; padding: 20px; border-radius: 10px; margin: 15px 0; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <canvas id="sectorsChart" width="600" height="400"></canvas>
+      </div>
+      
+      <!-- Sectors Grid -->
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin: 15px 0;">
+        <div style="background: rgba(40, 167, 69, 0.1); padding: 15px; border-radius: 8px; border-left: 4px solid #28a745;">
+          <div style="font-weight: bold; color: #28a745;">🏢 Services Sector</div>
+          <div style="font-size: 1.5em; font-weight: bold; color: #28a745;">47% of GDP</div>
+          <div style="font-size: 0.9em; color: #666;">11% annual growth</div>
+        </div>
+        <div style="background: rgba(255, 193, 7, 0.1); padding: 15px; border-radius: 8px; border-left: 4px solid #ffc107;">
+          <div style="font-weight: bold; color: #ffc107;">🏭 Industry Sector</div>
+          <div style="font-size: 1.5em; font-weight: bold; color: #ffc107;">21% of GDP</div>
+          <div style="font-size: 0.9em; color: #666;">19% employment</div>
+        </div>
+        <div style="background: rgba(0, 123, 255, 0.1); padding: 15px; border-radius: 8px; border-left: 4px solid #007bff;">
+          <div style="font-weight: bold; color: #007bff;">🌾 Agriculture</div>
+          <div style="font-size: 1.5em; font-weight: bold; color: #007bff;">Rural Base</div>
+          <div style="font-size: 0.9em; color: #666;">Coffee, Tea exports</div>
+        </div>
+      </div>
     </section>
 
     <article>
@@ -74,28 +175,133 @@
 
     <section>
       <h3>Key Investment Opportunities</h3>
-      <ul>
-        <li><strong>Infrastructure:</strong> Bugesera International Airport, logistics hubs, energy projects</li>
-        <li><strong>Energy:</strong> Renewable energy, power generation, grid expansion</li>
-        <li><strong>Healthcare:</strong> Medical equipment, pharmaceuticals, health technology</li>
-        <li><strong>Agriculture:</strong> Value addition, processing, export-oriented farming</li>
-        <li><strong>ICT:</strong> Kigali Innovation City, fintech, digital services</li>
-        <li><strong>Tourism:</strong> Hotels, conference facilities, eco-tourism</li>
-      </ul>
+      <!-- Investment Opportunities Visual Grid -->
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin: 15px 0;">
+        <div style="background: white; padding: 15px; border-radius: 8px; border-left: 4px solid #007bff; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+          <div style="color: #007bff; font-weight: bold;">🏗️ Infrastructure</div>
+          <div style="font-size: 0.9em; color: #666; margin-top: 5px;">Bugesera Airport, logistics hubs</div>
+        </div>
+        <div style="background: white; padding: 15px; border-radius: 8px; border-left: 4px solid #28a745; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+          <div style="color: #28a745; font-weight: bold;">⚡ Energy</div>
+          <div style="font-size: 0.9em; color: #666; margin-top: 5px;">Renewable energy projects</div>
+        </div>
+        <div style="background: white; padding: 15px; border-radius: 8px; border-left: 4px solid #dc3545; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+          <div style="color: #dc3545; font-weight: bold;">🏥 Healthcare</div>
+          <div style="font-size: 0.9em; color: #666; margin-top: 5px;">Medical equipment, pharma</div>
+        </div>
+        <div style="background: white; padding: 15px; border-radius: 8px; border-left: 4px solid #ffc107; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+          <div style="color: #ffc107; font-weight: bold;">🌾 Agriculture</div>
+          <div style="font-size: 0.9em; color: #666; margin-top: 5px;">Value addition, processing</div>
+        </div>
+        <div style="background: white; padding: 15px; border-radius: 8px; border-left: 4px solid #6f42c1; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+          <div style="color: #6f42c1; font-weight: bold;">💻 ICT</div>
+          <div style="font-size: 0.9em; color: #666; margin-top: 5px;">Kigali Innovation City</div>
+        </div>
+        <div style="background: white; padding: 15px; border-radius: 8px; border-left: 4px solid #fd7e14; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+          <div style="color: #fd7e14; font-weight: bold;">🏨 Tourism</div>
+          <div style="font-size: 0.9em; color: #666; margin-top: 5px;">Hotels, eco-tourism</div>
+        </div>
+      </div>
     </section>
 
     <!-- Interactive Data Explorer -->
     <section>
       <h3>Interactive Data Explorer</h3>
-      <form id="datamapForm">
-        <label for="itemSelect">Choose a Trade Item:</label>
-        <select id="itemSelect"></select>
-        <button type="submit">Show Data</button>
+      <form id="datamapForm" style="background: rgba(0, 51, 102, 0.1); padding: 20px; border-radius: 10px; margin: 15px 0;">
+        <div style="display: flex; align-items: center; gap: 15px; flex-wrap: wrap;">
+          <label for="itemSelect" style="font-weight: bold; color: #001f3f;">Choose a Trade Item:</label>
+          <select id="itemSelect" style="padding: 8px 12px; border: 2px solid #001f3f; border-radius: 5px; background: white; min-width: 200px;"></select>
+          <button type="submit" style="background: #001f3f; color: white; border: none; padding: 10px 20px; border-radius: 5px; font-weight: bold; cursor: pointer;">Show Data 📊</button>
+        </div>
       </form>
-      <div id="itemData"></div>
+      <div id="itemData" style="background: white; padding: 15px; border-radius: 8px; margin-top: 10px; min-height: 50px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"></div>
     </section>
 
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="datamap_viewer.js"></script>
+    <script>
+      // Trade Performance Chart
+      const tradeCtx = document.getElementById('tradePerformanceChart').getContext('2d');
+      new Chart(tradeCtx, {
+        type: 'line',
+        data: {
+          labels: ['2020', '2021', '2022', '2023', '2024'],
+          datasets: [{
+            label: 'Exports ($B)',
+            data: [1.8, 2.16, 2.99, 3.2, 3.5],
+            borderColor: '#001f3f',
+            backgroundColor: 'rgba(0, 31, 63, 0.1)',
+            tension: 0.4
+          }, {
+            label: 'Imports ($B)',
+            data: [3.2, 3.86, 4.98, 5.2, 5.5],
+            borderColor: '#0066cc',
+            backgroundColor: 'rgba(0, 102, 204, 0.1)',
+            tension: 0.4
+          }]
+        },
+        options: {
+          responsive: true,
+          plugins: {
+            title: {
+              display: true,
+              text: 'Rwanda Trade Performance 2020-2024'
+            }
+          }
+        }
+      });
+
+      // Export Markets Chart
+      const marketsCtx = document.getElementById('exportMarketsChart').getContext('2d');
+      new Chart(marketsCtx, {
+        type: 'doughnut',
+        data: {
+          labels: ['UAE', 'Congo DRC', 'China', 'Pakistan', 'Others'],
+          datasets: [{
+            data: [28.3, 20.19, 11.81, 8.5, 31.2],
+            backgroundColor: ['#001f3f', '#003366', '#0066cc', '#4da6ff', '#99ccff']
+          }]
+        },
+        options: {
+          responsive: true,
+          plugins: {
+            title: {
+              display: true,
+              text: 'Export Markets by Share (%)'
+            }
+          }
+        }
+      });
+
+      // Economic Sectors Chart
+      const sectorsCtx = document.getElementById('sectorsChart').getContext('2d');
+      new Chart(sectorsCtx, {
+        type: 'bar',
+        data: {
+          labels: ['Services', 'Industry', 'Agriculture'],
+          datasets: [{
+            label: '% of GDP',
+            data: [47, 21, 32],
+            backgroundColor: ['#28a745', '#ffc107', '#007bff']
+          }]
+        },
+        options: {
+          responsive: true,
+          plugins: {
+            title: {
+              display: true,
+              text: 'Economic Sectors by GDP Contribution'
+            }
+          },
+          scales: {
+            y: {
+              beginAtZero: true,
+              max: 50
+            }
+          }
+        }
+      });
+    </script>
   </main>
 
   <footer style="background: #001f3f; color: #C0C0C0; text-align: center; padding: 12px 0; margin-top: 32px; border-top: 2px solid #C0C0C0;">
