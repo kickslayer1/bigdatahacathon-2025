@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, request, send_from_directory, session
+from flask import Flask, jsonify, request, send_from_directory, session, redirect, url_for
 import os
 import numpy as np
 from db import register_user, check_user, get_db_connection
@@ -7,10 +7,56 @@ from ml_predictions import generate_ml_predictions
 app = Flask(__name__)
 app.secret_key = os.urandom(24)  # Needed for session management
 
+# Authentication decorator
+def login_required(f):
+    def decorated_function(*args, **kwargs):
+        if 'username' not in session:
+            return redirect('/gateway.html')
+        return f(*args, **kwargs)
+    decorated_function.__name__ = f.__name__
+    return decorated_function
+
 # Serve the HTML page
 @app.route('/')
 def serve_gateway():
     return send_from_directory('.', 'gateway.html')
+
+# Protected routes - redirect to gateway if not logged in
+@app.route('/front_page.html')
+def serve_front_page():
+    if 'username' not in session:
+        return redirect('/gateway.html')
+    return send_from_directory('.', 'front_page.html')
+
+@app.route('/global_trade_2025.html')
+def serve_global_trade():
+    if 'username' not in session:
+        return redirect('/gateway.html')
+    return send_from_directory('.', 'global_trade_2025.html')
+
+@app.route('/demand_prediction_2026.html')
+def serve_demand_prediction():
+    if 'username' not in session:
+        return redirect('/gateway.html')
+    return send_from_directory('.', 'demand_prediction_2026.html')
+
+@app.route('/policy_recommendation.html')
+def serve_policy_recommendation():
+    if 'username' not in session:
+        return redirect('/gateway.html')
+    return send_from_directory('.', 'policy_recommendation.html')
+
+@app.route('/youth_sme_engagement.html')
+def serve_youth_sme():
+    if 'username' not in session:
+        return redirect('/gateway.html')
+    return send_from_directory('.', 'youth_sme_engagement.html')
+
+@app.route('/referencing.html')
+def serve_referencing():
+    if 'username' not in session:
+        return redirect('/gateway.html')
+    return send_from_directory('.', 'referencing.html')
 
 @app.route('/login', methods=['POST'])
 def login():
@@ -34,10 +80,11 @@ def register():
     else:
         return jsonify({'success': False, 'message': message})
 
-@app.route('/logout')
+@app.route('/logout', methods=['GET', 'POST'])
 def logout():
     session.pop('username', None)
-    return jsonify({'success': True})
+    session.clear()  # Clear all session data
+    return jsonify({'success': True, 'message': 'Logged out successfully'})
 
 @app.route('/check_session')
 def check_session():
@@ -46,9 +93,11 @@ def check_session():
     else:
         return jsonify({'logged_in': False})
 
-# Endpoint to serve options for form (from 'dataset' table)
+# Endpoint to serve options for form (from 'dataset' table) - PROTECTED
 @app.route('/options')
 def get_options():
+    if 'username' not in session:
+        return jsonify({'error': 'Authentication required'}), 401
     conn = get_db_connection()
     cursor = conn.cursor()
     cursor.execute("SELECT DISTINCT item FROM datasetx")  # updated table name
@@ -63,6 +112,8 @@ def get_options():
 
 @app.route('/predict_amount', methods=['POST'])
 def predict_amount():
+    if 'username' not in session:
+        return jsonify({'error': 'Authentication required'}), 401
     data = request.json
     item = data.get('item')
     year = int(data.get('year'))
@@ -77,9 +128,11 @@ def predict_amount():
         return jsonify({'amount': amount})
     else:
         return jsonify({'amount': None, 'error': 'No data found for the selected item and year.'})
-# Example: Endpoint to get data from 'datamap' table
+# Example: Endpoint to get data from 'datamap' table - PROTECTED
 @app.route('/datamap_options')
 def datamap_options():
+    if 'username' not in session:
+        return jsonify({'error': 'Authentication required'}), 401
     conn = get_db_connection()
     cursor = conn.cursor()
     cursor.execute("SELECT DISTINCT item FROM datamap")
@@ -92,9 +145,11 @@ def datamap_options():
     conn.close()
     return jsonify({'items': items, 'times': times, 'amounts': amounts})
 
-# Endpoint to get export commodities data
+# Endpoint to get export commodities data - PROTECTED
 @app.route('/export_commodities_data')
 def export_commodities_data():
+    if 'username' not in session:
+        return jsonify({'error': 'Authentication required'}), 401
     conn = get_db_connection()
     cursor = conn.cursor()
     cursor.execute("SELECT * FROM export_commodities")
@@ -421,9 +476,13 @@ def imports_share_data():
     conn.close()
     return jsonify([dict(zip(columns, row)) for row in data])
 
-# Serve static files (like JS)
+# Serve static files (like JS) - but protect HTML files
 @app.route('/<path:filename>')
 def serve_static(filename):
+    # Protect HTML files (except gateway, login, register)
+    if filename.endswith('.html') and filename not in ['gateway.html', 'login.html', 'register.html']:
+        if 'username' not in session:
+            return redirect('/gateway.html')
     return send_from_directory('.', filename)
 
 @app.route('/styles.css')

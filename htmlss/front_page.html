@@ -52,9 +52,41 @@
     <p>&copy; 2025 NISR Data Science Hackathon</p>
   </footer>
   <script>
+    // Check if user is logged in when page loads
+    function checkAuthentication() {
+      fetch('/check_session')
+        .then(response => response.json())
+        .then(data => {
+          if (!data.logged_in) {
+            // Redirect to gateway if not logged in
+            window.location.href = 'gateway.html';
+          }
+        })
+        .catch(error => {
+          console.error('Error checking authentication:', error);
+          // Redirect to gateway on error
+          window.location.href = 'gateway.html';
+        });
+    }
+
+    // Call authentication check when page loads
+    checkAuthentication();
+
+    // Logout functionality
     document.getElementById('logoutBtn').onclick = function() {
       fetch('/logout')
-        .then(() => window.location.href = 'gateway.html');
+        .then(response => response.json())
+        .then(data => {
+          if (data.success) {
+            // Redirect to gateway after successful logout
+            window.location.href = 'gateway.html';
+          }
+        })
+        .catch(error => {
+          console.error('Logout error:', error);
+          // Redirect to gateway even on error
+          window.location.href = 'gateway.html';
+        });
     };
   </script>
 </body>
