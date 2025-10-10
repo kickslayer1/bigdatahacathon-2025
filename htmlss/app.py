@@ -403,7 +403,7 @@ def exports_data():
 def exports_share_data():
     conn = get_db_connection()
     cursor = conn.cursor()
-    cursor.execute("SELECT country, share, value, change1, change2 FROM exports_share")
+    cursor.execute("SELECT country, share, value FROM exports_share")
     data = cursor.fetchall()
     columns = [desc[0] for desc in cursor.description]
     cursor.close()

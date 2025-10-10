@@ -12,6 +12,11 @@ function renderExportsSharePie() {
   fetch('/exports_share_data')
     .then(res => res.json())
     .then(data => {
+      if (!data || data.length === 0) {
+        console.warn('No exports share data available');
+        return;
+      }
+      
       const labels = data.map(row => row.country);
       const shares = data.map(row => row.share);
       const bgColors = getRandomColors(labels.length);
@@ -27,6 +32,7 @@ function renderExportsSharePie() {
           }]
         },
         options: {
+          responsive: true,
           plugins: {
             tooltip: {
               callbacks: {
@@ -36,20 +42,27 @@ function renderExportsSharePie() {
                   return [
                     `Country: ${row.country}`,
                     `Share: ${row.share}%`,
-                    `Value: $${row.value}M`,
-                    `Change1: ${row.change1}`,
-                    `Change2: ${row.change2}`
+                    `Value: $${row.value}M`
                   ];
                 }
               }
             },
             title: {
               display: true,
-              text: 'Exports Share by Country'
+              text: 'Exports Share by Country',
+              color: '#C0C0C0'
+            },
+            legend: {
+              labels: {
+                color: '#C0C0C0'
+              }
             }
           }
         }
       });
+    })
+    .catch(error => {
+      console.error('Error loading exports share data:', error);
     });
 }
 
