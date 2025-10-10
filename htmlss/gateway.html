@@ -2,16 +2,178 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Welcome Gateway</title>
+  <title>Welcome - NISR Data Science Hackathon 2025</title>
   <link rel="stylesheet" href="../styles.css">
+  <style>
+    body {
+      background-image: url('image12.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      min-height: 100vh;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: Arial, sans-serif;
+    }
+
+    .gateway-container {
+      background: rgba(0, 31, 63, 0.9);
+      padding: 50px;
+      border-radius: 20px;
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
+      backdrop-filter: blur(15px);
+      border: 1px solid rgba(192, 192, 192, 0.2);
+      max-width: 600px;
+      width: 100%;
+      margin: 20px;
+      text-align: center;
+    }
+
+    .gateway-container h1 {
+      color: #C0C0C0;
+      font-size: 2.5em;
+      margin-bottom: 20px;
+      text-shadow: 0 3px 6px rgba(0, 0, 0, 0.6);
+      line-height: 1.2;
+    }
+
+    .gateway-container h2 {
+      color: #4da6ff;
+      font-size: 1.8em;
+      margin-bottom: 30px;
+      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+      font-weight: normal;
+    }
+
+    .gateway-container p {
+      color: #E0E0E0;
+      font-size: 1.2em;
+      margin-bottom: 40px;
+      line-height: 1.6;
+      text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+    }
+
+    .button-container {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .gateway-btn {
+      padding: 15px 35px;
+      border-radius: 12px;
+      text-decoration: none;
+      font-size: 1.2em;
+      font-weight: bold;
+      transition: all 0.3s ease;
+      display: inline-block;
+      min-width: 120px;
+      text-align: center;
+      text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .login-btn {
+      background: linear-gradient(135deg, #003366, #0066cc);
+      color: #C0C0C0;
+      border: 2px solid rgba(192, 192, 192, 0.3);
+    }
+
+    .login-btn:hover {
+      background: linear-gradient(135deg, #0066cc, #4da6ff);
+      transform: translateY(-3px);
+      box-shadow: 0 8px 25px rgba(0, 102, 204, 0.4);
+      color: #fff;
+    }
+
+    .register-btn {
+      background: linear-gradient(135deg, #001f3f, #003366);
+      color: #C0C0C0;
+      border: 2px solid rgba(192, 192, 192, 0.3);
+    }
+
+    .register-btn:hover {
+      background: linear-gradient(135deg, #003366, #0066cc);
+      transform: translateY(-3px);
+      box-shadow: 0 8px 25px rgba(0, 31, 63, 0.4);
+      color: #fff;
+    }
+
+    .project-info {
+      margin-top: 40px;
+      padding: 25px;
+      background: rgba(0, 51, 102, 0.3);
+      border-radius: 12px;
+      border-left: 4px solid #4da6ff;
+    }
+
+    .project-info h3 {
+      color: #4da6ff;
+      margin-top: 0;
+      margin-bottom: 15px;
+      font-size: 1.3em;
+    }
+
+    .project-info p {
+      color: #C0C0C0;
+      font-size: 1em;
+      margin-bottom: 10px;
+      line-height: 1.5;
+    }
+
+    .highlight {
+      color: #66b3ff;
+      font-weight: bold;
+    }
+
+    @media (max-width: 768px) {
+      .gateway-container {
+        padding: 30px;
+        margin: 15px;
+      }
+
+      .gateway-container h1 {
+        font-size: 2em;
+      }
+
+      .gateway-container h2 {
+        font-size: 1.5em;
+      }
+
+      .button-container {
+        flex-direction: column;
+        gap: 15px;
+      }
+
+      .gateway-btn {
+        width: 100%;
+        padding: 12px 25px;
+        font-size: 1.1em;
+      }
+    }
+  </style>
 </head>
 <body>
-  <main style="text-align:center; margin-top:80px;">
+  <div class="gateway-container">
     <h1>Welcome to the NISR Data Science Hackathon Project Presentation</h1>
     <h2>Rwanda's Next Biggest Export Opportunity</h2>
-    <p>Please login or register to enter the application.</p>
-    <a href="login.html" style="padding:12px 32px; background:#003366; color:#C0C0C0; border-radius:8px; text-decoration:none; font-size:1.2em; margin-right:16px;">Login</a>
-    <a href="register.html" style="padding:12px 32px; background:#001f3f; color:#C0C0C0; border-radius:8px; text-decoration:none; font-size:1.2em;">Register</a>
-  </main>
+    <p>Discover data-driven insights for Rwanda's economic transformation through our comprehensive trade intelligence dashboard.</p>
+    
+    <div class="button-container">
+      <a href="login.html" class="gateway-btn login-btn">Login</a>
+      <a href="register.html" class="gateway-btn register-btn">Register</a>
+    </div>
+
+    <div class="project-info">
+      <h3>Rwanda Trade Intelligence Dashboard</h3>
+      <p><span class="highlight">Machine Learning Predictions</span> • <span class="highlight">NST2 Policy Alignment</span> • <span class="highlight">Interactive Visualizations</span></p>
+      <p>Leveraging Prophet forecasting and comprehensive data analysis to identify Rwanda's next biggest export opportunities and support the National Strategy for Transformation (NST2) 2024-2029.</p>
+    </div>
+  </div>
 </body>
 </html>
