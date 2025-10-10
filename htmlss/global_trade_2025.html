@@ -1,65 +1,500 @@
 <html>
 <head>
   <link rel="stylesheet" href="../styles.css">
-  <title>Global Trade 2025 Overview</title>
+  <title>Rwanda Market Intelligence 2025 | Global Trade Overview</title>
+  <style>
+    .stat-card {
+      background: linear-gradient(135deg, #001f3f 0%, #003366 100%);
+      border-radius: 15px;
+      padding: 25px;
+      margin: 15px 0;
+      box-shadow: 0 8px 25px rgba(0,31,63,0.3);
+      border: 1px solid #C0C0C0;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .stat-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 35px rgba(0,31,63,0.4);
+    }
+    .stat-number {
+      font-size: 3em;
+      font-weight: bold;
+      color: #C0C0C0;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+      margin-bottom: 10px;
+    }
+    .stat-label {
+      color: #E0E0E0;
+      font-size: 1.2em;
+      margin-bottom: 8px;
+    }
+    .stat-description {
+      color: #B0B0B0;
+      font-size: 0.9em;
+      line-height: 1.4;
+    }
+    .highlight-section {
+      background: rgba(192, 192, 192, 0.1);
+      border-left: 5px solid #C0C0C0;
+      padding: 20px;
+      margin: 20px 0;
+      border-radius: 8px;
+    }
+    .growth-indicator {
+      display: inline-block;
+      background: #28a745;
+      color: white;
+      padding: 4px 12px;
+      border-radius: 20px;
+      font-size: 0.8em;
+      font-weight: bold;
+      margin-left: 10px;
+    }
+    .trade-flow {
+      display: grid;
+      grid-template-columns: 1fr auto 1fr;
+      align-items: center;
+      gap: 20px;
+      background: rgba(0, 51, 102, 0.2);
+      padding: 20px;
+      border-radius: 12px;
+      margin: 15px 0;
+    }
+    .country-flag {
+      width: 40px;
+      height: 30px;
+      background: #C0C0C0;
+      border-radius: 4px;
+      display: inline-block;
+      margin-right: 10px;
+    }
+    .data-source {
+      background: rgba(255, 193, 7, 0.2);
+      border: 1px solid #ffc107;
+      padding: 15px;
+      border-radius: 8px;
+      margin: 20px 0;
+      font-style: italic;
+      color: #E0E0E0;
+    }
+  </style>
 </head>
 <body>
-  <header style="background: #001f3f; color: #C0C0C0; padding: 16px 0; text-align: center; border-bottom: 2px solid #C0C0C0;">
-    <h1>NISR Data Science Hackathon 2025 Presentation</h1>
-    <p>Rwanda's next biggest export opportunity</p>
-    <button id="logoutBtn" style="position:absolute; top:24px; right:32px; background:#d9534f; color:#fff; border:none; border-radius:8px; padding:8px 16px; cursor:pointer;">Logout</button>
+  <header style="background: linear-gradient(135deg, #001f3f 0%, #003366 100%); color: #C0C0C0; padding: 20px 0; text-align: center; border-bottom: 3px solid #C0C0C0; box-shadow: 0 4px 15px rgba(0,0,0,0.3);">
+    <h1 style="font-size: 2.5em; margin: 0; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">🌍 Rwanda Market Intelligence 2025</h1>
+    <p style="font-size: 1.3em; margin: 10px 0; color: #E0E0E0;">Official Trade Data & Economic Insights</p>
+    <button id="logoutBtn" style="position:absolute; top:24px; right:32px; background:#d9534f; color:#fff; border:none; border-radius:8px; padding:10px 18px; cursor:pointer; font-weight: bold; box-shadow: 0 2px 8px rgba(0,0,0,0.3);">Logout</button>
   </header>
-  <nav style="background: #003366; padding: 8px 0;">
-    <ul style="display: flex; justify-content: center; list-style: none; gap: 2em; margin: 0; padding: 0;">
-      <li><a href="front_page.html">Home</a></li>
-      <li><a href="global_trade_2025.html">Global Trade 2025</a></li>
-      <li><a href="demand_prediction_2026.html">2026 Demand Prediction</a></li>
-      <li><a href="policy_recommendation.html">Policy Recommendation</a></li>
-      <li><a href="youth_sme_engagement.html">Youth & SME Engagement</a></li>
-      <li><a href="referencing.html">Referencing</a></li>
+  <nav style="background: #003366; padding: 12px 0; box-shadow: 0 2px 10px rgba(0,0,0,0.2);">
+    <ul style="display: flex; justify-content: center; list-style: none; gap: 2.5em; margin: 0; padding: 0;">
+      <li><a href="front_page.html" style="color: #C0C0C0; text-decoration: none; padding: 8px 16px; border-radius: 6px; transition: all 0.3s ease; font-weight: 500;">🏠 Home</a></li>
+      <li><a href="global_trade_2025.html" style="color: #fff; text-decoration: none; padding: 8px 16px; border-radius: 6px; transition: all 0.3s ease; font-weight: 500; background: rgba(192,192,192,0.2);">🌍 Market Intelligence</a></li>
+      <li><a href="demand_prediction_2026.html" style="color: #C0C0C0; text-decoration: none; padding: 8px 16px; border-radius: 6px; transition: all 0.3s ease; font-weight: 500;">📈 2026 Predictions</a></li>
+      <li><a href="policy_recommendation.html" style="color: #C0C0C0; text-decoration: none; padding: 8px 16px; border-radius: 6px; transition: all 0.3s ease; font-weight: 500;">📋 Policy Framework</a></li>
+      <li><a href="youth_sme_engagement.html" style="color: #C0C0C0; text-decoration: none; padding: 8px 16px; border-radius: 6px; transition: all 0.3s ease; font-weight: 500;">👥 Youth & SME</a></li>
+      <li><a href="referencing.html" style="color: #C0C0C0; text-decoration: none; padding: 8px 16px; border-radius: 6px; transition: all 0.3s ease; font-weight: 500;">📚 References</a></li>
     </ul>
   </nav>
   
 
-  <main>
-    <section>
-      <h2>Global Trade Overview</h2>
-      <p>World economy on grow with a 24% rise in economy</p>
-      <p>Gold, Health suppliers and Minerals rising in demand by 125%</p>
+  <main style="max-width: 1200px; margin: 0 auto; padding: 30px 20px; color: #333;">
+    
+    <!-- Data Source Attribution -->
+    <div class="data-source">
+      <strong>📊 Official Data Source:</strong> U.S. International Trade Administration (trade.gov) - Rwanda Country Commercial Guide 2024
+    </div>
+
+    <!-- Executive Summary -->
+    <section style="background: linear-gradient(135deg, #001f3f 0%, #003366 100%); color: #fff; padding: 40px; border-radius: 20px; margin-bottom: 40px; box-shadow: 0 10px 30px rgba(0,31,63,0.4);">
+      <h2 style="font-size: 2.5em; margin-bottom: 20px; text-align: center;">🇷🇼 Rwanda Economic Overview 2025</h2>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 25px; margin-top: 30px;">
+        <div style="text-align: center; padding: 20px;">
+          <div style="font-size: 2.5em; font-weight: bold; color: #C0C0C0;">13.7M</div>
+          <div style="color: #E0E0E0; font-size: 1.1em;">Population</div>
+        </div>
+        <div style="text-align: center; padding: 20px;">
+          <div style="font-size: 2.5em; font-weight: bold; color: #C0C0C0;">$13.3B</div>
+          <div style="color: #E0E0E0; font-size: 1.1em;">GDP (2022)</div>
+        </div>
+        <div style="text-align: center; padding: 20px;">
+          <div style="font-size: 2.5em; font-weight: bold; color: #28a745;">8.2%</div>
+          <div style="color: #E0E0E0; font-size: 1.1em;">GDP Growth (2022)</div>
+        </div>
+        <div style="text-align: center; padding: 20px;">
+          <div style="font-size: 2.5em; font-weight: bold; color: #C0C0C0;">$966</div>
+          <div style="color: #E0E0E0; font-size: 1.1em;">GDP per Capita</div>
+        </div>
+      </div>
     </section>
 
-    <article>
-      <h3>Russia, China and USA's economy remains unshakable</h3>
-      <p>Investment in AI industry has quadrupled in the last 3 years marking a significant development in tech industry.</p>
-    </article>
+    <!-- Trade Performance Dashboard -->
+    <section style="margin-bottom: 40px;">
+      <h2 style="color: #001f3f; font-size: 2.2em; margin-bottom: 25px; text-align: center;">📊 Trade Performance Dashboard</h2>
+      
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px;">
+        
+        <!-- Total Exports -->
+        <div class="stat-card">
+          <div class="stat-number">$2.99B</div>
+          <div class="stat-label">Total Exports (2022) <span class="growth-indicator">↗ +38.5%</span></div>
+          <div class="stat-description">
+            Significant growth from $2.16B in 2021, driven by higher commodity prices and increased demand for Rwanda's key exports.
+          </div>
+        </div>
 
-    <!-- Example: Embed Python model output (chart) -->
-    <section>
-      <h3>Exports Data Visualization</h3>
-      <img src="exports_chart.png" alt="Exports Data Bar Chart" style="max-width:100%;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.12);">
+        <!-- Total Imports -->
+        <div class="stat-card">
+          <div class="stat-number">$4.98B</div>
+          <div class="stat-label">Total Imports (2022) <span class="growth-indicator">↗ +29%</span></div>
+          <div class="stat-description">
+            Increased from $3.86B in 2021, reflecting higher imports of consumer goods and industrial equipment.
+          </div>
+        </div>
+
+        <!-- US-Rwanda Trade -->
+        <div class="stat-card">
+          <div class="stat-number">$122.4M</div>
+          <div class="stat-label">US-Rwanda Bilateral Trade <span class="growth-indicator">↗ +49.6%</span></div>
+          <div class="stat-description">
+            Strong growth from $81.8M in 2021. US exports: $65M, Rwanda exports: $57.4M to US market.
+          </div>
+        </div>
+
+        <!-- Tourism Revenue -->
+        <div class="stat-card">
+          <div class="stat-number">$445M</div>
+          <div class="stat-label">Tourism Revenue (2022) <span class="growth-indicator">↗ +171.3%</span></div>
+          <div class="stat-description">
+            Remarkable recovery from $164M in 2021, making tourism the leading foreign exchange earner.
+          </div>
+        </div>
+
+        <!-- Public Debt Improvement -->
+        <div class="stat-card">
+          <div class="stat-number">67.1%</div>
+          <div class="stat-label">Public Debt/GDP (2022) <span class="growth-indicator" style="background: #28a745;">↘ -6.2%</span></div>
+          <div class="stat-description">
+            Improved from 73.3% in 2021, showing strong fiscal management and economic recovery.
+          </div>
+        </div>
+
+        <!-- Economic Growth Trend -->
+        <div class="stat-card">
+          <div class="stat-number">7%+</div>
+          <div class="stat-label">Average Annual Growth <span class="growth-indicator">📈 20 Years</span></div>
+          <div class="stat-description">
+            Sustained high growth over two decades, with 8.2% growth in 2022 across industry, construction, and services.
+          </div>
+        </div>
+      </div>
     </section>
 
-    <!-- Interactive datamap item viewer -->
-    <section>
-      <h2>View Data by Item</h2>
-      <form id="datamapForm">
-        <label for="itemSelect">Choose an item:</label>
-        <select id="itemSelect"></select>
-        <button type="submit">Show Data</button>
+    <!-- Key Export Markets -->
+    <section style="margin-bottom: 40px;">
+      <h2 style="color: #001f3f; font-size: 2.2em; margin-bottom: 25px; text-align: center;">🌍 Rwanda's Key Export Markets</h2>
+      
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
+        
+        <div class="trade-flow">
+          <div>
+            <div class="country-flag" style="background: linear-gradient(45deg, #00732f, #de2910, #fff);"></div>
+            <strong style="color: #001f3f;">United Arab Emirates</strong>
+            <div style="color: #666; font-size: 0.9em;">Leading Export Destination</div>
+          </div>
+          <div style="font-size: 1.5em; color: #28a745;">→</div>
+          <div style="text-align: right;">
+            <div style="font-size: 1.3em; font-weight: bold; color: #001f3f;">28.3%</div>
+            <div style="color: #666; font-size: 0.9em;">Market Share</div>
+          </div>
+        </div>
+
+        <div class="trade-flow">
+          <div>
+            <div class="country-flag" style="background: linear-gradient(45deg, #007fff, #ffd700);"></div>
+            <strong style="color: #001f3f;">Congo DRC</strong>
+            <div style="color: #666; font-size: 0.9em;">Regional Trade Partner</div>
+          </div>
+          <div style="font-size: 1.5em; color: #28a745;">→</div>
+          <div style="text-align: right;">
+            <div style="font-size: 1.3em; font-weight: bold; color: #001f3f;">20.19%</div>
+            <div style="color: #666; font-size: 0.9em;">Market Share</div>
+          </div>
+        </div>
+
+        <div class="trade-flow">
+          <div>
+            <div class="country-flag" style="background: linear-gradient(45deg, #de2910, #ffde00);"></div>
+            <strong style="color: #001f3f;">China</strong>
+            <div style="color: #666; font-size: 0.9em;">Strategic Partner</div>
+          </div>
+          <div style="font-size: 1.5em; color: #28a745;">→</div>
+          <div style="text-align: right;">
+            <div style="font-size: 1.3em; font-weight: bold; color: #001f3f;">11.81%</div>
+            <div style="color: #666; font-size: 0.9em;">Market Share</div>
+          </div>
+        </div>
+
+        <div class="trade-flow">
+          <div>
+            <div class="country-flag" style="background: linear-gradient(0deg, #01411c, #fff, #01411c);"></div>
+            <strong style="color: #001f3f;">Pakistan</strong>
+            <div style="color: #666; font-size: 0.9em;">Growing Market</div>
+          </div>
+          <div style="font-size: 1.5em; color: #28a745;">→</div>
+          <div style="text-align: right;">
+            <div style="font-size: 1.3em; font-weight: bold; color: #001f3f;">Growing</div>
+            <div style="color: #666; font-size: 0.9em;">Significant Trade</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Principal Exports -->
+    <section style="margin-bottom: 40px;">
+      <h2 style="color: #001f3f; font-size: 2.2em; margin-bottom: 25px; text-align: center;">💰 Principal Export Products</h2>
+      
+      <div style="background: rgba(0, 51, 102, 0.1); padding: 30px; border-radius: 15px; border: 2px solid #C0C0C0;">
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px;">
+          
+          <div style="text-align: center; padding: 20px; background: linear-gradient(135deg, #ffd700, #ffed4e); border-radius: 12px; color: #333;">
+            <div style="font-size: 2em; margin-bottom: 10px;">🥇</div>
+            <div style="font-weight: bold; font-size: 1.2em;">Gold</div>
+            <div style="font-size: 0.9em; color: #666;">Leading Export</div>
+          </div>
+
+          <div style="text-align: center; padding: 20px; background: linear-gradient(135deg, #8b4513, #d2691e); border-radius: 12px; color: #fff;">
+            <div style="font-size: 2em; margin-bottom: 10px;">☕</div>
+            <div style="font-weight: bold; font-size: 1.2em;">Coffee</div>
+            <div style="font-size: 0.9em;">Premium Quality</div>
+          </div>
+
+          <div style="text-align: center; padding: 20px; background: linear-gradient(135deg, #228b22, #90ee90); border-radius: 12px; color: #fff;">
+            <div style="font-size: 2em; margin-bottom: 10px;">🍃</div>
+            <div style="font-weight: bold; font-size: 1.2em;">Tea</div>
+            <div style="font-size: 0.9em;">Export Grade</div>
+          </div>
+
+          <div style="text-align: center; padding: 20px; background: linear-gradient(135deg, #ff69b4, #ffc0cb); border-radius: 12px; color: #333;">
+            <div style="font-size: 2em; margin-bottom: 10px;">🧻</div>
+            <div style="font-weight: bold; font-size: 1.2em;">Sanitary Products</div>
+            <div style="font-size: 0.9em;">Towels & Diapers</div>
+          </div>
+
+          <div style="text-align: center; padding: 20px; background: linear-gradient(135deg, #696969, #a9a9a9); border-radius: 12px; color: #fff;">
+            <div style="font-size: 2em; margin-bottom: 10px;">🔧</div>
+            <div style="font-weight: bold; font-size: 1.2em;">Steel Products</div>
+            <div style="font-size: 0.9em;">Flat-Rolled</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Economic Sectors Breakdown -->
+    <section style="margin-bottom: 40px;">
+      <h2 style="color: #001f3f; font-size: 2.2em; margin-bottom: 25px; text-align: center;">🏭 Economic Sectors Analysis</h2>
+      
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px;">
+        
+        <div class="highlight-section" style="background: linear-gradient(135deg, rgba(40, 167, 69, 0.1), rgba(40, 167, 69, 0.05));">
+          <h3 style="color: #28a745; margin-top: 0;">🏢 Services Sector</h3>
+          <div style="font-size: 2em; font-weight: bold; color: #28a745; margin: 15px 0;">47% of GDP</div>
+          <p style="color: #333; line-height: 1.6;">
+            <strong>Growth Rate:</strong> 11% annually<br>
+            <strong>Key Areas:</strong> Tourism, Financial Services, ICT<br>
+            <strong>Tourism Revenue:</strong> $445M (2022) - Leading foreign exchange earner
+          </p>
+        </div>
+
+        <div class="highlight-section" style="background: linear-gradient(135deg, rgba(255, 193, 7, 0.1), rgba(255, 193, 7, 0.05));">
+          <h3 style="color: #ffc107; margin-top: 0;">🏭 Industry Sector</h3>
+          <div style="font-size: 2em; font-weight: bold; color: #ffc107; margin: 15px 0;">21% of GDP</div>
+          <p style="color: #333; line-height: 1.6;">
+            <strong>Employment:</strong> 19% of population<br>
+            <strong>Includes:</strong> Mining, Construction, Manufacturing<br>
+            <strong>Growth:</strong> Strong performance in 2022
+          </p>
+        </div>
+
+        <div class="highlight-section" style="background: linear-gradient(135deg, rgba(0, 123, 255, 0.1), rgba(0, 123, 255, 0.05));">
+          <h3 style="color: #007bff; margin-top: 0;">🌾 Agriculture Sector</h3>
+          <div style="font-size: 2em; font-weight: bold; color: #007bff; margin: 15px 0;">Rural Base</div>
+          <p style="color: #333; line-height: 1.6;">
+            <strong>Dominance:</strong> Overwhelmingly rural economy<br>
+            <strong>Exports:</strong> Coffee, Tea, Agricultural products<br>
+            <strong>Dependency:</strong> Heavy reliance on agriculture
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Strategic Advantages -->
+    <section style="margin-bottom: 40px;">
+      <h2 style="color: #001f3f; font-size: 2.2em; margin-bottom: 25px; text-align: center;">🎯 Rwanda's Strategic Advantages</h2>
+      
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px;">
+        
+        <div style="background: linear-gradient(135deg, #001f3f, #003366); color: #fff; padding: 25px; border-radius: 15px; box-shadow: 0 8px 25px rgba(0,31,63,0.3);">
+          <div style="font-size: 2em; margin-bottom: 15px;">🏆</div>
+          <h3 style="color: #C0C0C0; margin-top: 0;">Low Corruption</h3>
+          <p style="line-height: 1.6;">
+            <strong>Ranking:</strong> 54th globally (Transparency International 2022)<br>
+            <strong>Status:</strong> One of Africa's 4 least corrupt nations<br>
+            <strong>Impact:</strong> Favorable business environment
+          </p>
+        </div>
+
+        <div style="background: linear-gradient(135deg, #28a745, #20c997); color: #fff; padding: 25px; border-radius: 15px; box-shadow: 0 8px 25px rgba(40,167,69,0.3);">
+          <div style="font-size: 2em; margin-bottom: 15px;">⚡</div>
+          <h3 style="margin-top: 0;">Business Registration</h3>
+          <p style="line-height: 1.6;">
+            <strong>Speed:</strong> Register in as little as 6 hours<br>
+            <strong>Method:</strong> Online or in-person via RDB One Stop Centre<br>
+            <strong>Recognition:</strong> Top global reformer since 2008
+          </p>
+        </div>
+
+        <div style="background: linear-gradient(135deg, #6f42c1, #9c6ddb); color: #fff; padding: 25px; border-radius: 15px; box-shadow: 0 8px 25px rgba(111,66,193,0.3);">
+          <div style="font-size: 2em; margin-bottom: 15px;">🌍</div>
+          <h3 style="margin-top: 0;">Market Access</h3>
+          <p style="line-height: 1.6;">
+            <strong>EAC:</strong> 150 million consumers<br>
+            <strong>COMESA:</strong> 460 million market potential<br>
+            <strong>AfCFTA:</strong> 1.4 billion person continental market
+          </p>
+        </div>
+
+        <div style="background: linear-gradient(135deg, #fd7e14, #ff922b); color: #fff; padding: 25px; border-radius: 15px; box-shadow: 0 8px 25px rgba(253,126,20,0.3);">
+          <div style="font-size: 2em; margin-bottom: 15px;">📈</div>
+          <h3 style="margin-top: 0;">Economic Growth</h3>
+          <p style="line-height: 1.6;">
+            <strong>Average:</strong> 7%+ annually for 20 years<br>
+            <strong>2022:</strong> 8.2% growth rate<br>
+            <strong>Recovery:</strong> Strong post-COVID performance
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Investment Opportunities -->
+    <section style="margin-bottom: 40px;">
+      <h2 style="color: #001f3f; font-size: 2.2em; margin-bottom: 25px; text-align: center;">💼 Key Investment Opportunities</h2>
+      
+      <div style="background: rgba(0, 51, 102, 0.05); padding: 30px; border-radius: 15px; border: 2px solid #C0C0C0;">
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;">
+          
+          <div style="background: #fff; padding: 20px; border-radius: 10px; border-left: 4px solid #007bff; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+            <h4 style="color: #007bff; margin-top: 0;">🏗️ Infrastructure</h4>
+            <p style="color: #333; line-height: 1.5;">Bugesera International Airport, logistics hubs, energy projects</p>
+          </div>
+
+          <div style="background: #fff; padding: 20px; border-radius: 10px; border-left: 4px solid #28a745; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+            <h4 style="color: #28a745; margin-top: 0;">⚡ Energy</h4>
+            <p style="color: #333; line-height: 1.5;">Renewable energy, power generation, grid expansion</p>
+          </div>
+
+          <div style="background: #fff; padding: 20px; border-radius: 10px; border-left: 4px solid #dc3545; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+            <h4 style="color: #dc3545; margin-top: 0;">🏥 Healthcare</h4>
+            <p style="color: #333; line-height: 1.5;">Medical equipment, pharmaceuticals, health technology</p>
+          </div>
+
+          <div style="background: #fff; padding: 20px; border-radius: 10px; border-left: 4px solid #ffc107; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+            <h4 style="color: #ffc107; margin-top: 0;">🌾 Agriculture</h4>
+            <p style="color: #333; line-height: 1.5;">Value addition, processing, export-oriented farming</p>
+          </div>
+
+          <div style="background: #fff; padding: 20px; border-radius: 10px; border-left: 4px solid #6f42c1; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+            <h4 style="color: #6f42c1; margin-top: 0;">💻 ICT</h4>
+            <p style="color: #333; line-height: 1.5;">Kigali Innovation City, fintech, digital services</p>
+          </div>
+
+          <div style="background: #fff; padding: 20px; border-radius: 10px; border-left: 4px solid #fd7e14; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+            <h4 style="color: #fd7e14; margin-top: 0;">🏨 Tourism</h4>
+            <p style="color: #333; line-height: 1.5;">Hotels, conference facilities, eco-tourism</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Data Visualization Section -->
+    <section style="margin-bottom: 40px;">
+      <h2 style="color: #001f3f; font-size: 2.2em; margin-bottom: 25px; text-align: center;">📊 Interactive Data Explorer</h2>
+      
+      <div style="background: linear-gradient(135deg, #001f3f, #003366); padding: 30px; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,31,63,0.4);">
+        <img src="exports_chart.png" alt="Rwanda Exports Data Visualization" style="max-width:100%; border-radius:12px; box-shadow:0 4px 20px rgba(0,0,0,0.3); border: 2px solid #C0C0C0;">
+        
+        <div style="margin-top: 25px; text-align: center;">
+          <h3 style="color: #C0C0C0; margin-bottom: 15px;">📈 Export Performance Trends</h3>
+          <p style="color: #E0E0E0; line-height: 1.6;">
+            Visual analysis of Rwanda's export performance showing growth trajectories across key commodity sectors and international markets.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Interactive Data Explorer -->
+    <section style="background: rgba(0, 51, 102, 0.1); padding: 30px; border-radius: 15px; margin-bottom: 40px; border: 2px solid #C0C0C0;">
+      <h3 style="color: #001f3f; margin-bottom: 20px; text-align: center;">🔍 Interactive Data Explorer</h3>
+      
+      <form id="datamapForm" style="background: #fff; padding: 25px; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+        <div style="display: flex; align-items: center; gap: 15px; flex-wrap: wrap; justify-content: center;">
+          <label for="itemSelect" style="font-weight: bold; color: #001f3f; font-size: 1.1em;">Choose a Trade Item:</label>
+          <select id="itemSelect" style="padding: 10px 15px; border: 2px solid #C0C0C0; border-radius: 8px; font-size: 1em; min-width: 200px; background: #fff;"></select>
+          <button type="submit" style="background: linear-gradient(135deg, #001f3f, #003366); color: #fff; border: none; padding: 12px 25px; border-radius: 8px; font-weight: bold; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 2px 8px rgba(0,31,63,0.3);">Show Data 📊</button>
+        </div>
       </form>
-      <div id="itemData"></div>
+      
+      <div id="itemData" style="margin-top: 25px; padding: 20px; background: rgba(255,255,255,0.9); border-radius: 10px; min-height: 100px;"></div>
     </section>
+
+    <!-- Call to Action -->
+    <section style="background: linear-gradient(135deg, #001f3f 0%, #003366 100%); color: #fff; padding: 40px; border-radius: 20px; text-align: center; box-shadow: 0 10px 30px rgba(0,31,63,0.4);">
+      <h2 style="font-size: 2.2em; margin-bottom: 20px;">🚀 Explore Rwanda's Trade Potential</h2>
+      <p style="font-size: 1.2em; margin-bottom: 30px; color: #E0E0E0; line-height: 1.6;">
+        Discover data-driven insights and strategic opportunities in Rwanda's growing economy. Navigate to our specialized analysis sections for deeper market intelligence.
+      </p>
+      
+      <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+        <a href="demand_prediction_2026.html" style="background: #28a745; color: #fff; text-decoration: none; padding: 15px 30px; border-radius: 10px; font-weight: bold; transition: all 0.3s ease; box-shadow: 0 4px 15px rgba(40,167,69,0.3);">📈 2026 Predictions</a>
+        <a href="policy_recommendation.html" style="background: #ffc107; color: #333; text-decoration: none; padding: 15px 30px; border-radius: 10px; font-weight: bold; transition: all 0.3s ease; box-shadow: 0 4px 15px rgba(255,193,7,0.3);">📋 Policy Framework</a>
+        <a href="youth_sme_engagement.html" style="background: #6f42c1; color: #fff; text-decoration: none; padding: 15px 30px; border-radius: 10px; font-weight: bold; transition: all 0.3s ease; box-shadow: 0 4px 15px rgba(111,66,193,0.3);">👥 Youth & SME</a>
+      </div>
+    </section>
+
     <script src="datamap_viewer.js"></script>
     <script>
       document.getElementById('logoutBtn').onclick = function() {
         fetch('/logout')
           .then(() => window.location.href = 'gateway.html');
       };
+
+      // Enhanced hover effects for navigation links
+      document.querySelectorAll('nav a').forEach(link => {
+        link.addEventListener('mouseenter', function() {
+          this.style.backgroundColor = 'rgba(192,192,192,0.3)';
+          this.style.transform = 'translateY(-2px)';
+        });
+        link.addEventListener('mouseleave', function() {
+          if (!this.style.backgroundColor.includes('0.2')) {
+            this.style.backgroundColor = 'transparent';
+          }
+          this.style.transform = 'translateY(0)';
+        });
+      });
+
+      // Enhanced hover effects for CTA buttons
+      document.querySelectorAll('section a').forEach(link => {
+        link.addEventListener('mouseenter', function() {
+          this.style.transform = 'translateY(-3px) scale(1.05)';
+        });
+        link.addEventListener('mouseleave', function() {
+          this.style.transform = 'translateY(0) scale(1)';
+        });
+      });
     </script>
   </main>
 
-  <footer style="background: #001f3f; color: #C0C0C0; text-align: center; padding: 12px 0; margin-top: 32px; border-top: 2px solid #C0C0C0;">
-    <p>&copy; 2025 NISR Data Science Hackathon</p>
+  <footer style="background: linear-gradient(135deg, #001f3f 0%, #003366 100%); color: #C0C0C0; text-align: center; padding: 20px 0; margin-top: 40px; border-top: 3px solid #C0C0C0; box-shadow: 0 -4px 15px rgba(0,0,0,0.2);">
+    <p style="margin: 0; font-size: 1.1em;"><strong>&copy; 2025 NISR Data Science Hackathon</strong> | Rwanda Market Intelligence Dashboard</p>
+    <p style="margin: 5px 0 0 0; color: #B0B0B0; font-size: 0.9em;">Data Source: U.S. International Trade Administration & Rwanda Development Board</p>
   </footer>
 </body>
 </html>
