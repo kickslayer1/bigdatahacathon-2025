@@ -77,7 +77,7 @@ This platform demonstrates how data science can:
 
 ## 🚀 Live Application
 
-**Deployed Application:** [https://impo-expo-d8faf2ce53a5.herokuapp.com/](https://impo-expo-d8faf2ce53a5.herokuapp.com/)
+**Deployed Application:** [https://rwanda-trade-dashboard-fc1d68703baa.herokuapp.com/](https://rwanda-trade-dashboard-fc1d68703baa.herokuapp.com/)
 
 Experience the full Rwanda Trade Intelligence Dashboard with interactive visualizations, real-time data analysis, and comprehensive market insights.
 
