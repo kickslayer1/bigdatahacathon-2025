@@ -1,0 +1,1893 @@
+
+
+
+
+
+
+
+
+
+
+FIVE YEARS GOVERNMENT PROGRAMME
+
+National Strategy for Transformation (NST2)
+2024 - 2029
+
+
+
+
+
+
+
+
+
+
+
+30
+
+
+20
+
+
+10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+FIVE YEARS GOVERNMENT PROGRAMME
+
+National Strategy for Transformation (NST2)
+2024 - 2029
+
+
+
+Table of Contents
+List of Acronyms	iv
+Preamble	vi
+1. Introduction	1
+1.1. Key achievements during the NST1 period (2017 - 2024)	2
+1.2. Rationale for NST2 prioritization	3
+1.3. NST2 Strategic Orientation	5
+2. Macroeconomic outlook	7
+2.1. Factors contributing to growth	8
+2.2. NST2 financing	12
+2.3. Risks to the NST2 outlook	13
+3. Economic Transformation Pillar	15
+3.1. Climate-resilient, productive, and modernized agri-food
+systems	16
+3.2. Industrial development and export promotion	18
+3.3. High-end, eco-friendly, and diversified tourism	20
+3.4. Renewable and clean energy transition and universal
+access to electricity	21
+3.5. Increased access to water for socioeconomic development	21
+3.6. Enhanced transport connectivity for economic growth and
+trade	22
+3.7. Enhanced urbanization and settlements for agglomeration
+benefits	23
+
+3.8. Digital transformation	24
+3.9. Resilient and broadened financial sector for private sector
+growth	25
+3.10. Building resilience to climate change and sustainable management of the environment and natural resources	27
+3.11. Creation of productive and decent jobs	28
+4. Social Transformation Pillar	31
+4.1. Enhanced quality and market relevance of education	32
+4.2. Enhanced quality of health, strengthened health systems
+and reduced stunting	33
+4.3. Increased access to Sanitation and Hygiene services for
+improved wellbeing	35
+4.4. Enhanced graduation from poverty and increased resilience	36
+5. Transformational Governance Pillar	37
+5.1. Enhanced Rule of Law	38
+5.2. Enhanced service delivery, implementation and inclusive
+citizen participation	39
+5.3. Enhanced PFM transparency and accountability	39
+5.4. Enhanced international cooperation	40
+5.5. Strengthened National unity, resilience, culture and values	41
+5.6. Sustained peace and security	41
+6. Cross-Cutting Areas	43
+6.1. Environment and climate change	44
+6.2. Disability and Social Inclusion	45
+6.3. Disaster risk reduction and management	45
+6.4. HIV/AIDS and Non-communicable diseases	46
+
+6.5. Gender and Family Promotion	46
+6.6. Regional Integration and International Positioning	47
+6.7. Capacity development	48
+7. NST2 Implementation Arrangements	49
+7.1. Institutional roles and responsibilities	50
+7.2. NST2 implementation enablers	55
+8. NST2 Monitoring and Evaluation Framework	59
+8.1. NST2 M&E framework	60
+8.2. NST2 Evaluation	62
+9. Conclusion	63
+Annex	65
+Annex 1: NST2 Monitoring and Evaluation Matrix	66
+Annex 2: NST2 Priorities and Theory of Change	80
+
+List of Acronyms
+
+ADRAlternative Dispute ResolutionAfCFTAAfrican Continental Free Trade AreaCBTClimate Budget TaggingCBHICommunity Based Health InsuranceCCAsCross Cutting AreasCDATCommercialization and De-risking for Agriculture TransformationCENRClimate change, Environment, and Natural ResourcesCHWCommunity Health WorkersCoKCity of KigaliDAPDigital Ambassador ProgramDRRDisaster Risk ReductionECDEarly Childhood DevelopmentFDIForeign Direct InvestmentGBSGlobal Business ServicesG&SGoods and servicesGDPGross Domestic ProductGGCRSRwanda Green Growth and Climate Resilience StrategyICTInformation and Communication Technology
+
+IECMSIntegrated Electronic Case Management SystemKSEZKigali Special Economic ZoneMICEMeetings, Incentives, Conferences, and ExhibitionsMSMEMicro, Small, and Medium-sized EnterprisesNDCsNationally Determined ContributionsNDSFNational Digital Skills FrameworkNST1National Strategy for Transformation 1NST2National Strategy for Transformation 2PPPPublic Private PartnershipR&DResearch and DevelopmentRUDPRwanda Urban Development ProjectSACCOsSavings and Credit Cooperative Organizations or SocietiesSEAStrategic Environmental AssessmentSTDsSexually Transmitted DiseasesSTEMScience, Technology, Engineering and Mathematics.Three TsTin, Tantalum and TungstenTVETTechnical and Vocational Education and TrainingVUPVision Umurenge ProgramWASHWater, Sanitation, and Hygiene
+Preamble
+Rwanda is set to begin the next phase of its development journey through the Second National Strategy for Transformation (NST2) on the backdrop of significant progress made during the past seven years under the National Strategy for Transformation 1 (NST1). Despite global challenges such as the COVID-19 pandemic, climate change related disruptions, and geopolitical tensions affecting supply chains, Rwanda has demonstrated resilience, enabling significant advancements in economic growth, social welfare, and governance.
+NST2 is designed to build on these achievements and take the country closer to realizing the Vision 2050 of sustainable economic growth, prosperity and high quality of life for all citizens.
+This strategy aims to deliver long-term success and positively impact on the lives of citizens by prioritizing sustainable development and climate resilience, development of domestic manufacturing industries to reduce the trade deficit, creating sustainable and decent jobs, improving the quality and relevance of education, enhancing nutrition and early childhood development to reduce stunting, improving the quality of service delivery while strengthening citizen engagement and participation.
+To ensure the successful implementation of the strategy the governance and institutional framework supporting delivery will be streamlined, data and technology will be harnessed and innovation, capacity and skills development will be emphasized.
+The success of NST2 depends on the collective commitment and action of all stakeholders – citizens including youth and women, the private sector, faith- based organizations, civil society, academia, media, and development partners among others. Every Rwandan is urged to approach NST2 with determination and solidarity, turning challenges into opportunities and driving the nation towards a prosperous and equitable future.
+This document outlines the main objectives of the NST2, organized under the economic, social, and transformational governance pillars. It further elaborates on the key macroeconomic aspects, the financing of the strategy, as well as its implementation plan and monitoring framework.
+
+1. 
+Introduction
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+FIVE YEARS GOVERNMENT PROGRAMME	1
+
+Rwanda’s Vision 2050 aspires to elevate the nation to upper-middle- income status by 2035 and high-income status by 2050 through achieving sustainable economic growth and ensuring a high-quality life for all Rwandans. This long-term vision is implemented through a series of medium- term national development strategies, beginning with the National Strategy for Transformation 1 (NST1, 2017-2024), which marked a critical phase in the country’s developmental journey and served as the bridge between Vision 2020 and the start of Vision 2050.
+As 2024 marks the final year of the NST1, it has laid the foundation for subsequent national transformational strategies aimed at achieving Vision 2050. The evolving global context (characterized by geopolitical shifts, climate- related disasters, external shocks, inflationary pressures and socioeconomic uncertainties) calls for a strategic recalibration to tackle emerging challenges and seize new opportunities. NST2, which spans from 2024 to 2029, is designed to provide the strategic direction for national development with a central focus on improving the lives of Rwandans and ensuring sustainable economic growth and development .
+Despite significant diverse challenges mentioned above, Rwanda has demonstrated remarkable resilience and made significant progress under NST1.
+
+1.1. Key achievements during the NST1 period (2017 - 2024)
+In the economic transformation pillar, the country achieved steady economic growth, with Gross Domestic Product (GDP) expanding at an average of 7% over the NST1 period and per capita income increasing from $729 to $1,040 in 2023. Critical infrastructure has been developed with over 1,600 Km of the national road network and 4,137 km of feeder roads constructed in addition to increasing street lighting from from 664 km to 2,185 km. Access to electricity also surged from 34.4% to 78.9%.
+Over 1.3 million decent and productive jobs were created, and fin6nci6l inclusion rose from 89% in 2017 to 96% by 2024. Tourism revenues nearly doubled, increasing from $374 million in 2017 to $620 million. The country also successfully implemented several policy measures to recover from
+
+the negative effects of the COVID-19 pandemic including establishing the Economic Recovery Fund and rapidly rolling out vaccination efforts to save lives during the pandemic.
+Under the social transformation pillar, life expectancy rose from 66.6 years to 69.9 years, reflecting advancements in healthcare and overall well-being. Seven (7) hospitals were constructed (Gatonde, Gatunda, Munini, Nyabikenke, Byumba, Nyarugenge, and IRCAD) adding to the 52 existing hospitals. Kabgayi and Kibogora hospitals were also rehabilitated. A total of 12 new health centers were constructed reinforcing the 495 existing ones. Health posts increased from 473 in 2017 to 1,252 in 2024 enabling increased access to health care for communities. Substantial progress was realized in education with the construction of over 27,000 classrooms and the scale-up of Technical and Vocational schools from 200 in 2017 to 396 sectors (out of 416) countrywide. Additionally, a comprehensive school feeding program was established, and significant reforms introduced to enhance teacher welfare and motivation, further strengthening the foundation for sustained socioeconomic development and transformation.
+In the transformational governance pillar, Rwanda has ensured continued stability, peace, and security, underpinned by a citizen-centered governance model, which is the foundation for realizing developmental gains. The country also made signific6nt improvements in service delivery, p6rticul6rly through the use of technology, with the number of services available online expanding from 155 to over 680 setting the foundations for a digitally transformed economy.
+
+1.2. Rationale for NST2 prioritization
+The NST 2 aims to take the country closer to achieving the Vision 2050 and the intermediate targets of 2035. Notwithstanding the above mentioned achievements, there are a number of emerging issues that require concerted efforts to accelerate progress towards the Vision 2050 these include the following:
+ Rwanda has made significant strides in building resilience to climate change and ensuring sustainable development. The country has nevertheless borne the brunt of disasters including landslides, flooding and effects of climate
+
+change like drought, leading to loss of lives, livelihoods and infrastructure among others. This necessitates scaling up and sustaining interventions geared toward building resilience and sustainable development.
+ Significant gains in employment have been made including increased labor force participation (59.3% in 2023) compared to pre-covid19 levels (53.4% in 2017) and reversal of the negative impact of covid on employment with more people employed in the latter period (3.96 million in 2023 compared to 3.54 million in 2017).
+ However, youth unemployment remains relatively high at 20.8% and overall unemployment at 17.2% (2023) while gender disparities in unemployment are still apparent at 20.3% for women while at 14.5% for men. Vision 2035 t6rgets 6n unemployment r6te of 7% requiring intensific6tion of job creation efforts with a focus on decent and productive jobs for all including youth and women.
+ Exports of goods and services increased over the NST1 period from USD
+1.9 billion in 2017 to USD 3.51 billion in 2023. However the current account deficit widened from 9.5% of GDP in 2017 to 11.8% in 2023 driven by higher import demand in line with strong economic growth as well as external and climate-related shocks. Growing exports remains paramount under NST2 especi6lly in n6rrowing the tr6de deficit 6nd incre6sing the v6lue of exports.
+ Nutrition and early childhood development have been the subject of intense focus and coordination in the NST1, bringing these issues to the forefront of human capital development. Further progress requires sustaining the momentum and strengthening coordination and interventions to achieve an even faster reduction of stunting from the current rate of 33% towards the 2035 target of 5.5%. This will contribute to ensuring a productive workforce capable of contributing to the attainment of the long term Vision.
+ The consultative process leading up to the elaboration of the NST2 emphasized quality of education as one of the most critical aspects for Rwandans today and in the future in the social transformation pillar. A joint study of the World Bank and the Government of Rwanda conducted in 2024 further highlighted the importance of prioritizing access to pre-
+
+primary (35% in 2023), enhancing foundational learning outcomes (which currently show low proficiency in key subjects) and increasing the quality and market relevance of education (to address low post graduation employment among graduates) for achieving Vision 2050.
+ The quality of service delivery has improved with the attainment of 78% (2023) citizen satisfaction mainly through provision of more public services online. To ensure the needs of citizens are addressed and high-quality services rendered in both public and private sectors in line with Rwanda’s vision to become a hub for various services including medical, financial, tourism and hospitality, this remains a core priority moving forward. Quality service delivery is also important to fast-track implementation of developmental programmes and projects with the required speed, scale and quality.
+1.3. NST2 Strategic Orientation
+NST2 has been developed through an inclusive and participatory process involving citizens, the private sector, civil society, development partners and relevant institutions among others.
+NST2 leverages existing and emerging opportunities, including a growing youthful population 56% of whom are of working age of 16–64 years and 65.3% are under 30, the increased adoption of technology and innovation, and the development of high growth potential sectors such as mining, agro- processing, horticulture, automotives, aviation, sports, creative arts, tourism, and MICE. An engaged citizenry, grounded in core developmental and cultural values, also plays a significant role in this strategy.
+NST2 is primarily designed to improve incomes and wellbeing of citizens by delivering the following impactful results:
+ enhancing climate resilience and sustainable development
+ developing domestic manufacturing industries to boost exports and reduce the trade deficit
+ creating decent and productive jobs
+
+ improving the quality and market relevance of education
+ enhancing nutrition and early childhood development to reduce stunting  improving the quality of service delivery and enhancing citizen
+participation
+Several key enablers will be emphasized to effectively implement these priorities, including enhancing productivity through technology and digitalization, leveraging data and research, and fostering capacity development for strengthened implementation among others.
+Rwandan values, culture, home-grown solutions and sustaining peace and security will remain central to delivering the NST2.
+
+2.
+Macroeconomic outlook
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+FIVE YEARS GOVERNMENT PROGRAMME	7
+
+Despite the global shocks experienced during the NST1 period, Rwanda’s economy demonstrated remarkable resilience and recovery, largely due to agile policy interventions, including measures to ease transactions and support businesses and the population. The transition to the NST2 requires renewed efforts to accelerate and sustain progress towards achieving Vision 2050.
+Drawing on the sectoral policy interventions detailed in the upcoming sections and the reforms set out in this strategy, the macroeconomic framework for NST2 targets an annual average real GDP growth rate of 9.3% from 2024 to 2029, with per capita income expected to rise to USD 1,369 by 2029 from USD 1,040 in 2023.
+Table 1 - GDP Growth
+
+2023
+Actual2024
+Projection2025
+Projection2026
+Projection2027
+Projection2028
+Projection2029
+ProjectionNST2
+ annual average growthReal GDP8.2%7.9%8.1%9.0%9.4%10.1%11.5%9.3%
+Agriculture1.7%6.8%6.6%6.7%6.3%6.1%6.2%6.5%Industry10.2%9.5%9.5%10.1%10.7%11.2%12.7%10.6%Services11.2%8.3%8.5%9.8%10.5%11.3%13.0%10.2%Source: MINECOFIN
+This growth trajectory further anticipates productivity improvements across all sectors, with a shift towards higher value-added activities, particularly in agriculture, industry (with emphasis on manufacturing) and the services sector. Achieving this will demand investments, business expansion, empowering youth and women with skills and education, promoting innovation and reinforcing trade links both regionally and globally.
+
+2.1. Factors contributing to growth
+i. Agriculture output is expected to grow at an annual average rate of over 6% per year, a substantial improvement compared to past growth trends. Achieving this growth will require improvements in agricultural productivity by optimizing land use, enhancing yields of priority food crops and adopting efficient and climate-resilient farming practices. Additionally, farmers will need greater access to modern agriculture inputs, extension services, financing and markets to scale up their operations.
+ii. Increased agricultural productivity and growing demand for consumer goods and services will drive the expansion of the industry sector, creating significant opportunities for domestic manufacturing. As a result, the industry sector is projected to achieve an average annual growth rate of over 10% during the NST2 period, primarily driven by manufacturing, which is projected to grow at an average annual rate of 10.4%. This growth is expected to generate jobs, strengthen local supply chains, and support the development of value-adding industries, while also driving innovation and competitiveness across both agriculture and manufacturing. The implementation of the “Made in Rwanda” policy and related interventions will be strengthened to ensure production of a high proportion of essential and high-value items locally, grow exports and reduce imports.
+iii. Rwanda’s services-oriented growth path will continue throughout NST2, driving overall productivity while leveraging technology and innovation to meet the evolving needs of consumers and businesses. The services sector is projected to grow by an annual average rate of 10.2%.
+iv. Strong investment will be needed to sustain growth during the NST2 period, with total investment expected to reach 32.1% of GDP by 2029, primarily fueled by private investment rising from 15.9% of GDP (USD 2.2 Billion) in 2023 to 21.5% (USD 4.6 Billion) by 2029. This surge will be supported by efforts to mobilize savings through a business-friendly environment and an efficient, innovative financial sector, which are expected to raise the national savings rate from 12.4% of GDP in 2023 to 25.9% by 2029.
+
+Figure 1 - Projections 2024-2029: Investment (in billion USD) – National Savings (in % of GDP)
+7.5
+
+
+6.0
+
+
+4.5
+
+
+3.0
+
+
+1.5
+
+
+-
+2023	2024	2025	2026	2027	2028	2029
+
+
+
+30.0%
+
+
+
+
+20.0%
+
+
+
+
+10.0%
+
+
+
+
+0.0%
+
+ Total Investment
+
+Source: MINECOFIN
+
+
+ Private Investment	National Savings Rate
+
+v. Exports and imports of goods and services are expected to grow at an average annual rate of 13% and 8.7% respectively during the NST2 period, with the export-to-import coverage ratio improving from 61% in 2023 to 77% in 2029. As the country strengthens its regional and global trade connections, exports revenues (from goods and services) are anticipated to more than double, rising from USD 3.5 billion in 2023 to USD 7.3 billion in 2029. This increase in export earnings will be essential to meet import needs for investment and intermediate inputs to boost local production. The growth in export revenues will be driven by diversific6tion, with 6n emphasis on manufacturing, along with an expected increase of over 80% in tourism and mining revenues. Consequently, the current account deficit is projected to reduce from 11.8% in 2023 to 7.9% in 2029.
+
+Figure 2 - Projections 2029: Imports and Exports (in billion USD) - Current
+Account deficit (in % of GDP)
+15.0
+
+10.0
+
+5.0
+
+0.0
+
+-5.0
+
+-10.0
+
+-15.0
+2023	2024	2025	2026	2027	2028	2029
+
+
+
+
+0.0%
+-2.0%
+-4.0%
+-6.0%
+-8.0%
+-10.0%
+-12.0%
+-14.0%
+
+
+
+ Export of G&S  Minerals (3Ts)
+
+ Imports of G&S	 Tourism revenue
+ Non-traditional exports	 Current Account deficit
+
+Source: MINECOFIN
+vi. The fisc6l policy under NST2 will focus on supporting sust6ined high economic growth while ensuring the sust6in6bility of public fin6nces 6nd debt. To achieve this, tax collection will be strengthened to increase funding for public investments, with the tax-to-GDP ratio expected to rise from 15.2% in 2023/2024 to 19.4% by 2028/2029 through incremental tax policy reforms and administration measures. Additionally, use of project loans that have already been secured will be accelerated to ensure the implementation of major public infrastructure projects, thereby attracting further investment and creating more employment opportunities. Fiscal consolidation efforts will also be implemented, with expenditures gradually reduced as a share of GDP to keep public debt at a sustainable level.
+vii. Infl6tion is projected to st6y within the medium-term t6rget r6nge of 2% - 8%, and a suitable foreign exchange-rate policy will be adopted to promote exports and enhance international competitiveness.
+viii. These macroeconomic fundamentals will be realized by continuing to build resilience of the economy, ensuring prudent macroeconomic management. Success will depend on the effective implementation of priority flagship projects, programs and interventions, all supported by policy reforms, innovations, enhanced coordination, planning and implementation mechanisms.
+
+2.2. NST2 fin6ncing
+The tot6l NST2 fin6ncing over the five-ye6r period (2024/2025 -2028/2029) is estimated at Frw 63,559 billion. Of this, 43% is expected to be mobilized by the priv6te sector for investment through foreign c6pit6l inflows 6nd domestic savings. The domestic financial sector is anticipated to provide more than 70% of private sector financing during NST2, underscoring the need to expand financial services to support growth of business, improve access to credit, and meet the evolving needs of underserved segments, including SMEs, youth, and women. Foreign direct investments will account for over 70% of the private foreign capital inflows targeted in NST2.
+The rem6ining 57% of NST2 fin6ncing will come from public resources, with tax and non-tax revenues making up about 74% of the total. Foreign financing, which accounts for 17% of public resources, will primarily be sourced through concessional borrowing to ensure sustainable and prudent debt management.
+T6ble 2 - Required fin6ncing for NST2 implement6tion
+
+NST2
+Financing
+(in billion Frw, otherwise indicated)2024/25
+Projection2025/26
+Projection2026/27
+Projection2027/28
+Projection2028/29
+ProjectionTotal NST2
+financing    Share of total financingNST2 total financing9,50210,86112,27014,23016,69563,559100%Public resources5,5426,2086,9408,0379,43536,16157%Private resources3,9604,6535,3306,1937,26127,39843%1. Public Resources5,5426,2086,9408,0379,43536,16157%1.1. Total revenue and grants4,3805,1025,8626,9778,14030,46148%Tax revenue3,1373,7714,5345,4776,50623,42537%
+NST2
+Financing
+(in billion Frw, otherwise indicated)2024/25
+Projection2025/26
+Projection2026/27
+Projection2027/28
+Projection2028/29
+ProjectionTotal NST2
+financing    Share of total financingNon-Tax revenue5185966857858763,4595%Grants7257356437167593,5776%1.2. Net
+Domestic Financing-84-162-12923-106-459-1%1.3. External financing1,2461,2681,2071,0361,4006,15810%o/w: Budget loans7265625023095682,6674%Project Loans7091,0561,2011,2821,4445,6919%2. Private Resources3,9604,6535,3306,1937,26127,39843%2.1. Foreign Investment1,4431,7091,6591,4791,3987,68712%o/w: FDIs8561,0621,1851,2121,3115,6279%2.2. Domestic Investments2,5182,9443,6724,7155,86319,71131%Source: MINECOFIN
+
+
+2.3. Risks to the NST2 outlook
+At both the global and country level, certain risks could impact the expected outcomes of NST2. To address this, the government will continuously monitor and evaluate the likelihood and impact of these risks and implement appropriate prevention and mitigation measures to minimize their effects across various sectors.
+
+Below are key risks identified:
+Table 3 - Major risks matrix for NST2
+
+Possible areas of impactGDP
+growthPrices/ Infl6tionLocal production (Agriculture & industry)Trade & investmentTourismPublic fin6nces & debtRisk categorySpecific risksMacroeconomic risks External shocks
+ Subdued global outlook
+ Reduction in global supply capacity/Supply chains disruptions
+X
+X
+X
+X
+XRising geopolitical tensions: a spillover of Russia-Ukraine war and a broadening of
+the Middle East conflict could pose a risk on the global economy. Food and energy supply disruption
+ Volatile commodity prices/rise in global inflation
+ Additional disruptions to trade networks
+X
+X
+X
+XPublic health emergencies New or resurgence of pandemic diseases may slow down the economy.
+X
+X
+X
+X
+XClimate change and disasters: erratic weather causing drought and floods Low agriculture production  Food insecurity
+ Low agricultural exports  Infrastructure damages
+ Loss of lives
+X
+X
+X
+X
+X
+3.
+Economic Transformation Pillar
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+FIVE YEARS GOVERNMENT PROGRAMME	15
+
+
+
+Headline Indicators for Economic Transformation
+Achieve over 6% annual average GDP growth in the agriculture sector Achieve at least 10% annual average GDP growth in the industry sector Increase export revenues from USD 3.5 Billion to USD 7.3 Billion Increase by 80% tourism and mining revenues
+Increase private investment from 15.9% of GDP (USD 2.2 Billion) to 21.5% (USD 4.6 Billion)
+Ensure universal access to electricity for productive use and roll out connections countrywide in all cells (Utugali)
+Ensure universal access to water supply for productive use and scale up access to all villages countrywide
+Double national savings rate from 12.4% to 25.9% of GDP Reduce greenhouse gas emissions by 38%
+Create 1.25 million productive and decent jobs
+
+
+3.1. Climate-resilient, productive, and modernized agri-food systems
+Over the next five years, agriculture will be transformed into a more productive, market-oriented, and sustainable sector, with the aim of achieving an annual average growth rate exceeding 6%.
+The main objectives in this period will be:
+ Increasing productivity by 50% on priority food crops to ensure food security, self-sufficiency and export
+
+ Achieving and sustaining seed self-sufficiency through the local production of seed
+ Ensuring the sufficiency of animal resources and related products  Strengthening post-harvest management
+ Attracting investment in the agriculture sector (to drive expansion, modernization and innovation)
+This transformation will be achieved by increasing the productivity of priority food crops by more than 50% focusing on main food crops such as maize, beans, potatoes, rice, cassava, wheat and bananas. Export crops production will also be scaled up through expanding land under cultivation and rejuvenation of old coffee trees.
+In addition to this, the use of modern inputs (fertilizers and improved seeds) will be scaled up and timely supply and availability ensured. The application of fertilizers will be increased from 70 to 94.6 kg per hectare and the development and use of climate-resilient and high yield seed varieties will be scaled up. Furthermore, extension services will be augmented and improved in collaboration with the private sector and use of technology promoted to further enhance productivity across the sector.
+New management models, such as Agri-hubs and Food Basket sites, will be 6dopted to enh6nce efficiency 6nd m6ximize returns on 6gricultur6l investments. The operationalization of key projects, such as the Gabiro Agri- business Hub and Gako Beef, will be instrumental in achieving these goals. Regenerative conservation agriculture practices will be further promoted to protect land health and maintain land productivity and agro-ecology.
+Agriculture resilience to climate change will be enhanced by implementing various irrigation schemes to expand irrigated land from 71,000 ha to over 130,000 ha. Major projects, such as the Commercialization and De-risking for Agriculture Transformation (CDAT) will contribute to achieving these targets. This will be reinforced by increasing the area under radical terraces from 142,000 ha to over 160,000 ha and developing progressive terraces across the country in collaboration with local communities.
+
+In the animal resources subsector, production and productivity will be increased by scaling up key value chains in livestock and aquaculture. This will involve adopting modern livestock farming practices such as zero grazing, increasing access to improved breeds, ensuring adequate water infrastructure and management for livestock. Strategic interventions will also focus on boosting domestic production of animal feeds, and investing in the dairy sector by establishing modern animal hubs and expanding the capacity of milk collection centers.
+In order to reduce post-harvest losses to below 5%, there will be a strong emphasis on improving post-harvest handling (including drying infrastructure), strengthening market linkages and expanding agro- processing capabilities. These measures will minimize losses and contribute to higher revenues and increased value-added per worker.
+Finally, interventions to attract private investment in the sector will be reinforced through de-risking strategies, including strengthening agricultural (crops and livestock) insurance and scaling up tailored financing solutions across production chains. These measures aim to increase credit to the agriculture sector from 6% to 10%, providing the required financial resources for accelerated growth and innovation.
+
+3.2. Industrial development and export promotion
+The main objectives in this priority will be:
+ Scaling up manufacturing and production of essential and high-value products to satisfy the local market demand and reduce dependence on imports
+ Attracting and increasing private investment in manufacturing and construction sub-sectors
+ Promotion of exports to regional and international markets
+To achieve these targets, industrial parks in designated areas will be operationalized and expanded including Kigali Special Economic Zone (KSEZ), Bugesera and Rwamagana Special Economic Zones among others. The “Made in Rwanda” initiative will be central to this effort focusing on scaling up domestic industrial production of essential and high-value products
+
+while boosting exports including under the Africa Continental Free Trade Area (AfCFTA). This strategy will be anchored in attracting private investment in priority manufacturing sub-sectors such as agro-processing, horticulture, mineral processing, leather, automotive, creative industries, biomanufacturing, pharmaceuticals, textiles and apparel.
+Exporters will be facilitated in accessing international markets, while aggregating exports of SME products to capitalize on economies of scale. The national quality infrastructure framework will be streamlined and the one-stop center strengthened to facilitate investors attain the required domestic and export market standards. Furthermore, an E-commerce Readiness Program will be implemented to help SMEs leverage digital trade platforms for exports. The adoption of modern green and clean technologies in priority industries will be promoted to further develop sustainable industries.
+Investments will also support the development of logistics infrastructure crucial for facilitating trade and export growth. Cold chain development will be augmented by investing in required infrastructure such as cold storage facilities and improved transportation networks, while adopting modern technology like temperature-controlled logistics and digital tracking platforms. This includes completing the Kigali Logistics Platform (KLP) and developing the Kigali wholesale market for horticultural products.
+Value addition, high-end products, and services will drive rapid growth in export v6lue 6nd progressively reduce the tr6de deficit. As a result, export levels are projected to reach USD 7.3 billion in 2029 from USD 3.5 billion in 2023 thereby increasing the export-to-import coverage ratio from 61% in 2023 to 77% in 2029. This growth will be driven by an increase in export revenues from non- traditional export products (such as horticulture, fruits and vegetables,) which are projected to increase from USD 1.4 billion in 2023 to USD 3.2 billion in 2029, along with increased mineral exports.
+Mining revenues are anticipated to rise from USD 1.1 billion to USD 2.17 billion (including non-traditional minerals) during the same period. The growth in the mining sector will be led by a combination of mineral exploration, professionalization of artisanal miners, adoption of environmentally friendly mining practices as well as enhanced processing and value addition of key minerals. Traditional exports (coffee, tea, pyrethrum,) will also continue to be scaled up with an emphasis on value addition across value chains.
+
+3.3. High-end, eco-friendly, & diversified tourism
+The objective is to position Rwanda as a world-class, high-value ecotourism destination to nearly double tourism revenues from USD 620 million to USD
+1.1 billion.
+New and existing tourism destinations will be developed nationwide to diversify tourist attractions with a strong focus on promoting nature-based tourism. Innovative tourism and conservation financing initiatives such as Green Bonds, investments in conservation, public-private partnerships, and product diversification, will support this and elevate Rwanda into a high-end tourism market.
+To further establish Rwanda as a top global destination for Meetings, Incentives, Conferences, and Exhibitions (MICE), the country will attract events aligned with national priorities, including high-level meetings, strategic partnerships, and sports events. Existing and new partnerships will be reinforced, and new collaborations will be fostered. The MICE industry will be enhanced through professionalization programs alongside the introduction of industrial standards and certification to raise the overall quality of services offered.
+Sports development will aim to create a vibrant sports industry that complements the tourism sector while promoting grassroot sports participation. The focus will be on advancing the sports industry by proactively developing services and business segments associated with various sports disciplines. This approach will enable Rwanda to derive greater economic benefits from the sector, including job creation and revenue generation, while cultivating a pool of talented, high-performing athletes across multiple disciplines. To support this, sports infrastructure will be expanded nationwide, facilitating community-level sports activities and aiding in identifying and nurturing top talent in partnership with key stakeholders, including the private sector.
+
+3.4. Renewable and clean energy transition and universal access to electricity
+The objective is to connect all productive users to electricity and ensure it is
+
+accessible in all cells countrywide for households while increasing the share of renewable energy generation.
+The scaling up of access to electricity will focus on connecting productive users (such as industries, commercial facilities, schools, health facilities, agro-processing plants, and other facilities) that contribute to socioeconomic development. The ongoing initiatives to provide households with electricity will continue, with the goal of scaling access up from the current level of 78.9% by ensuring that electricity is accessible in all cells of the country.
+Energy generation will be aligned with projected demand and economic forecasts based on the least-cost power development plan.
+The energy transition will prioritize increasing the share of renewable and clean energy in the power generation mix from 51% to 60% while scaling up the 6doption of cle6n 6nd efficient biom6ss cooking technologies for l6rge- scale users (e.g. schools, health facilities, prisons, etc.) and households. Nuclear technology for productive uses in sectors such as health, energy and agriculture among others will be explored and developed. Development and use of cleaner fuels such as methane gas for industrial and home uses will also be promoted.
+To ensure long-term energy security, adequate reserves and storage capacity for critical energy products such as oil and gas, will be developed and maintained.
+
+3.5. Increased access to water for socioeconomic development
+The objective is to increase water production and ensure it is accessible in all villages nationwide for productive users and households.
+This will involve expanding, rehabilitating and maintaining water infrastructure to improve the quality of water services delivered. This will be done in tandem with the scaling up of planned settlements to reach more households in a cost-efficient manner. Daily water production capacity will be more than doubled to meet projected demand through the development and maintenance of water treatment plants. Non-revenue water will be reduced to enhance efficiency in providing water services.
+
+The drive towards universal access to basic water will be accelerated for both productive use centers and households by ensuring water is accessible in all villages across the country. This will help to reduce distance traveled to access water (in rural and urban areas) and to increase the availability of piped water within dwelling units (houses).
+
+3.6. Enhanced transport connectivity for economic growth and trade
+The primary objectives are to develop transport infrastructure and services that facilitate economic growth and trade.
+Public transport infrastructure and services will be upgraded to support economic development. This will include expanding domestic transport connectivity, extending public transport services to rural areas, improving the efficiency of transport services in urban areas, and ensuring climate resilience for existing and new road infrastructure.
+In urban areas, the focus will be on improving public transport services and promoting green transport (electric-mobility). Specifically, dedicated bus lanes will be introduced in the City of Kigali (CoK), and high-capacity road junctions will be constructed while rolling out smart traffic management systems to gradually ease traffic congestion at peak hours. In rural areas, intercity scheduled bus routes will be increased to ease mobility across different areas of the country.
+Furthermore, over 300 kilometers of national roads will be constructed and rehabilitated. In addition, over 500 kilometers of feeder roads will be developed to facilitate local trade and ease access to markets for agricultural products.
+The aviation sector will be expanded by scaling up RwandAir’s capacity, aiming to double the number of passengers transported by the national carrier, increase the number of destinations, and boost cargo freight capacity and services to facilitate exports. This will be complemented by the completion and operationalization of the new Bugesera International Airport and the development of subsidiary airports. The establishment of an Aviation Skills
+
+Academy will support the creation of the necessary skills and local capacity to sustain the growth of the sector.
+Maritime transport andtrade across Lake Kivu will be improved by constructing and operationalizing strategic ports in Rusizi, Karongi and Rutsiro(Nkora) in partnership with the private sector. Developing and operationalizing One- Stop Border Posts (OSBP) remains a key priority to enhance regional transport connectivity and facilitate trade with neighboring countries.
+
+3.7. Enhanced urbanization and settlements for
+6gglomer6tion benefits
+During the NST2 period, key objectives will be accelerating urbanization 6nd cre6ting densified, liv6ble, integr6ted 6nd resilient rur6l 6nd urb6n neighborhoods that foster economically and socially thriving communities.
+To achieve this, the development of detailed physical plans, site servicing and provision of basic infrastructure will be expedited to enhance well- planned urban and rural settlements. Informal settlements will be upgraded through various approaches including providing basic infrastructure services and rehousing in collaboration with the concerned communities. Households in high-risk zones will be urged to relocate to more resilient sites while those in scattered rural settlements will be mobilized to settle in planned settlements.
+Development of 6fford6ble housing for rent 6nd/or purch6se will be exp6nded in the CoK, as well as satellite and secondary cities in partnership with the private sector to meet diverse demand across income segments. Public investments will be channeled towards supporting vulnerable households.
+Economic activities in CoK, satellite and secondary cities and other urban 6re6s will be enh6nced by implementing fl6gship projects th6t lever6ge loc6l economic potentials. This will be complemented by harnessing backward and forward linkages and opportunities linked to major investments in agro- processing, infrastructure, tourism, sports and entertainment, entrepreneurship and innovation hubs, among others.
+To foster inclusive, climate resilient cities and towns, rehabilitation of urban wetlands will be undertaken and green open spaces developed and scaled up.
+
+3.8. Digital transformation
+The key objectives include;
+ Accelerating the transformation towards a knowledge-based economy  Facilitating universal access to smart devices and basic technology
+ Enhancing digital service delivery
+To achieve these objectives, digital literacy is planned to increase from 53% to 100%, equipping the Rwandan population with the necessary skills to fully benefit from digit6l tr6nsform6tion. To develop skills for the ICT sector and prepare the youth for future jobs, 1 million coders will be trained and 500,000 people will be equipped with advanced ICT skills.
+In partnership with the private sector, efforts will focus on ensuring universal smart device ownership and affordable, quality connectivity nationwide to foster the adoption and use of digital technology by all Rwandans, enabled by best-in-class ICT infrastructure capabilities including high-performance computing environments that positions Rwanda as a proof-of-concept hub.
+All government services will be fully digitized, and a Single Digital ID will be rolled out nationally to improve the quality and efficiency of public service delivery through a trusted, secure and resilient digital ecosystem. This will involve integrating innovation, digital, and emerging technologies (AI, advanced robotics, etc.) to facilitate data-driven decision-making in key sectors such as education, health, agriculture, industry, government performance management, judiciary, finance, and the private sector among others.
+The impact of research and innovation will be strengthened to enhance competitiveness and expand market access. Spending on research and development (R&D) will be progressively increased in partnership with the private sector.
+
+3.9. Resilient 6nd bro6dened fin6nci6l sector for
+private sector growth
+The driving objectives in this sector include;
+
+ Sustaining the expansion of financial inclusion
+ Increasing the financial sector’s contribution to economic growth and improving citizen welfare
+ Strengthening Rwanda’s role and development as an international financial services hub
+ Deepening capital markets
+Building on the success of achieving near-universal financial inclusion (96%) during the NST1 period, the fin6nci6l sector will 6im to enh6nce its contribution to overall growth and the economic well-being of Rwandans. This will be 6chieved by exp6nding the use of form6l fin6nci6l services, including digital and electronic payment systems, with a particular focus on youth and women. These initiatives will be supported by improved financial education and literacy alongside the diversification of financial services and products to better meet consumer needs. Moreover, creating a conducive regulatory environment and building financial literacy will encourage savings and investment from a broader segment of the population. Strengthening the capacity of local financial institutions and improving access to digital financial services will play a key role in deepening financial inclusion and ensuring that capital is effectively channeled into productive investments
+Considering that over 70% of private investment is expected to be sourced from the domestic fin6nci6l sector, the 6im during the NST2 period is to signific6ntly boost the n6tion6l s6vings r6te, incre6sing it from 12.4% of GDP in 2023 to 25.9% by 2029. Achieving this target will require expanding traditional financial channels and diversifying and mobilizing alternative funding sources to meet the growing demand for investment.
+Beyond increasing annual private sector credit at an average rate of 17% annually, 6 concerted effort will be m6de to 6ttr6ct innov6tive fin6ncing such 6s blended fin6ncing, venture c6pit6l, 6nd crowdfunding among others. These alternative funding options are critical for supporting emerging and high-potential businesses, particularly in sectors that drive economic growth and job creation, such as manufacturing, technology, agriculture and services.
+To further strengthen savings, initiatives will be implemented to enhance the Ejo Heza program by introducing dual accounts and providing incentives to attract more savers. Additionally, the government will work to increase and
+
+diversify the number of Collective Investment Scheme products available to investors, offering a broader range of investment options to encourage participation in the financial market.
+Additionally, capital markets will be strengthened to improve access to capital for businesses by establishing robust regulatory and governance frameworks that enhance transparency and investor protection to build market confidence, investing in modern trading and settlement infrastructure to streamline operations and reduce transaction costs. This will be complemented by introducing innovative financial instruments and services and facilitating cross-border investments through regional capital market integration. To expand listings on the capital market, the investment clinic program, which assists companies, particularly SMEs, in becoming ‘listing-ready’ will also be enhanced.
+Supporting local economic development will also be a priority through the consolidation of Umurenge Savings and Credit Cooperative Organizations (SACCOs) at district and national levels into a cooperative bank, which can improve access and provide tailored financial services to local communities and small businesses while leveraging the use of technology.
+To foster innovation, there will be a focus on promoting the growth of Fintech startups and developing effective market infrastructure that supports investments in digital innovations. In this regard, Rwanda aims to position itself as a leading international financial hub by strengthening its financial systems and attracting high-value investors and financial actors to the financial center.
+In pursuit of this goal, steps will be taken to facilitate the introduction of new 6nd 6ltern6tive forms of c6pit6l, including innov6tive fin6nci6l products and services, private banking, and wealth management to broaden the offerings within the fin6nci6l center. The National Bank of Rwanda (NBR) is scoping the introduction of a Central Bank Digital Currency (CBDC) to drive innovation, support the shift to a cashless economy, and improve cross-border transaction efficiency.
+Ultimately, these measures will help create a more resilient financial ecosystem that can better support the ambitious growth targets set for the NST2 period while fostering long-term sustainable development.
+
+3.10. Building resilience to climate change and sustainable management of the environment and natural resources
+The key objectives relate to;
+ Disaster risk reduction and management
+ Ensuring sustainable management of natural resources
+ Mobilizing climate finance and resources to support sustainable development
+ Reducing greenhouse gas emissions by 38%
+Disaster risk reduction and management will be enhanced across all sectors through several key interventions. These will include strengthening multi- hazard early warning systems, strengthening capacity for rapid response and management of disasters, restoring catchment areas, improving watershed management, and implementing flood control measures in high-risk areas, such as the Northern and Western Provinces in partnership with local communities.
+To sustain forest cover, efforts will focus on improving forest management through the use of technology, increasing forest densification with indigenous and climate-resilient tree species, promoting agroforestry and planting fruit trees. Furthermore, access to tree seedlings will be improved at a decentralized level.
+The sustainable management of natural resources will be prioritized, focusing on effective land use management and land market development to reduce speculation. To facilitate this, land use master plans for the remaining districts will be completed. In contrast, monitoring and implementing of existing plans will be strengthened by leveraging emerging technologies such as satellite imagery.
+At le6st USD 3 billion in clim6te 6nd n6ture fin6nce will be mobilized to support nature conservation and climate mitigation and adaptation initiatives. Financing instruments will be diversified to tap into innovative sources of investments across public and private sectors. A programmatic approach will
+
+be pursued, addressing major issues such as sustainable land management, climate-smart agriculture, and the development of sustainable cities.
+The implementation of various interventions mentioned above and across sectors in this strategy, will contribute to the reduction of greenhouse gas emissions by 38% over the next five years in alignment with Rwanda’s Nationally Determined Contributions (NDCs), the Paris Agreement and the revised Rwanda Green Growth and Climate Resilience Strategy (GGCRS).
+
+3.11. Creation of productive and decent jobs
+Over the next five years, the objective is to create 1.25 million Jobs (250,000 annually).
+This will be achieved by enhancing entrepreneurship and improving access to resources (such as finance, business advisory services, marketing platforms and equipment) for Micro, Small, and Medium-sized Enterprises (MSMEs) with strong job creation potential. Anchor investments in various sectors will play a crucial role in creating backward and forward linkages to markets that support growth of MSMEs and generate employment. Key sectors of focus will include manufacturing (including agro-processing), service sector jobs such as global business services (GBS), tech start-ups and the creative industry. Special focus will be placed on employment initiatives for youth and women, leveraging community-based approaches in infrastructure, environmental protection and agricultural extension programs.
+To optimize job creation, major public and private investments projects like Bugesera International Airport, the Aviation Skills Academy, Industrial Parks, the Gabiro Agri-hub, the Nyagatare Milk Powder Plant and sport complexes will serve as platforms for employment and skills development. Synergies between workplace learning, employability skills for youth, and labor market systems will be strengthened through initiatives such as internships, apprenticeships and re-skilling programs.
+In parallel, a talent pool will be developed for critical sectors such as Global Business Services (GBS) companies, financial services center, health, engineering, and more. Specialized skills including technology, communication and electrical motor maintenance will further drive the growth of job-rich, productive service sectors.
+
+To ensure sustainable job creation, deliberate strategies will be undertaken to mainstream employment creation into both public and private sector investments, with a focus on high-impact, labor-intensive projects. Through this approach, employment will be integrated and monitored from the conceptualization of projects to their execution. Labor market information systems will be improved to match job opportunities with job seekers better, ensuring efficient workforce planning and employment growth.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+30	NATIONAL STRATEGY FOR TRANSFORMATION (NST2)  2024 - 2029
+
+4.
+Social Transformation Pillar
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+FIVE YEARS GOVERNMENT PROGRAMME	31
+
+
+
+4.1. Enhanced quality and market relevance of education
+The objectives of the education sector in the NST2 include;
+ Enhancing quality of education at all levels with a focus on improving learning outcomes at foundational grades
+ Scaling up market-relevant education in Basic TVET and higher education  Increasing functional adult literacy
+ Ensuring timely enrolment and progression through education levels  Strengthening efforts to curb and reduce drop-outs
+To achieve the above, the education sector will focus on strengthening inclusive access, particularly in pre-primary and improving the quality of education at all levels.
+Pre-primary education will prioritize increasing net enrollment from 35% to 65% by developing infrastructure, increasing the number of trained teachers, and providing essential teaching and learning materials.
+
+In basic education, the emphasis will be on improving quality through providing adequate learning materials, enhanced teacher recruitment, training and management, expanding infrastructure to increase hours of learning, and reducing classroom overcrowding and the distances traveled by students to reach school.
+Working in collaboration with communities and stakeholders, mechanisms will be strengthened to ensure timely enrolment and progression at all levels of education. Emphasis will be put on lowering primary and secondary dropout rates through enhanced attendance monitoring and tracking, sustaining the school feeding program, community mobilization and addressing the root causes of drop outs.
+Additionally, there will be a strong focus on improving learning outcomes, especially in mathematics, science, and languages. The use of ICT across the education sector will be scaled up.
+Technical Secondary Schools (TSS) centers of Excellence will be established in all districts to scale up modern, high-quality training nationwide. The aim is to increase the proportion of learners enrolled in technical and vocational training schools to 60% of the total learners enrolled in upper secondary. Vocational Training Centers (VTCs) through workplace learning approaches will be scaled up in every cell in the country.
+Technical Vocational Education and Training (TVET) and Higher Learning Institutions (HLIs) will be continuously improved with modern infrastructure, equipment and provisioned with adequate consumables and materials to enhance STEM learning and promote research and innovation aligned to labor market demands.
+
+4.2. Enhanced quality of health, strengthened health systems and reduced stunting
+The objectives include;
+ Continuously improving the access to and quality of health services  Expanding the health workforce
+ Continuing to expand health infrastructure and equip health facilities
+
+ Strengthening health systems and preparedness for public health emergencies
+ Promoting medical tourism and positioning Rwanda as a hub for specialized healthcare services
+ Improving child nutrition to reduce stunting from 33% to below 15%
+Efforts will be intensified to improve m6tern6l, inf6nt, 6nd child he6lth and consequently reduce mortality in the respective categories.
+The number of active registered health workers will be quadrupled to improve the quality of healthcare and strengthen the prevention and treatment of communicable and non-communicable diseases.
+Awareness will be raised on positive behavior and lifestyle changes for disease prevention such as good nutrition practices, exercising and avoidance of behaviors that lead to alcoholism, drug abuse and teenage pregnancies, among others. Mental health professionals and related services will be scaled up and strengthened.
+The quality of Community Based Health Insurance (CBHI) services will be enhanced including review and expansion of the benefit package. Community Health Workers (CHW) will be increased and their capacities will be enhanced with the aim of professionalizing them.
+Health systems will be continuously strengthened to better manage public health emergencies. Key initiatives include developing, reinforcing and rolling out robust event monitoring and early warning systems, establishing and improving the quality of emergency health response infrastructure and services as well as strengthening multisectoral collaboration and international partnerships in health security. There will be a focus on modernizing health infrastructure and fully equipping health facilities to ensure high-quality healthcare.
+Additionally, Rwanda will be positioned as a medical tourism hub by developing critical investments in health infrastructure and systems in partnership with the private sector. This includes expanding health facilities and services in the Kigali Health City and other areas of the country to offer specialized health care. Additionally, efforts will be put into promoting drug discovery research and attracting investment in local manufacturing of pharmaceuticals.
+
+In order to promote early childhood development, an integrated and multi- sectoral approach engaging all stakeholders will be implemented focusing on scaling up and improving the quality of Early Childhood Development centers (ECDs) at all levels. This will include enhanced utilization of antenatal care services, strengthened screening, raising awareness of good feeding practices and provision of nutritious foods and supplements. This will be further complemented by improving the quality of services delivered through nutrition centers in health facilities. This will contribute to the objective of reducing stunting by more than half from 33% to below 15%.
+
+4.3. Increased access to Sanitation & Hygiene services for improved wellbeing
+Major sanitation projects will be implemented to support the sustainability of cities and urban areas. The Kigali Centralized Sewerage System Project will be completed along with the construction and operationalization of wastewater treatment plants and modern landfills in various districts.
+Public sanitation facilities will continue to be scaled up in public and private facilities to cater to the sanitation needs of all individuals with a focus on inclusivity and convenience.
+Communities and households will be mobilized to continuously adopt safe and modern hygiene and sanitation practices for disease prevention. Tailor-made sanitation solutions for different households will be promoted in collaboration with the private sector.
+
+4.4. Enhanced graduation from poverty and increased resilience
+The major objectives are to increase the capacity of households to sust6in6bly gr6du6te from poverty, reduce vulner6bility 6nd signific6ntly contribute to eliminating malnutrition. While updated household-level expenditure data provided by the Integrated Household Living Conditions Survey (EICV7) data is not yet available to establish firm baselines, the aim is to reduce poverty significantly. This will be supported by interventions and innovations that promote people out of poverty and protect and prevent people from falling into poverty.
+
+Promoting graduation from poverty will be achieved by creating an enabling environment that empowers households to grow their incomes and build resilience. Multi-sectoral interventions targeting vulnerable and poor populations will enable this, including providing access to technical, vocational and financial skills, productive assets (including toolkits and livestock) and complementary services such as business advisory, coaching and mentorship.
+Protecting people who are in poverty without the capacity to graduate and preventing people from falling into poverty will be ensured through increasing coverage and adequacy of social transfers for poor and vulnerable populations. This will be supported through inclusive social security and income support programs, such as Vision Umurenge Program (VUP) and Community Based Health Insurance (CBHI), as well as initiatives that encourage savings (including Ejo Heza) and insurance to protect households from shocks as well as reducing malnutrition through the provision of social transfers to pregnant women and children during the first 1000 days of life.
+Civil Society Organizations will be encouraged and required to align their interventions with national Social Protection policies, strategies and guidelines in order to make the most effective use of available funding.
+To enhance the tracking of the effectiveness of graduation and social protection interventions, the coordination and monitoring framework will be strengthened among Government Institutions, Development Partners, Civil Society Organizations, the Private Sector and Faith-Based Organizations through joint planning and monitoring efforts.
+
+5.
+Transformational Governance Pillar
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+FIVE YEARS GOVERNMENT PROGRAMME	37
+
+
+
+
+5.1. Enhanced Rule of Law
+To ensure universal access to quality justice, the justice system’s capacity will be strengthened, focusing on reducing the case backlogs by half and improving justice service delivery.
+This will be delivered by enh6ncing the efficiency 6nd effectiveness of existing Alternative Dispute Resolution (ADR) and Criminal Justice policies to increase cases settled through mediation and plea-bargaining. In addition, existing laws and court procedures will be reviewed and updated to increase the uptake of mediation and plea-bargaining including those relating to summary procedures and provisional detention.
+The career development policy in the judiciary will be implemented to further strengthen capacity and capabilities of judicial personnel. Improving justice service delivery will also be achieved through the adoption of innovative technologies, enhancing the functioning and use of the Integrated Electronic Case Management System (IECMS), upgrading the Forensic Institute and making its services more accessible to the public.
+
+5.2. Enhanced service delivery, implementation and inclusive citizen participation
+The increased level of citizen participation and quality of service delivery is a priority in the reinforcement of citizen-centered governance. This priority will be implemented by enhancing the efficiency and effectiveness of existing citizen participation platforms and strengthening feedback mechanisms to expedite citizens’ problem-solving and improve accountability.
+Institutional governance for delivery will be strengthened to accelerate and improve the implementation of development projects and programs and to provide quality services. Service delivery in the public and private sector will be reinforced through carrying out regular assessments to identify gaps and recommend strategies for continuous improvement in quality of services.
+The level of citizen satisfaction with service delivery is targeted to reach above 90%. This will entail reforming the public service in both central and local governments and strengthening their capacities. In addition, private service providers will be sensitized to strengthen the quality of services delivered to the community, such as hospitality, travel and tourism, financial services and others to leverage the vital contributions of the private sector to economic development.
+
+5.3. Enhanced PFM transparency and accountability
+The main objective is to enhance transparency, accountability and compliance in Public Financial Management(PFM) by improving compliance with relev6nt l6ws 6nd regul6tions 6nd fighting corruption. Efforts will be made to increase compliance with PFM rules and ensure value-for- money oversight. The expected outcomes will include public entities’ ability to adhere to International Public Sector Accounting Standards (IPSAS) and PFM regulations. This will involve phased implementation of accrual standards, risk management improvements, bolstering internal audits, as well as enhancing the monitoring of procurement practices to reduce non-compliance.
+
+A sustainable pipeline of critical PFM skills will be developed to support these objectives. This will be achieved by updating learning and development strategies to prioritize essential PFM competencies and increasing the capacity to implement advanced PFM practices at decentralized levels through professional bodies.
+PFM capabilities will also be enhanced by creating sustainable and integrated systems that respond effectively to user needs. This will involve the digital transformation of the Integrated Financial Management Information System (IFMIS) as a decision-making tool using artificial intelligence and big data analytics, expanding the e-procurement (Umucyo) coverage, modernizing revenue collection infrastructure, and digitizing audit processes. Local government revenue management systems will also be enhanced to support better resource mobilization.
+Additionally, climate-responsive PFM will be enhanced by integrating sustainability into public investment management and supporting green procurement. In tandem, PFM staff will be equipped to manage climate- related risks and report on them effectively.
+Lastly, generating high-quality and timely data will support evidence-based decision-making in planning, budgeting, monitoring and evaluation.
+
+5.4. Enhanced international cooperation
+International cooperation and diplomacy will be strengthened to accelerate Rwanda’s economic development with a focus on economic diplomacy. This includes securing trade and investment opportunities and boosting tourism by leveraging initiatives such as the African Continental Free Trade Area (AfCFTA) agreement. The Rwandan Community Abroad will be mobilized and engaged to sustain participation in the national development agenda and the quality of services rendered to them will be improved.
+
+5.5. Strengthened National unity, resilience, culture and values
+National unity, resilience and civic engagement will be strengthened by continuing to institutionalize Rwandan culture and values in civic education (Ndi Umunyarwanda, Itorero, etc.) and national development programs.
+The prevention 6nd fight 6g6inst genocide ideology 6nd 6ll forms of discrimination will be reinforced. This will be achieved by enhancing education on the history of the Genocide against the Tutsi using widely accessible platforms including social media as well as raising legal awareness on the crime of genocide ideology and related crimes.
+
+5.6. Sustained peace and security
+Crime prevention and response, public order, safety, security, and territorial integrity will be sustained and strengthened by continuing to professionalize and enhance the capacity of security organs while continuously engaging and working with communities to contribute to Rwanda’s socio-economic development. Rwanda will also continue contributing to peace and security through bilateral, regional and international cooperation.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+42	NATIONAL STRATEGY FOR TRANSFORMATION (NST2)  2024 - 2029
+
+6.
+Cross-Cutting Areas
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+FIVE YEARS GOVERNMENT PROGRAMME	43
+
+To address cross-sectoral challenges in economic, social, governance and environmental dimensions, NST-2 will take into consideration the following Cross-Cutting Areas (CCAs):(i) Environment and Climate Change, (ii) Disability and Social Inclusion, (iii) Disaster risk reduction and Management, (iv) HIV/ AIDS and Non-Communicable Diseases(v) Gender and Family Promotion(vi) Regional Integration and International Positioning (vii) Capacity Development. These areas will be mainstreamed, monitored and evaluated across all Sector Strategic Plans and District Development Strategies by the respective CCAs lead institutions.
+
+6.1. Environment and climate change
+The government of Rwanda has been active in global action on climate change and safeguarding nature and the environment in support of sustainable economic growth and resilient communities. Under NST 2, emphasis will be given to greening 6nd clim6te-proofing key sector6l 6re6s through conducting Strategic Environmental Assessment (SEA), and Environment and Social Impact Assessment (ESIA) at both policy and implementation levels. The revised National Investment Policy provides a programmatic orientation to green and climate-proof national investment. Thus, all new national investments programs will be assessed to ascertain the extent to which they integrate green and climate change aspects before they are approved for funding.
+In addition, Sectors and Districts, through SSPs and DDSs, will mainstream Environment Climate Change Cross Cutting Area priority interventions. Key sectors that will be prioritized are Agriculture, Climate change, Environment, and Natural Resources (CENR), Energy, Water and Sanitation (WASH), Transport, Urbanization, Private Sector Development and Youth Employment (Trade & Industry), ICT, Financial, Health, Education, Social Protection and Governance and Decentralization. Successful implementation will be further facilitated by Climate Budget Tagging (CBT) to integrate, monitor and track climate-related expenditures in the national budget.
+
+6.2. Disability and Social Inclusion
+In Rwanda, mainstreaming Disability and Social Inclusion is an essential matter of rights. One of the key focus areas will include increasing the level of citizen participation and inclusiveness by ensuring that persons with Disabilities, their organizations, and other vulnerable groups are capacitated to play an active role in the transformational programs. Key sectors of focus that will mainstream this cross-cutting area are education, healthcare services, social protection, infrastructure, agriculture, sports, employment, and ICT.
+
+6.3. Disaster risk reduction and management
+Mainstreaming disaster management in Rwanda involves integrating Disaster Risk Reduction (DRR) and response efforts across various sectors to effectively mitigate, prepare for, respond to, and recover from disasters. Several sectors play crucial roles in this process, each addressing specific aspects of disaster management. Key development Sectors are highlighted in mainstreaming disaster risk reduction and management, focusing on those with high impact: Environment, Agriculture, Mining and quarrying, Water and Sanitation, Energy, Transport, Housing, Education, Health, Financial and Social Protection. Emphasis will be put on sustaining progress and strengthening gender-responsive capacities for disaster risk reduction and management and enhancing resilience through developing and implementing sector disaster risk mitigation plans, promoting integrated and inclusive approaches focusing on the most vulnerable to risk management such as; joint inspections to ensure compliance, strengthening and implementing community-based disaster resilience measures including putting in place water harvesting and drainage systems and house retrofitting.
+
+6.4. HIV/AIDS & Non-communicable diseases
+HIV/AIDS and Non-Communicable Diseases (NCDs) pose significant challenges to public health, requiring multi-sectoral collaboration for their prevention and control. Under NST2, the focus will be on sustaining progress in combating HIV/AIDS 6nd NCDs. Targeted awareness campaigns for youth, especially Adolescent Girls and Young Women (AGYW), will be conducted, alongside promoting effective prevention interventions for men, including voluntary Medical Male Circumcision. Comprehensive policies will be developed and implemented in collaboration with multiple stakeholders to address HIV/ AIDS, reduce stigma and discrimination, improve the socio-economic status of affected populations, and human rights, reduce inequalities and gender- based violence, and ensure social and legal protection for those living with or affected by HIV/AIDS.
+In terms of strengthening and promoting NCDs prevention and Control, the government will promote a whole-of-society, life-course and multisectoral collaboration approach, for a sustainable response. The main strategies and interventions will include regular public awareness on lifestyle practices that prevent NCDs as well as capacity-building initiatives for community health workers and certified public health workers on NCDs prevention and early detection/screening to enable them to drive community NCDs awareness programs.
+
+6.5. Gender and Family Promotion
+Rwanda’s strong legal framework has facilitated significant progress in narrowing gender gaps and improving social-related indicators. The focus will be on ensuring equal access, use, and control over productive resources by men and women both in urban and rural areas to support inclusive accelerated economic growth, developing women’s technical skills in male- dominated areas such as infrastructure, industry, mining, Agri-Hub, sports, and creative industry to support their entrepreneurship, employability, business development, and trade opportunities. In addition, efforts will be made to further institutionalize gender equality in all levels of education, including bridging the gender divide in ICT, STEM, and TVET education programs as well
+
+as continuing to increase women’s representation and participation at all levels of leadership and decision-making in both public and private sectors.
+To ensure prosperous Rwandan families, the emphasis will be on promoting a stable and productive family through implementing targeted poverty alleviation programs for vulnerable households, especially female-headed ones, through VUP, livestock and other assets support, access to low-interest loans, and entrepreneurship skills development. Moreover, the government will continue to strengthen other home-grown initiatives, to promote positive parenting in building resilient and secure families. Gender transformative approaches to enhance the prevention of domestic and gender-based violence, intra-household conflicts, child labor, behaviors that lead to alcoholism, drug abuse, street children and teenage pregnancies, among others, will be enhanced.
+
+6.6. Regional Integration and International Positioning
+Rwanda’s active engagement in regional integration aligns with the Vision 2050, prioritizing increasing access to global and regional markets, enhancing trade connectivity, and fostering investment. Deepening integration within the East African Community (EAC) and other regional blocs such as COMESA will continue to be a cornerstone for the country’s economic and diplomatic efforts. Rwanda will continue to enhance its competitive advantage by focusing on export diversification and participation in global value chains, which are essential for economic resilience and sustainable growth.
+This will be done through implementing initiatives such as the African Continental Free Trade Area (AfCFTA), preferential trade agreements, bilateral trade and investment treaties, double taxation agreements among others. This cross-cutting approach will solidify Rwanda’s international positioning as a regional hub for investment and a promoter of the free movement of people and goods and secure its role as a land-linked country.
+
+Additionally, the Government of Rwanda will continue to expand cross-border trade and eliminate non-tariff barriers including improving trade logistic infrastructure and harmonizing regulatory frameworks across the region. Key strategic interventions will involve advocating for the implementation of joint infrastructure projects critical to regional integration, as well as extending the geographic reach of broadband infrastructure, and enhancing regional transport corridors to reduce trade costs, improve connectivity, and bolster Rwanda’s integration into regional and global markets.
+
+6.7. Capacity development
+To ensure the availability of capable institutions, systems, and human resources, NST2 will promote comprehensive initiatives targeting institutions, and people and creating an enabling environment for capacity enhancement and retention. As such, the following areas for capacity development will be prioritized. (i) establishing efficient systems for tracking equal enrollments and transitions in TVETs and STEM, employability trends among University and HLIs graduates, (ii) increasing professional qualifications (in priority sectors driving innovation and digitally led growth), (iii) enhancing professional internship programs with both private and public institutions, (iv) strengthening staff and knowledge retention, and promotion of succession planning across the public sector.
+In addition, more focus will be on promoting youth and women’s entrepreneurship, digital and other soft skills development, and access to employment opportunities as well as supporting sector- specific training in critical skills and emerging technologies, such as AI, big data analytics, and green technologies.
+
+7.
+NST2
+Implementation Arrangements
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+FIVE YEARS GOVERNMENT PROGRAMME	49
+
+The National Strategy for Transformation (NST2) implementation framework defines the core structures, institutions, and mechanisms essential for delivering NST-2 priorities effectively. Successful implementation requires enhanced coordination, stakeholder engagement, and integrated planning, supported by systems for real-time performance tracking and data-driven decision-making. A strong oversight and accountability framework ensures progress remains aligned with national priorities. Key institutions such as Parliament and Cabinet provide strategic oversight, while cross-sectoral platforms such as Ministerial Clusters, SWGs, and JADFs facilitate collaboration and stakeholder participation. The private sector and civil society play pivotal roles by driving innovation, mobilizing resources, engaging citizens, and ensuring accountability, thereby enhancing NST-2’s impact across all sectors.
+
+7.1. Institutional roles and responsibilities
+To further clarify the roles and responsibilities of the various institutions involved in NST-2 implementation, the following table provides a detailed breakdown of the key actors, their functions, and their contributions to achieving the strategy’s objectives
+Table 4 - Roles and Responsibilities of institutions in NST2
+
+InstitutionRoles and responsibilitiesParliament Provide oversight and ensure accountability
+ Enact and amend laws including the finance law (national budget) aligned with NST-2 prioritiesCabinet Provide high-level policy and strategic orientation to guide NST-2 implementation
+ Provide strategic guidance to prioritization and allocation of resources
+ Receive strategic level reports on implementation performance and take high level decisions on corrective actions needed
+InstitutionRoles and responsibilitiesOffice of the Prime Minister (OPM) Ensure cross-sectoral alignment of policies with NST-2 priorities
+ Ensure cross-sectoral coordination for the execution of NST-2 priorities
+ Monitor performance of government institutions both at central and local levels to ensure delivery of NST2.
+ Take decisions on unblocking of cross-sectoral implementation challengesNational Leadership Retreat (Umwiherero) Conduct annual leadership-level reviews of strategic areas of the NST-2.
+ Address key implementation bottlenecks and recommend actions to fast track deliveryNational Umushyikirano Council Provide accountability to citizens on implementation of NST2
+ Engage and sensitize citizens and stakeholders on their role in contributing to the execution of the NST2Permanent Secretaries (PS) Forum Monitor and review performance of NST2 at sector and technical level
+ Identify and unblock implementation challenges at technical level.Development Partners Coordination Group (DPCG) Ensure alignment of development partners’ funding and resources to NST2 priorities
+ Discuss progress, challenges and lessons on NST2 performance
+ Provide advice on strategies, policies and innovations to accelerate implementation of NST2 building on international best practices and experiences as well as discussions at sector working group level
+
+InstitutionRoles and responsibilitiesMinisterial Clusters Serve as a Ministerial platform for consultation and engagement on policies and strategies relating to the NST2
+ Ensure Ministerial level coordination and follow up of emerging issues pertaining to NST2 implementation in the relevant clusters
+ Identify areas requiring coordinated action and propose innovative solutions to accelerate implementationSector Working Groups (SWGs) Facilitate policy dialogue, joint planning, resource mobilization, delivery, monitoring, evaluation and lesson learning on Sector Strategic plans (SSPs), priority programmes and projects at SWG level linked to delivery of NST2
+ Coordinate partners, the private sector, civil society and other stakeholders in the sector to ensure successful implementation of SSPs aligned to NST2
+ Provide input to prioritization and resource allocation at sector level in line with NST2 prioritiesCity of Kigali and District Councils Approve the CoK/District Development Strategy (CoK/DDS) aligned to NST2
+ Provide oversight for implementation of the CoK/ DDS and ensure accountability of the executive
+ Guide prioritization and resource allocation in line with the CoK/DDS and NST2 priorities
+InstitutionRoles and responsibilitiesJoint Action Development Forum (JADF) Facilitate dialogue, joint planning, resource mobilization, delivery, monitoring, evaluation and lesson learning on District Development Strategies (DDS), priority programmes and projects at district level linked to delivery of NST2
+ Coordinate and mobilize partners in the district including, the private sector, civil society and other stakeholders to ensure successful implementation of DDS aligned to NST2Ministry of Finance and Economic Planning (MINECOFIN) Coordinate the elaboration of the NST2 and related strategies in collaboration with OPM, MINALOC, SWGs and districts
+ Coordinate national planning, investments, monitoring, resource mobilization, prioritization and allocation in line with NST2 priorities
+ Coordinate development partners and ensure alignment of interventions and resources to NST2 priorities
+ Establish robust monitoring systems for tracking of progress of the NST2 and related strategies
+ Coordinate evaluations, research and studies to support lesson learning in the implementation of NST2
+InstitutionRoles and responsibilitiesMinistry of Local Government (MINALOC) Coordinate the process for elaboration of CoK/ District Development Strategies in collaboration with CoK, Provinces and Districts
+ Support integration of NST2 priorities into CoK/DDS
+ Support harmonization of priorities between central and local government in the elaboration of CoK/ DDS
+ Support prioritization of cross-district interventions in the relevant CoK/DDS
+ Support strengthening of stakeholder coordination and engagement forums at the district level
+ Ensure and strengthen citizen engagement in development programmes
+ Support development and strengthening of robust monitoring and evaluation systems in Districts
+to support tracking of performance and lesson learning in implementation
+ Support resource mobilization for local governments aligned to CoK/DDS and NST2 prioritiesNational Institute of Statistics of Rwanda (NISR) Ensure quality of indicators in NST2 and related strategies
+ Develop metadata for NST2 indicators
+ Collect, analyse, and disseminate timely statistical information data for evidence based decision- making pertaining to NST2 and related strategies
+7.2. NST2 implementation enablers
+A key takeaway from the implementation of NST1 is that the second generation of the National Strategy for Transformation (NST2) requires enhanced focus on strengthening coordination and implementation to deliver faster and better results by focusing on the following:
+i) Optimizing governance structures
+To support efficient implementation, institutional frameworks, planning and coordination structures will be optimized and aligned with NST2 priorities. This includes strengthening cross-sectoral coordination, improving project design, and strengthening collaboration and engagement at all levels.
+ Cross-institutional platforms: mechanisms such as the Ministerial Clusters, Sector Working Groups (SWGs), and Joint Action Development Forum (JADF), will be reviewed and optimized to enhance stakeholder engagement and ensure development goals are met efficiently. Cross- sectoral coordination will ensure that national priorities are addressed holistically, with economic and spatial planning integrated to optimize resource allocation.
+ Private Sector and Civil Society Engagement: the engagement of the private sector will be scaled up across sectors, most especially in job creation, exports, industry, investment, and tourism among others. The private sector will also be engaged in developing bankable investment projects that support the delivery of NST2 priorities. This will drive innovation, facilitate the mobilization of resources, and foster economic growth. Additionally, the role of civil society as a key implementing partner will be enhanced by promoting accountability, strengthening citizen engagement, and ensuring that development goals align with community needs. This collaboration will help to deliver more inclusive and sustainable NST2 outcomes.
+ Project Execution and Delivery: The functioning of Single Project Implementation Units (SPIU) across institutions will be streamlined to make them fit-for-purpose for effective and efficient delivery of projects. Engagement will continue with development partners to accelerate
+
+procurement processes and enhance regular joint monitoring and feedback processes to fast-track and unlock financing for major projects and programs. Lastly, the capabilities of implementing agencies and districts will be reinforced to deliver programs, projects and services effectively.
+ii) Harnessing data and technology
+The systems supporting NST2 implementation will rely on technology, data, and evidence-based decision-making. This will streamline processes, improve resource allocation, and ensure that decisions are based on solid evidence.
+ Integrated planning: planning functions will be strengthened across government, particularly for key issues such as job creation, exports and manufacturing, stunting, private sector development, and poverty reduction. Project planning, design, and preparation will enhance the focus on outcomes rather than outputs to accelerate delivery.
+ Economic and spatial planning: Economic and spatial planning will be further integrated to ensure efficient resource allocation in accordance with designated land uses, maximizing the development impact of projects and programs on citizens.
+ Technology and digitalization: Digital platforms and tools will streamline service delivery by automating processes, reducing bureaucratic delays, and improving access for citizens. These technologies will enhance communication between government offices and with the public, while increasing operational efficiency and lowering costs.
+ Data and statistics: Data will be leveraged to drive informed decision- making, optimize resource allocation, and enhance progress tracking. Addressing data gaps will be prioritized including the use of big data analytics to improve the availability and accuracy of statistical information as well as enhancing assessments of development interventions.
+ Strengthening Monitoring, Evaluation, and Learning (MEL): the M&E framework will emphasize proactive monitoring to identify and address potential challenges early. The use of digital systems for real-time reporting and analysis will support lesson learning and data-driven decision-making, ensuring the smooth execution of NST2 priorities.
+
+iii) Building innovation and skills
+Continuous innovation and skills building are fundamental to the successful implementation of NST2. This requires a focus on innovation, research, and capacity-building to ensure that the workforce is equipped to deliver on NST2 priorities.
+ Innovation, research, and development: Rwanda’s ambition to become a knowledge-based economy will be realized by fostering a culture of innovation and creativity. Strengthening the National Innovation System will lead to the development of new solutions to address socio-economic challenges. Research and development initiatives will directly inform policies and projects, providing tailored solutions to the country’s needs.
+ Capacity and skills development: a continuous skilling and upskilling program will be implemented to strengthen project management, strategic coordination, and data-driven decision-making across all government levels. The national public sector induction program will lay the foundation for new recruits, while targeted skilling initiatives will focus on ensuring ministries and agencies have the capacity to deliver NST2 priorities effectively.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+58	NATIONAL STRATEGY FOR TRANSFORMATION (NST2)  2024 - 2029
+
+8.
+NST2 Monitoring and Evaluation Framework
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+FIVE YEARS GOVERNMENT PROGRAMME	59
+
+8.1. NST2 M&E framework
+The Monitoring and Evaluation (M&E) framework is designed to support the implementation of NST2 by enabling monitoring of progress, evaluation, and lesson learning during implementation of the NST2. The M&E framework will leverage technology and digital tools and reporting will consider data disaggregation by gender, and other special categories, especially at the SSP and DDS level.
+The M&E framework is composed of the following key tools:
+i) NST2 Theory of Change (ToC)
+To facilitate the tracking and implementation of NST2 priorities, a Theory of Change has been developed across the three NST2 pillars of Economic and Social Transformation as well as Transformational Governance. This framework outlines a hierarchy of results that are logically linked. The highest result level being a goal, followed by priority areas, outcomes and strategic interventions. The NST2 ToC will be implemented by cascading it to the SSP and the DDS levels. At these cascaded levels, a combination of results contributes directly and indirectly to the NST2 goals.
+
+Result statements in the ToCDefinitionGoalThis describes the overall objective or desired result to be achievedPriority AreaThe strategic focus of initiatives that contribute to achievement of a goalOutcomesMedium to long-term impact resulting from the implemented interventions. A combination of outcomes contributes to the achievement of the priority area.Strategic interventionsMajor activities that will be carried out to achieve the desired outcomes
+ii) SSP Theory of Change
+The SSP ToC draws from the high level results outlined in the NST2 ToC. The SSP ToC goes beyond the results mentioned in the NST2 to integrate other priorities at the sector level.
+iii) CoK/District Theory of Change
+The CoK/DDS ToC draws from the high-level results outlined in the NST2, relevant SSPs ToC and extends to city or district-specific priorities.
+Strategic interventions identified in the respective levels of ToCs are further cascaded to relevant institution strategic plans and central and local levels and implemented through the Medium Term Expenditure Framework (MTEF), the annual planning and budgeting process and annual performance contracts (Imihigo).
+iv) NST M&E Matrix
+The NST2 M&E Matrix shows high-level outcomes, their respective indicators, baselines, targets across the implementation period, institutions responsible for reporting, and means of verification or data sources. This enables the tracking of targets contained in the NST2. The NST2 matrix is embedded within the respective SSPs’ M&E matrices for regular monitoring. The NST2 matrix comprises two result-level categories of macroeconomic high-impact outcomes and indicators and other national level results. The NST2 M&E matrix is the basis for annual reporting and tracking of the performance of the NST2 at the national level.
+v) SSP M&E Matrix
+The SSPs M&E matrix indicates the outcomes, associated indicators, baselines and targets to be tracked in respective SSPs. This matrix includes outcomes, indicators and targets cascaded from the NST2 M&E matrix sector specific ones. The SSP matrix is monitored at the SWG level annually through joint sector reviews and informs reporting on the NST2 M&E matrix for the relevant sectors.
+
+vi) CoK/DDS M&E Matrix
+This matrix shows outcomes, associated indicators, baselines, and targets to be tracked in CoK or respective DDSs. It includes outcomes, indicators, and targets cascaded from the NST2 and SSP M&E matrices in addition to those that are district-specific. The matrix is monitored at the CoK/district level annually through JADF and administrative reports submitted to the District Council. The tracking of progress on the CoK/DDS M&E matrix, informs reporting at the level of the respective SSP M&E matrix.
+vii) NST2 Metadata of indicators
+This is a collection of indicators contained in the NST2 M&E matrix. It elaborates on how each indicator is defined and measured, the data sources, the frequency of collection, and the responsible institutions for reporting. This is developed by NISR working closely with relevant sector working groups and institutions. The metadata is publicly accessible through the NISR website. SWGs will also develop metadata for indicators reflected in their SSP M&E matrix that are not captured in the NST2 matrix.
+
+8.2. NST2 Evaluation
+The evaluation of the NST2 will build on assessments and evaluations conducted at the SWG level including performance contract (Imihigo) evaluations among others. A mid-term evaluation will be conducted at the national level to assess the status of NST2 implementation, identify progress, challenges, and lessons learned and devise measures to accelerate progress. A final assessment and ex-post evaluation will be conducted to review the outcomes and impact of the NST2 and extract lessons for successor strategies.
+
+9.
+Conclusion
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+FIVE YEARS GOVERNMENT PROGRAMME	63
+
+The Second National Strategy for Transformation is set to drive significant progress across all economic sectors and improve the livelihoods of Rwandans. Prerequisites for this positive change across the entire country include:
+ Continuing to foster an inclusive development model. The aim is to ensure all citizens have access to development opportunities and no one is left behind, including people with disabilities, children, youth, and women, among others. In particular efforts will be dedicated to gender equality and empowerment in addition to the development of youth who are at the forefront of Rwanda’s development agenda.
+ Continuing to enshrine Rwanda’s unique and positive cultural values in the country’s development. Progress realized over the last three decades is the result of homegrown solutions and continuous innovation that build on the country’s unique culture and values. This includes strengthening families as a foundation for sustainable development.
+ Ensuring value for money. The bedrock of Rwanda’s development is ensuring increased productivity of every resource invested by eliminating all forms of corruption and enhancing transparency and accountability.
+ Adopting a positive developmental mindset founded on the unity of Rwandans. Lessons learned have shown that nothing is impossible when Rwandans put their collective minds together; as evidenced by the remarkable progress achieved in the aftermath of the Genocide against the Tutsi.
+ Strengthening mechanisms for implementation and delivery. The successful delivery of this strategy hinges on efficient and effective implementation. This means enhancing decision-making, strengthening engagement, ownership and collaboration with all stakeholders. ‘Business as usual’ will not be sufficient to deliver on these ambitions and should not be tolerated.
+The success of NST2 depends on the collective commitment and action of all stakeholders – citizens,youth, the private sector, faith-based organizations, civil society, academia, media and development partners. Every Rwandan is urged to approach NST2 with determination and solidarity, transforming challenges into opportunities and propelling the nation towards a prosperous and equitable future.
+
+...
+Annex
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+FIVE YEARS GOVERNMENT PROGRAMME	65
+
+Annex 1: NST2 Monitoring and Evaluation Matrix
+
+No
+
+NST2 Outcome
+
+Indicators
+
+Units
+Baseline
+(2023/24)Mid-term targetEnd period target
+Responsibility for reportingMeans of verific6tion and Data Sources26/2728/292023
+(baseline)202620291Sustainable economic growth and increased per capita incomesAnnual average Real GDP growth
+Nominal GDPPercentage
+
+In Billion FRW, current prices8.2%
+
+16,3558.3%
+
+24,0689.3%
+
+37,413MINECOFINGDP Annual National AccountsGDP Per capitaUSD1,0401,0471,369Annual average Agriculture GDP growthPercentage1.7%6.7%6.5%Annual average Industry GDP growthPercentage10.2%9.7%10.6%Annual average Services GDP growthPercentage11.2%8.9%10.2%2Increased national savings for investmentNational SavingsPercentage of GDP12.4%19.6%25.9%MINECOFIN,
+Financial SectorMINECOFIN,
+reports
+
+
+
+No
+
+NST2 Outcome
+
+Indicators
+
+Units
+Baseline
+(2023/24)Mid-term targetEnd period target
+Responsibility for reportingMeans of verific6tion and Data Sources26/2728/293Increased value of private investmentsPrivate investment in valueIn Billion USD2.23.14.6RDB, PSDYE
+SectorMINECOFIN
+reports4Increased value of exports and reduced current 6ccount deficit exportsExports of goods and servicesIn million USD3,5094,9947,316MINICOM, PSDYEGDP National accounts, NISRCurrent Account DeficitPercentage of GDP-11.8%-10.7%-7.9%NBR5Increased Productive and decent jobs by 1.25
+million (250,000
+annually)Number of new decent and productive jobs createdNumber (cumulative additional)1,374,204750,0001,250,000MIFOTRA, RDB,
+PSDYE SectorNISR, Labor Force surveyECONOMIC TRANSFORMATION PILLAR6Modernized Crop Production and productivityIndex on Productivity increase for priority food cropsPercentage->10%
+annually>10%
+annuallyNISRSAS
+
+
+
+No
+
+NST2 Outcome
+
+Indicators
+
+Units
+Baseline
+(2023/24)Mid-term targetEnd period target
+Responsibility for reportingMeans of verific6tion and Data Sources26/2728/29Productivity and production for specific priority food cropsMT/Ha (MT)Maize: 1.7
+(508,492)Maize: 2.26
+(665,701)Maize: 2.74
+(874,337)NISRSeason Agriculture Survey (SAS)Beans: 0.6
+(441,406)Beans: 1.3
+(565,009)Beans: 1.5
+(662,115)NISRSASRice: 4.0
+(133,628)Rice: 4.8
+(240,073)Rice: 5.4
+(293,178)NISRSASIrish Potatoes:
+8.2 (781,032)Irish Potatoes: 11.4
+(1,144,425)Irish Potatoes: 14.7
+(1,498,545)NISRSASWheat: 1.2
+(16,656)Wheat: 1.38
+(22,169)Wheat: 1.48
+(26,825)NISRSASSoybean: 0.4
+(29,059)Soybean: 1.1
+(53,019)Soybean:
+1.4 (64,152)NISRSASCassava: 13.5
+(1,345,379)Cassava: 16.5
+(1,567,734)Cassava: 17.9
+(1,653,924)NISRSAS
+
+
+
+No
+
+NST2 Outcome
+
+Indicators
+
+Units
+Baseline
+(2023/24)Mid-term targetEnd period target
+Responsibility for reportingMeans of verific6tion and Data Sources26/2728/29Cooking banana: 14.2
+(1,049,838)Cooking banana: 17.9
+(1,274,919)Cooking banana: 19.7
+(1,424,973)NISRSASArea under irrigationHa71,54999,260132,171MINAGRIMINAGRI
+ReportsArea Under terracesHa (Radical)142,318155,768167,268MINAGRIMINAGRI
+ReportsHa (Progressive)1,032,2821,071,2821,102,282MINAGRIMINAGRI
+ReportsQuantity of fertilizers appliedKg per Ha7079.694.6MINAGRISASPercentage of farmers using improved seeds
+ Large-scale farmers (LSF)
+ Small-scale farmers (SSF)Percentage (LSF)85.794100MINAGRIMINAGRI
+ReportsPercentage (SSF)35.94750MINAGRIMINAGRI
+Reports
+
+
+
+No
+
+NST2 Outcome
+
+Indicators
+
+Units
+Baseline
+(2023/24)Mid-term targetEnd period target
+Responsibility for reportingMeans of verific6tion and Data Sources26/2728/29Coverage of agricultural extension servicesPercentage356069MINAGRIMINAGRI
+Reports7Strengthened Market Linkages and Post-Harvest InfrastructuresPost-harvest losses on food cropsPercentage13.88.54.8MINAGRIMINAGRI
+Reports8Modernized Animal Resources production and productivityProduction of milk productsMT1,061,3011,220,4961,323,561MINAGRIMINAGRI
+ReportsProduction of Meat productsMT197,778227,445247,223MINAGRIMINAGRI
+ReportsProduction of FishMT46,49564,50077,700MINAGRIMINAGRI
+ReportsProduction of EggsMT17,34419,94620,813MINAGRIMINAGRI
+Reports9Strengthened Agriculture De-risking for resilienceCrops insuredHa33,26958,82475,841MINAGRIMINAGRI
+Reports
+
+
+
+No
+
+NST2 Outcome
+
+Indicators
+
+Units
+Baseline
+(2023/24)Mid-term targetEnd period target
+Responsibility for reportingMeans of verific6tion and Data Sources26/2728/29Livestock insuredNumberCattle: 48,962Cattle: 53,462Cattle: 58,962MINAGRIMINAGRI
+ReportsNumberPigs: 7,300Pigs: 82,300Pigs: 157,300MINAGRIMINAGRI
+ReportsNumberPoultry: 274,506Poultry 364,506Poultry: 474,506MINAGRIMINAGRI
+ReportsCredit to Agriculture Sector as a percentage of total loansPercentage6810MINAGRIBNR/ MINECOFIN10Increased sector contributions to exportsExport to import ratioPercentage61%70.6%77%MINICOM, PSDYENISR, National accountValue of mining exportsUSD Billion1.11.62,17RDB, PSDYE
+SectorGDP National accounts, NISRValue of Tourism revenues
+Value of MICE (tourism sub-sector) revenuesUSD Millions
+
+
+USD Millions620
+
+
+95908
+
+
+1561,100
+
+
+224RDB, PSDYE
+SectorRDB annual reports
+
+
+
+No
+
+NST2 Outcome
+
+Indicators
+
+Units
+Baseline
+(2023/24)Mid-term targetEnd period target
+Responsibility for reportingMeans of verific6tion and Data Sources26/2728/2911Increased spatial access to electricity countrywidePercentage of cells with access to electricityPercentage (& number)91%
+(1,955 cells)96%
+(2,064 cells)100%
+(2,148
+cells)MININFRA,
+Energy SectorMININFRA
+ReportsPercentage of productive use areas with access to electricityPercentage86%94%100%MININFRA,
+Energy SectorMININFRA
+Reports12Enhanced share of renewable energy in electricity generation mixPercentage share of renewable energy in power generation mixPercentage51%53.8%60%MININFRA,
+Energy SectorMININFRA
+Reports13Increased access to drinking waterPercentage of villages with access to improved drinking waterPercentage80%
+(2023)90%100%MININFRA,
+WATSAN SectorMININFRA
+Reports14Improved quality of the road network and trade supporting infrastructureLength of unpaved National roads upgraded to paved (Cumulative)Km1,7291,8181,941RTDAMININFRA
+Reports
+
+
+
+No
+
+NST2 Outcome
+
+Indicators
+
+Units
+Baseline
+(2023/24)Mid-term targetEnd period target
+Responsibility for reportingMeans of verific6tion and Data Sources26/2728/29Length of national paved road rehabilitatedKm598647711RTDAMININFRA
+ReportsLength of feeder roads rehabilitated (Cumulative)Km4,187.54,4044,797RTDAMININFRA
+Reports15Increased access to decent housing and enhanced resilience of communitiesPercentage of rural households living in integrated planned rural settlementsPercentage65.4%-81.1%MININFRA,
+Urbanization and Rural Settlement SectorEICV Survey, NISRPercentage of urban population living in unplanned settlementsPercentage60%-52.7%MININFRA,
+Urbanization and Rural Settlement Sector, CoK, DistrictsEICV Survey, NISR16Increased digital literacyPercentage of citizens with basic digital literacy skills (15 years above)Percentage53%80%100%MINICT/RISANISR reports
+
+
+
+No
+
+NST2 Outcome
+
+Indicators
+
+Units
+Baseline
+(2023/24)Mid-term targetEnd period target
+Responsibility for reportingMeans of verific6tion and Data Sources26/2728/2917Enhanced Environmental management, mitigation and adaptation to climate changeNational GHG emissionsMtCO2e6.75
+(2020)-7.5
+(With Interven- tions)MoEMoE, NISR
+reports18Increased resilience to climate change and reduced impacts of disastersPercentage of households in high-risk areas protected from flood- related hazardsPercentage9%20%40%RWBRWB Annual report19Mobilized climate and n6ture fin6nceIncreased climate and nature finance (cumulative)USD Billion4.86.87.8MoE, MINECOFINMoE, MINECOFIN,
+RGF reportsSOCIAL TRANSFORMATION PILLAR20Increased enrollment in pre-primary educationNet enrolment rate in pre-primaryPercentage39%54.6%65%MINEDUCEMIS report
+
+
+
+No
+
+NST2 Outcome
+
+Indicators
+
+Units
+Baseline
+(2023/24)Mid-term targetEnd period target
+Responsibility for reportingMeans of verific6tion and Data Sources26/2728/2921Improved timely enrollment, efficiency, equity and learning outcomes
+in primary educationDropout rate in PrimaryRate5.5%4.5%< 3.9%MINEDUCEMIS ReportPupil Trained Teacher ratio in PrimaryRatio62:153:149:1MINEDUCEMIS Reports% learners at or above basic proficiency in Kinyarwanda/English/ numeracy in P3.PercentageKinyarwanda: 69%
+English: 37.52%
+Numeracy: 55.6%2025/26
+79%
+
+50%
+
+65%2027/28
+98%
+
+60%
+
+70%MINEDUCLARS Report22Increased net enrolment and quality in basic secondary education Reduced repetition Rate in primary and secondaryPercentage of learners at or above basic proficiency in Mathematics, science and English in S3PercentageMath: 63.8%
+English: 47.2%
+Science: 65.6%2025/26
+68%
+
+49.5%
+
+70%2027/28
+72%
+
+75%
+
+75%MINEDUCLARS ReportDropout rate in secondaryPercentage7.5%6.1%< 5.1%MINEDUCEMIS Reports
+
+
+
+No
+
+NST2 Outcome
+
+Indicators
+
+Units
+Baseline
+(2023/24)Mid-term targetEnd period target
+Responsibility for reportingMeans of verific6tion and Data Sources26/2728/2923Enhanced access
+to quality education in basic Technical and Vocational Education and Training (TVET)Percentage of students enrolled in TVET as proportion of total students enrolled in upper secondaryPercentage43%55%60%NESAEMIS ReportsNumber of TSS Centers of Excellence establishedNumber1930MINEDUCEMIS Reports24Reduced prevalence of stunting among under five ye6rs childrenPrevalence of stunting among children under five yearsPercentage33%22.2%<15%MoH, Health SectorDHS25Reduced maternal and child mortalityMaternal mortality ratioPer 100,000 live births1057860MoH, Health SectorHMIS/MoHUnder 5 mortality ratio.Per 1,000 live births4531.820MoH, Health SectorHMIS/MoH26Increased Human Resources for quality HealthRatio of active licensed Doctors to populationRatio per 100,000 of
+population15.225.832MoH, Health SectorMoH reports
+
+
+
+No
+
+NST2 Outcome
+
+Indicators
+
+Units
+Baseline
+(2023/24)Mid-term targetEnd period target
+Responsibility for reportingMeans of verific6tion and Data Sources26/2728/29Ratio of active licensed Nurses to populationRatio per 100,000 of
+population97.4135171MoH, Health SectorMoH reportsRatio of active licensed Midwives to populationRatio per 100,000 of
+population58.1137.7185MoH, Health SectorMoH reports27Increased access to sanitation servicesPercentage of households with access to improved sanitation facilitiesPercentage92.%97%100%MININFRA,
+WATSAN SectorMININFRA
+ReportsPercentage of population with basic sanitation servicesPercentage72.10%75%77%MININFRA,
+WATSAN SectorMININFRA
+Reports28Enhanced empowerment of households’ to sustainably graduate out of povertyPercentage of graduation participants graduated out of povertyPercentage-70%70%MINALOC, Social Protection SectorSocial Registry, MINALOC
+
+
+
+No
+
+NST2 Outcome
+
+Indicators
+
+Units
+Baseline
+(2023/24)Mid-term targetEnd period target
+Responsibility for reportingMeans of verific6tion and Data Sources26/2728/2929Increased access to social security and income support programmes, particularly among vulnerable peopleProportion of poor and vulnerable population covered by Social Protection systemsPercentage11%16%20%MINALOC LODA RDRC
+MINIBUMWE NCPDEICVTRANSFORMATIONAL GOVERNANCE PILLAR30Reduced case backlogsPercentage of case backlogsPercentage62%47%30%MINIJUSTMINIJUST
+Reports31Enhanced digital service delivery and implementation of Single Digital IDPercentage of government services fully digitized (end to end)Percentage11%50%100%MINICTIREMBO
+
+
+
+No
+
+NST2 Outcome
+
+Indicators
+
+Units
+Baseline
+(2023/24)Mid-term targetEnd period target
+Responsibility for reportingMeans of verific6tion and Data Sources26/2728/29Percentage of citizens owning a single digital identificationPercentage0%50%100%MINICT/NIDANIDA Reports32Quality and inclusive services are delivered and sustainedLevel of quality service deliveryPercentage78.2882.5>90MINALOC, RGBRGS, CRC33Enhanced transparency and accountability and compliance of PFM lawsPercentage of public entities with an unqualified audit opinion for financial statements, compliance with laws and regulations and value for moneyPercentage57%70%80%MINECOFIN, OAGAnnual Audit Report34Strengthened National unity and community resilienceLevel of shared sense of national identityPercentage92%93.5%95%MINUBUMWENational Unity Barometer35Increased confidence in peace, personal and property securityPercentage of citizens with confidence in both personal and property safety and securityPercentage93.63%95.73%97.2%MININTERRGS reports
+Annex 2: NST2 Priorities and Theory of Change
+
+Pillar | Sector | NST2 Priority Area (NPA)| Goal | Sector Priority Area | Outcome | Strategic Interventions (SI)Responsible InstitutionsPILLAR 1: ECONOMIC TRANSFORMATION PILLAR1.1 Agriculture [Sector 1]1.1.1 Climate-resilient, productive and modernized agri-food systems [4.1]Goal 1: Increase Annual Agricultural Growth by over 6%PA-01: Increase productivity of priority crops by 50%Outcome 1: Modernized Crop Production and ProductivityIncrease area under irrigation (71,549 Ha to 132,171 Ha)
+
+
+
+
+
+Lead: MINAGRI, RABIncrease area of land under radical (142,318 ha to 167,268 ha) and progressive terraces (1,032,282 Ha to 1,102,282 Ha)Increase quantity of mineral fertilizers used by farmers from 70.3kg/Ha to 94.6kg/HaIncrease quantity of improved seeds used by both large- and small-scale farmers (LSF: from 85.7 to 100% and SSF: from 35.9% to 50%)Increase local production of certified improved seedsIncrease the percentage of farmers reached by extension services (from 35% to 69%) in partnership with the Private sectorPromote and operationalize Agri-Hubs and Food Basket SitesIncrease the land under conservation agriculturePA-02: Achieve 6nd sust6in self-sufficiency in 6nim6l resourcesOutcome 2: Modernized Animal Resources Production and Productivity
+
+Pillar | Sector | NST2 Priority Area (NPA)| Goal | Sector Priority Area | Outcome | Strategic Interventions (SI)Responsible InstitutionsPromote modern Animal Hubs
+
+
+Lead: MINAGRI, RABIncrease access to water resources for livestock (Valley dams and Boreholes)Improve Animal genetics (Liquid Nitrogen plants, Animal breeding centres, Insemination of cows and pigs)Increase local production of animal feedsIncrease veterinary clinics to reach all districts and provide proximity veterinary services at sector levelIncrease fish production from 46,495 MT to 77,700 MTPA-03: Strengthen post-harvest handling and management and reduce post-harvest losses to below 5%Outcome 3: Strengthened Market Linkages and Post-Harvest InfrastructuresEstablish new drying infrastructure [Mobile dryers for Cereals, Drying shelters (Maize and Beans), Drying of grounds (Rice and Wheat), and Collection centres]
+
+
+Lead: MINAGRI, RAB, MININFRAExpand national storage capacity of food crops and equip them with modern preservation technologiesIncrease feeder roads linking factories/processing plants/marketsEstablish and upgrade agriculture export facilities (cold rooms)Increase the number of Milk Collection Centers and Milk Collection PointsPA-04: Attract investment in the agriculture sector and increase credit to agriculture sector from 6% to 10%Outcome 4: Strengthened agriculture de-risking for resilienceIncrease tailored financial products for the agriculture sector (credit guarantee, grant facility etc)Lead: MINAGRI, MINECOFIN,
+Financial InstitutionsScale up insurance coverage on crops and livestock (crops, cattle, Pig and Poultry)
+
+Pillar | Sector | NST2 Priority Area (NPA)| Goal | Sector Priority Area | Outcome | Strategic Interventions (SI)Responsible InstitutionsOutcome 5: Boosting agriculture exportsIncrease the area under export crops production and increase value addition
+Lead: MINAGRI, NAEB, RABRejuvenate aging coffee trees and increase area under cultivation1.2 PSDYE (Trade and Industry) [Sector 2]1.2.1 Industrial development and Export Promotion [4.2)Goal 2: Achieve 10% annual growth in the industry sectorGoal 3: Double Exports from USD 3.5 to USD 7.3 blnGoal 4: Increase Private Investments from USD 2.2 – 4.6 blnPA-05: Scale up Production of essential and high value products to meet domestic demand and reduce importsOutcome 1: Achieved 10% annual growth in industry sectorPromote, operationalize and further develop bankable Industrial Parks (IPs) and Special Economic Zones (SEZs) including Bugesera, Rwamagana, KSEZ among others
+
+
+
+
+
+Lead: MINICOM, MININFRA, MINAGRI, RDBSet up new industries to increase manufacturing by 13% annuallyStrengthen supplier linkages between producers and processors of main food crops and manufactured products (by enhancing the Supplier Development Program and GoR Procurement of Made in Rwanda products)Scale up sustainable industries and adopt sustainable practices (including energy efficiency, waste management, and water conservation)Develop a management model for each Industrial ParkEstablish Technology and Innovation support centers (TISC) to facilitate the commercialization of research and innovative solutions
+
+Pillar | Sector | NST2 Priority Area (NPA)| Goal | Sector Priority Area | Outcome | Strategic Interventions (SI)Responsible InstitutionsPA-06: Promote exports to regional and international marketsOutcome 2: Increased export revenues of goods and services from USD 3.5 Billion to USD 7.3 BillionEstablish and operationalize National Quality Infrastructure Institutions’ complex (one-stop center) that will support domestic producers/suppliers meet the requirements of anchor investors and export markets.
+
+
+
+
+
+
+
+
+
+
+Lead: MINICOM, RDB, MINAFFET, MININFRA,
+MINAGRI, RMB, Private Sector, Financial InstitutionsScale up Export promotion activitiesProvide export financing and support services to exportersDevelop and Implement an E-commerce Readiness Program to support SMEs to utilize digital trade platforms for exportExpand Kigali Logistic Platform (KLP) to enhance connectivity to regional & global markets to spur growth of the logistics & transport servicesStrengthen cold chain infrastructure and cost-effective post-harvest handling and processing facilities [including completion of Kigali wholesale market to facilitate exports of horticulture products]Attract pharmaceutical researchers and manufacturersIncrease value addition and processing of key mineralsConduct mineral explorationProfessionalize artisanal miners and adopt environmentally friendly mining practicesLeverage Economic diplomacy to boost exports under AfCFTA and other trade facilitation agreementsContinue to scale up traditional exports (Coffee, Tea, Pyrethrum and mining)Continue to scale up non-traditional exports (Horticulture, agro-processing among others)Facilitate exporters to reach global and regional export markets in USA, EU, Middle East, Asia, AfricaAggregate exports of SMEs products to take advantage of economies of scale
+
+Pillar | Sector | NST2 Priority Area (NPA)| Goal | Sector Priority Area | Outcome | Strategic Interventions (SI)Responsible InstitutionsPA-07: Attract and increase private investmentOutcome 3: Increased value of Private Investment from $ 2.2 billion to $4.6 billionAttract private capital and diverse financing products through the Kigali International Financial Center, the capital market, and the financial sector at large
+
+
+Lead: MINICOM, RDB, MININFRA, MINAGRI,
+MINECOFIN, Private Sector, Financial InstitutionsAttract anchor and large investment in the agriculture and manufacturing sectors through flagship projects [such as HVTC, Gabiro Phase II, Kigali wholesale market, Kigali logistic platform and Gako Beef among others.Develop private sector real estate projects including the Bugesera airport area, Kigali Health City, Kivu belt development, Kigali Green Complex, Kigali Golf resort and villas, Malls, hospitality school, and Kigali Innovation CityIncrease access to finance for Youth, Women and MSMEs1.2.2 High end, eco-friendly 6nd diversified tourism [4.3]Goal 5: Increase tourism revenues by almost double from USD 620 Million to USD 1.1 BillionPA-08: Position Rwanda as a world-class, high-value ecotourism destinationOutcome 4: Increased tourism revenues from 0.62 billion to 1.1 billion and MICE revenues from 95 Million to 224 MillionAttract large events, exhibitions, and meetings to grow MICE and sport tourism
+
+Lead: RDB, MINICOM,
+Private Sector, MINISPORTSDevelop a new tourism master plan and work with the private sector to diversify products nationwide to grow leisure and domestic tourismLeverage existing and new Visit Rwanda Partnerships ( in sport, creative industry, entertainment, for example) to promote tourism, investment, and MICE
+
+Pillar | Sector | NST2 Priority Area (NPA)| Goal | Sector Priority Area | Outcome | Strategic Interventions (SI)Responsible InstitutionsRaise the quality of MICE related services through professionalization programs, standards and certification to increase average spending per visitorDevelop and diversify tourism attraction (new and existing) with focus on nature based tourismMobilize innovative tourism and conservation financing (green bonds, PPPs etc)PA-9. Strengthen and promote the cultural and creative industry EcosystemOutcome 1: Strengthened cultural and Creative Industries towards Job creation and income generationsScale up Arts Rwanda Ubuhanzi and Arts connect
+
+
+Lead: MoYA, RDB, Private SectorAttract and host international arts events for skills exchange and knowledge transferEstablish a framework to use the existing public and private infrastructures for arts (Arena, KCEV, Kigali Cultural Village/Rebero, stadiums, Petit Stade, etc)Develop and establish arts centers/Facility in CoK and secondary citiesMobilize and attract the private sector to invest in creative industries as an emerging sectorPA-10: Build a vibrant and professional sports industryOutcome 5: Increased revenues generated from sportsEstablish a national Talent development program and strengthen the Governance, administration, and management capacity of sports organizations as well as personnel in sports
+
+
+Lead: RDB, MINISPORTS,
+Sports Federations, Private SectorAttract private sector investment in sports developmentPromote sports technology, science, and research and establish related academic programs specifically at the tertiary level.Develop and maintain world-class sports infrastructures to attract international eventsCreate, attract and host international sports events
+
+Pillar | Sector | NST2 Priority Area (NPA)| Goal | Sector Priority Area | Outcome | Strategic Interventions (SI)Responsible InstitutionsDevelop services and business segments associated with various sports disciplinesOutcome 6: Increased participation in sports activities boosts Rwandans’ health, wellness and incomesCreate accessible community sports spaces and related sports facilities;Lead: MINISPORTS, MINALOC, MINEDUC, MoYAEstablish and improve youth centers equipped with multi discipline sports facilities at decentralized level1.2.3 Creation of sustainable and decent jobsGoal 6: To create 1,250,000 jobsPA-11: Create sustainable and decent jobsOutcome 5: Increased Productive and decent jobs by 1.25 million (250,000 annually)Implement an integrated business advisory service model tailored to promote entrepreneurship and growth of MSMEs
+
+
+
+
+
+Lead: MIFOTRA, RDB, MINALOC, MINEDUC, MoYA, MININFRA, MoE, MINAGRI, MINICT, MINECOFIN, MoYA,
+Private Sector, CSOsMainstream employment creation in Public and private investments with high impact and labor intensityCreate employment focusing on youth and women through community-based approach in delivery and maintenance of infrastructure, environment protection and agricultural extensions programs and projectsOptimize employment opportunities and skills development from major investment and flagship projects [in public & private sector such as Nyagatare Milk powder factory, Bugesera International Airport, Aviation Skills Academy, Gabiro agri-hub, and sports complexes, etc.,]Improve & Strengthen synergies in workplace learning, employability skills for youth, job-matching services and labour market systems [through internships, apprenticeships, re-skilling and up-skilling among others]Develop a talent pool for emerging critical sectors of the economy [including Global Business Services companies, financial services center, e-mobility, health, Biotechnology, aviation, ICT, CCI and engineering]Mobilize and facilitate private sector to develop and optimize cultural and creative industries for job creation
+
+Pillar | Sector | NST2 Priority Area (NPA)| Goal | Sector Priority Area | Outcome | Strategic Interventions (SI)Responsible Institutions1.3 Climate, Environment and Natural Resources (CENR) [Sector 3]1.3.1 Building resilience to climate change and sustainable management of the environment and natural resources [4.10]Goal 7: Increase resilience to climate change, climate-related hazards, and disaster risksGoal 8: Sustainable management of natural resourcesGo6l 9: Mobilize USD 3 billion in clim6te 6nd n6ture fin6nce to support sust6in6ble developmentGoal 10: Reduce greenhouse gas emissions by 38%PA-12: Disaster risk reduction and managementOutcome 1: Increased resilience to climate change and reduced impacts of disastersDevelop a multi-hazards early warning system and strengthen meteorological services to improve disaster preparedness
+
+
+Lead: MINEMA, MoE, RWBStrengthen capacity for rapid response and management of disasters (including district emergency command posts)Develop flood control measures in high flood risk areasRestore catchment areas to decrease soil erosion risk in high-risk areasPA-13: Sustainable Natural Resources ManagementOutcome 2: Natural resources sustainably managedRestore and manage degraded critical ecosystems and riparian areas
+Lead: MoE, REMA, RFA, RWB,
+CSOs, Private sectorImprove forest management and promote indigenous species, agroforestry, fruit trees, and urban treesIncrease tree seedling nurseries at cell levelUpgrade and operationalize the Forest Monitoring and Evaluation System (FMES)
+
+Pillar | Sector | NST2 Priority Area (NPA)| Goal | Sector Priority Area | Outcome | Strategic Interventions (SI)Responsible InstitutionsIncrease water availability through storage development (the construction of Muvumba Multipurpose Dam and Nyabarongo II HPP) and equitable water allocationOutcome 3: Enhanced land administration and managementEnhance compliance to land use master plans leveraging technology
+
+Lead: MoE, NLA, Private Sector, CSOsImprove land administration information system (LAIS) leveraging registration of expropriated lands and
+ protected areas (at least 100,000 land parcels)	Develop a land market (establish a regulatory framework and data information platform for land value) to reduce speculationsPA-14: Innovative Fund MobilizationOutcome 4: Mobilized clim6te 6nd n6ture fin6nce to incre6se clim6te resilience for 6 sust6in6ble
+developmentDevelop and leverage fund mobilization programs/investment plans to attract resources and maximize investment impacts
+Lead: MoE, MINECOFIN,
+Rwanda Green Fund, KIFCDiversify climate and nature finance instruments leveraging private capitalPA-15: Environmental management, low carbon economy and resilience to climate changeOutcome 5: Enhanced Environmental management, mitigation and adaptation to climate changeDevelop a GHG data management system to monitor carbon emissions of high emissions sectors (agriculture, energy, transport, industrial processes, and product use)
+
+
+Lead: MoE, REMA, RMB,
+Private SectorIncrease the development and monitoring of Strategic Environmental Assessments (SEA) for policies, plans, and programsStrengthen the monitoring of mining activities to promote sustainable & climate compatible mining (compliance rate)Rehabilitate abandoned historical mining and quarry sites
+
+Pillar | Sector | NST2 Priority Area (NPA)| Goal | Sector Priority Area | Outcome | Strategic Interventions (SI)Responsible Institutions1.4 Financial Sector Development (FSD) [Sector 4]1.4.1 Resilient 6nd bro6dened fin6nci6l sector for priv6te sector growth [4.9]Goal 11: Increase savings rate from 12.4% to above 25.9%Goal 12: Double private investment from USD 2.2 billion to USD 4.6 billionPA-16: Strengthen Domestic Savings & Expand Financial InclusionOutcome 1: Incre6sed n6tion6l s6vings to reduce dependence on extern6l fin6ncingDevelop tailored financial products and services for different segments of the population
+
+Lead: MINECOFIN,
+Financial Institutions, RSSBStrengthen Ejo Heza by introducing dual accounts and providing incentives to attract more savers and savingsDiversify and transform Rwanda Pension schemesIncrease and diversify the number of Collective Investment Scheme ProductsOutcome 2: Exp6nded fin6nci6l inclusion by incre6sing 6ccess to form6l fin6nci6l products 6nd servicesIncrease usage and access to quality Financial services
+
+Lead: MINECOFIN, RSSB,
+BNR, Financial InstitutionsImplement the Financial inclusion and Education strategyDevelop and Implement Rwanda Inclusive Insurance strategy to expand Micro insurance products in the economySupport local economic development through operationalization of a cooperative bankOutcome 3: Incre6sed 6doption of technology-driven fin6nci6l solutionsEnhance the interoperability environment of financial services in Rwanda
+Lead: MINECOFIN, RSSB,
+BNR, Financial institutionsIntroduce the Central Bank Digital Currency (CBDC)Promote the growth of fintech startups and digital innovation financial solutions
+
+Pillar | Sector | NST2 Priority Area (NPA)| Goal | Sector Priority Area | Outcome | Strategic Interventions (SI)Responsible InstitutionsPA-17: Position Rwanda as a Leading International Financial Hub while bolstering its Financial systemsOutcome 1: Robust 6nd well regul6ted fin6nci6l system with tr6nsp6rency 6nd f6ir pr6cticesPut in place internationally competitive regulatory and operating environment for investorsLead: MINECOFIN, KIFC,
+BNR, Financial institutionsFacilitate and Ensure Rwanda’s compliance with international guidelines/standardsOutcome 2: Fostered international partnerships for Knowledge sharing and market accessAttract and facilitate set up of high value investors and financial actors to the financial CenterLead: MINECOFIN, KIFC, RDB BNR, CMA, RSE,
+Financial InstitutionsDevelop new and alternative forms of capital (financial products/services) to the financial Center.Develop Capacity and attract skilled labor both in private and public financial sector institutionsPA-18: Expand Financial Access For The Private SectorOutcome 1: Developed, efficient 6nd liquid c6pit6l m6rketsImprove the Capital Market Regulatory Framework
+Lead: MINECOFIN, RDB,
+KIFC, CMA, Financial Institutions, Private Sector, RSEDiversify Investment products (corporate bonds, Green bonds,Municipal bonds etc.,)Broaden and Diversify Investor BaseIncrease Financial Literacy/ Market EducationImprove Rwanda’s financial market rankings in international and regional indices (ABSA, etc.)Outcome 2: Strengthened entrepreneurship and accelerated SMEs growthIncrease and review government financial interventions under BRD and BDF
+Lead: MINICOM, BRD, BDF,
+Financial Institutions, Private SectorDiversify and Innovate new Loans products tailored to SMES of Youths and WomenEstablish and capitalize the de-risking facility (Credit guarantee facility, Grant facility for infrastructure development and Grant facility for market linkages and technology development)
+
+Pillar | Sector | NST2 Priority Area (NPA)| Goal | Sector Priority Area | Outcome | Strategic Interventions (SI)Responsible Institutions1.5 Transport (Infrastructure) [Sector 5]1.5.1 Enhanced transport connectivity for economic growth and trade [4.6]Goal 13: Establish a robust multi-modal transport network to reduce transport cost and promote social economic growthPA-19: Develop transport infrastructure and services to facilitate economic growth and tradeOutcome 1: Improved public tr6nsport services countrywide 6nd reduced tr6ffic congestion in urb6n
+areasScale up dedicated bus lanes in the City of Kigali and modernize bus stops and terminals
+
+Lead: MININFRA, CoK,
+RURA, Private SectorConstruct and upgrade high-capacity road junctions in urban areasIncrease intercity scheduled bus services across the countryImplement smart traffic management equipped with bus prioritization in urban areasIncrease intercity scheduled bus services across the country to ease mobilityOutcome 2: Improved quality of the road Network and trade-supporting infrastructureConstruct and rehabilitate over 300 km of national roads
+Lead: MININFRA, RTDA,
+RMF, DistrictsMaintain the national paved road network to keep acceptable riding qualityConstruct and rehabilitate at least 500 km of feeder roadsOutcome 3: Enhanced green and resilient transport systemPromote and expand electric mobility in public transport
+Lead: MININFRA, RDB, MoE,
+REMA, Rwanda Green Fund, Private sectorPromote the development of climate resilient transport infrastructure (including public charging systems for electric vehicles)Develop cable car technology in both urban areas
+
+Pillar | Sector | NST2 Priority Area (NPA)| Goal | Sector Priority Area | Outcome | Strategic Interventions (SI)Responsible InstitutionsPromote nature-based solutions to mitigate climate issuesOutcome 4: Improved Air Transport Infrastructure and ServicesComplete the construction and start operationalization of Bugesera International Airport
+
+Lead: MININFRA, ATL,
+RwandAir, RCA, RAC, Private SectorRehabilitate Rubavu and Musanze AirportsIncrease RwandAir number of destinations and boost cargo freight capacity and servicesDouble Passenger Numbers transported by RwandAirConstruct and operationalize Aviation Skills AcademyIncrease cargo volumes handled in all airportsOutcome 5: Improved maritime transport infrastructure and servicesImprove and scale up Cargo transport services and capacity on Lake Kivu
+Lead: MININFRA, RTDA,
+Private Sector, DistrictsDevelop and operationalize Ports along Lake Kivu (Rusizi, Karongi & Nkora in Rutsiro District)Construct and operationalize One Stop Border Post (OSBP)1.6 Energy (Infrastructure) [Sector 6]1.6.1 Renewable & clean energy transition & universal access to electricity (Sector: Infrastructure - Energy) [4.4]Goal 14: Increase access to electricity countrywidePA-20: Sc6le up electrific6tion to 6chieve univers6l 6ccessOutcome 1: Increased spatial access to electricity countrywideScale up access to electricity (on-grid/ off-grid) to productive users (industries, health facilities, schools, agro-processing plans among others)
+Lead: MININFRA, REG,
+Private Sector, DistrictsRoll out access to electricity in all cells of the country to facilitate household connections
+
+Pillar | Sector | NST2 Priority Area (NPA)| Goal | Sector Priority Area | Outcome | Strategic Interventions (SI)Responsible InstitutionsOutcome 2: Enhanced electricity generation capacity while increasing the share of renewable energyIncrease energy generation capacity to meet demand projection and maintain the spinning reserve
+Lead: MININFRA, REG,
+RAEB, Private Sector, MoH, MINAGRIIncrease the share of renewable energy in power generation mixDevelop and explore nuclear technology for productive uses in sectors such as health, energy and agricultureGo6l 15: Enh6nced energy security 6nd efficiencyPA-21: Ensuring energy security on critical energy productsOutcome 1: Enhanced energy securityDevelop adequate strategic reserves and storage infrastructure for Oil and gas products
+Lead: MININFRA, MINICOMConstruct storage infrastructure and ensure adequate reserves for oil productsPA-22: Sc6le up the 6doption of cle6n 6nd efficient biom6ss cooking technologiesOutcome 1: Incre6sed 6doption of cle6n 6nd efficient biom6ss cooking technologiesScale up adoption of clean and efficient biomass cooking technologies for large scale users (schools, health facilities, prisons, etc.)Lead: MININFRA, MINALOC,
+MoE, District, CSOs, Rwanda Green FundMobilize households and disseminate efficient biomass cooking technologies1.7 Urbanization and Rural Settlements (Infrastructure) [Sector 7]1.7.1 Enh6nced urb6niz6tion 6nd settlements for 6gglomer6tion benefits [4.7]Goal 16. Accelerate sustainable urbanization from 27.9% to 39.2%PA-23: Establish initiatives to promote sustainable growth of urban and rural areasOutcome 1: Developed, inclusive, climate resilient Cities and Towns
+
+Pillar | Sector | NST2 Priority Area (NPA)| Goal | Sector Priority Area | Outcome | Strategic Interventions (SI)Responsible InstitutionsImplement flagship projects in CoK, Satellite and Secondary cities, and district towns, leveraging their local economic potentials)
+Lead: MININFRA, RTDA, RHA, CoK, MoE, REMA, NLA
+REG, WASAC, DistrictsDevelop detailed physical plans, site servicing to enhance well planned urban and rural settlementsRehabilitate and scale up urban wetlands in CoK and increase open and green spaces in urban areasOutcome 2: Increased access to decent housing and enhanced resilience of communitiesUpgrade urban unplanned settlements with adequate infrastructure and services
+
+Lead: MININFRA, RHA, MoE, REMA, MINALOC, Private Sector, CoK, DistrictsRelocate households from high-risk zones to planned resilient settlementsRehouse low-income households currently located in unplanned settlements into improved and densified housingDevelop affordable Housing units for both rent and/or purchase in partnership with private sectorMobilize rural households in scattered settlements to settle to planned resilient settlementsOutcome 3: Enhanced integration of spatial and investment planningImplement Spatial Development Framework tools (to ensure spatially coordinated investment planning in line with the NLUDMP)
+
+Lead: MINICT, MoE, NLA, RSA, MINALOC, RISAConduct regular implementation audits and inspections (in 30 districts,) of spatial development tools and enforce implementation of recommendationsEnhance service delivery through digital tools (e.g., BPMIS)1.8 ICT [Sector 8]1.8.1 Digital transformation [4.8]Goal 17: Accelerate the growth of digital economy through universal digital inclusion, greater adoption of digital services, and increased productivityPA-24: Foster digital transformation across key economic sectors
+
+Pillar | Sector | NST2 Priority Area (NPA)| Goal | Sector Priority Area | Outcome | Strategic Interventions (SI)Responsible InstitutionsOutcome 1: Increased digital literacy and digital skills development for a globally competitive workforceTrain 1.5 million citizens in basic coding and advanced ICT skills
+
+Lead: MINICT, RISA,
+MINEDUC, Private SectorEnsure universal basic digital literacyCreate digital jobs for local and global market competitivenessStrengthen coordination and impact of digital literacy and skills investments (through the Digital Inclusion Council)Outcome 2: Strengthened innovation ecosystem for private sector-led growthExpand and strengthen funding accessibility to support innovative startups
+
+
+Lead: MINICT, MINICOM,
+RDB, RISA, Private SectorBoost the innovation ecosystem and invest R&D activitiesEnhance Rwanda’s competitiveness and access to regional and global market (for innovative products, services, and technologies)Establish an innovation institutional framework to drive technological progress across key economic sectorsOutcome 3: Enhanced digital service deliveryCompleting end-to-end digitalization of government services at 100%Lead: MINICT, MINALOC,
+RISA, Private sectorIncentivize private sector to provide their services onlinePA-25: Promote Digital Inclusion through accessible, resilient, and secure ICT InfrastructureOutcome 1: Enhanced access to affordable, quality broadband connectivity and world-class infrastructureModernize and expand access to communication and internet infrastructureLead: MINICT, RISA, RURA,
+RSA, Private Sector
+
+Pillar | Sector | NST2 Priority Area (NPA)| Goal | Sector Priority Area | Outcome | Strategic Interventions (SI)Responsible InstitutionsDevelop high-performance computing infrastructure to support advanced IT and geospatial applications like big data and AIAdvance national satellite communication and space infrastructure for sovereign capabilitiesImprove quality of service and experience through mobile number portability and Converged Network Management System (CNMS)Outcome 2: Universal smart device ownershipEstablish device financing models for smart devices in partnership with the private sectorLead: MINICT, MINICOM,
+RISA, Private sectorAdvance transition from USSD to application-based servicesOutcome 3: Enhanced Cybersecurity infrastructure and systemsIntegrate online platforms with PKI system in public and private institutions
+Lead: MINICT, RISA, BNR,
+Private SectorUpgrade network security infrastructureEstablish comprehensive backup and disaster recovery systemsPA-26: Enhance digital service delivery through the increased use of data and emerging technologyOutcome 1: Implementation of Single Digital IDIntegrate government agencies’ backend systemsLead: MINICT, RISA, NIDA, MINALOCImplement the SDID and promote its adoption through high-impact use casesOutcome 2: Incre6sed 6doption of d6t6 for decision m6king 6nd improved oper6tion6l efficiencyStrengthen data governance across institutions for decision and policy making
+Lead:MINICT, MINALOC, RISA, NISRPromote standardized data models, data portals and Digital Public Infrastructure accessible by citizens and businesses
+
+Pillar | Sector | NST2 Priority Area (NPA)| Goal | Sector Priority Area | Outcome | Strategic Interventions (SI)Responsible InstitutionsOutcome 3: Foster usage of emerging technology to advance Smart CitiesIncrease Rwanda’s capabilities to rapidly test and adopt AI and other emerging technology solutions across various sectors
+Lead:MINICT, MINALOC,
+RISA, RHA, CoK, DistrictsImplement schemes that prioritize smart cities and efficient services, utilities, and sustainable urbanizationPILLAR 2: SOCIAL TRANSFORMATION PILLAR2.1 Education [Sector 9]2.1.1 Improve the quality and market relevance of education [5.1]Goal 18: Increase net enrollment in pre-primary education from 35% in 2023 to 65% in 2029Go6l 19: Improve le6rning outcomes 6nd efficiency in b6sic educ6tion.Goal 20: Scale up access to market -relevant Education in Basic TVET and Higher EducationGoal 21: Enhance ICT integration in educationPA-27: Ensure timely access to quality education in basic educationOutcome 1: Increased net enrollment in pre-primary from 35% to 65%Establish resilient and inclusive classrooms
+
+
+Lead: MINEDUC, REB,
+MIGEPROF, NCDA, Districts,Mobilize parental and community support for increasing pre-primary enrollmentRecruit trained pre-primary teachers and ensure Continuous Professional Development for new and existing teachersFacilitate Early Childhood Development centres to meet pre-primary standards by enrolling learners and recruiting teachersProvide age-appropriate teaching and Learning materials for pre-primary schools
+
+Pillar | Sector | NST2 Priority Area (NPA)| Goal | Sector Priority Area | Outcome | Strategic Interventions (SI)Responsible InstitutionsOutcome 2: Improved timely enrolment and learning outcomes, and equitable access in primary educationEstablish inclusive classrooms and other school infrastructure to eliminate double shifts and reduce overcrowding
+
+
+
+
+Lead: MINEDUC, MINALOC, MIGEPROF, REB, NESA,
+Private Sector, CSOs, DistrictsSustain the school feeding programEstablish model special schools for children with Autism and other severe intellectual challengesRecruit teachers from teacher training institutions and provide training to untrained in-service teachers.Provide English training to primary teachers.Improve Foundational Literacy and Numeracy skills with a focus on Foundational gradesReduce school dropout rate through enhancing school and community collaborationEnsure the availability of adequate learning materials including textbooksReduce repetition rate by continuously implementing remedial learning education strategiesExpand functional adult literacy programsOutcome 3: Increased net enrolment and quality in secondary educationSustain the school feeding program
+
+
+Lead: MINEDUC, MINALOC,
+REB, RTB, NESA, DistrictsEstablish career guidance and counseling cornersReduce school dropout rate through attendance tracking, early warning and response mechanismsReduce the repetition rate in secondary education by continuously implementing remedial learning education strategiesEnhance STEM education with related infrastructure, teaching and learning materials
+
+Pillar | Sector | NST2 Priority Area (NPA)| Goal | Sector Priority Area | Outcome | Strategic Interventions (SI)Responsible InstitutionsPA-28: Scale up access to market -relevant Education in Basic TVET and Higher EducationOutcome 1: Enhanced access to quality education in Basic TVET (from 43% to 60%)Establish Technical Secondary Schools (TSS) centers of excellence in all districts.
+
+
+
+Lead: MINEDUC, REB, RTB,
+Private Sector, DistrictsSustain the school feeding program in TVET schoolsEstablish career guidance and counseling corners in TVET institutionsImprove TVET with modern infrastructure, equipment, consumables and materials to enhance STEMPromote research and innovation aligned to labor market demandsScale up Vocational Training Center to cell level (through workplace learning approaches)Strengthen the capacities of in-service TVET teachersOutcome 2: Enhanced quality of higher learning educationUpgrade HLIs with modern STEM infrastructure, materials, equipment and consumables
+Lead: MINEDUC, MIFOTRA, REB, NCST, RTB, Private Sector, DistrictsAlign academic programs with labor market needsCollaborate with the private sector in research projects to produce oriented transformative and innovative products.PA-29: Enhance ICT integration in education at all levels of General Basic Education and TVETOutcome 1: Increased use of ICT in Teaching and Learning at all levels of educationProvide ICT infrastructure and equipment in schools
+Lead: MINEDUC, REB, MINICT, RISADevelop accessible and interactive digital content and train teachers in the use of e-learning platformStrengthen education data management systems for evidence-based decision making
+
+Pillar | Sector | NST2 Priority Area (NPA)| Goal | Sector Priority Area | Outcome | Strategic Interventions (SI)Responsible Institutions2.2 Health [Sector 10]2.2.1 Enhanced quality of health, strengthened health systems, and reduced stunting (Health Sector - including nutrition [5.2]Goal 22: Reduce Maternal Mortality Ratio from 105 per 100,000 live births in 2023 to 60 per 100,000 live
+births by 2029Go6l 23: Reduce Under-five mort6lity r6te from 39.4 per 1,000 live births in 2023 to 30 per 1,000 live births
+by 2029Go6l 24: Reduce the prev6lence of stunting 6mong under five children from 33% in 2024 to below 15 % in
+2029Goal 25: Quadruple skilled health workforcePA-30: Continuously Improving the Access to and Quality of Health Services through Primary Health CareOutcome 1: Attained universal health coverage of essential health servicesImprove coverage and quality of Antenatal care
+
+
+
+
+Lead: MoH, RBC, MIGEPROF,
+DistrictsImplement nationwide rollout of maternal health bundles to timely identify and properly manage postpartum hemorrhage (PPH)Implement appropriate task shifting and capacity building to enhance the quality of maternal, newborn and child health service providedConduct targeted and customized HIV Prevention awareness campaigns among Youth and Key PopulationsStrengthen community-based mental health services and post-rehabilitation programsRaise awareness and educate the public using innovative and targeted strategies on major Non- Communicable Diseases (NCD) risk factors
+
+Pillar | Sector | NST2 Priority Area (NPA)| Goal | Sector Priority Area | Outcome | Strategic Interventions (SI)Responsible InstitutionsReview/Expand benefit package under CBHI and other insurance schemes to include high-impact/ high- cost health interventions/servicesIncrease access to adolescent and youth-focused sexual and reproductive health services to reduce teenage pregnanciesPA-31: Improving Child NutritionOutcome 2: Reduced stunting in under five childrenReinforce a multisectoral approach to eliminate all forms of malnutrition
+Lead: MoH, MINALOC, RBC,MIGEPROF, NCDA, MINEDUC, MINAGRI,
+MINALOC, DistrictsEnhance community-based screening of nutritional status and raise awareness on good feeding practicesRevamp nutritional centers at health centers and improve coordination with community health servicesEnsure availability of nutrition commoditiesScale up and improve standardized Early Childhood Development (ECD) Facilities across the countryPA-32: Strengthening Health Systems and Preparedness for Public Health EmergenciesOutcome 3: Population protected from any public health threatsDevelop, reinforce, and roll out robust event monitoring and early warning systems
+
+
+
+Lead: MoH, RBC, MINICT, RNP, RIB, MINEMA, MINALOC,
+DistrictsEstablish National One Health Emergency Operation CenterStrengthen Antimicrobial resistance (AMR) surveillance through the establishment of a Centre of Excellence for AMR surveillance, training, and researchOperationalize the Centre of Excellence for Isolation centers in order to conduct countrywide training and simulation exercisesExpand multi-pathogen, clinical metagenomics, and sequencing capacitiesStrengthen multisectoral collaboration and international partnership in health security
+
+Pillar | Sector | NST2 Priority Area (NPA)| Goal | Sector Priority Area | Outcome | Strategic Interventions (SI)Responsible InstitutionsPA-33: Expanding the Health WorkforceOutcome 4: A robust health workforce that is well-trained, adequately supported, and optimally deployed to meet the population’s health needsDesign and implement a robust career guidance and strategic recruitment guideline
+
+Lead: MoH, RBC, MIFOTRA/ CSO, MINEDUC/HEC,
+Universities, Districts, Private SectorActive support to eligible trainees across priority cadres, including scholarship supportExpand the number of level 2 teaching hospitalsIncrease motivation & incentives, continuous professional development, skills developmentand in-service trainingRecruit, train, and deploy certified professional community health cadres at community levelPA-34: Continuing to Expand Health Infrastructure and Equip Health FacilitiesOutcome 5: Maximized readiness and operationalization of health facilities through modernized health infrastructureRehabilitate and renovate the existing health facilities ( health Posts,health centers, district hospitals, teaching hospitals, and specialized hospital)
+
+
+
+Lead: MoH, RBC, RHA, HECImplement strategic acquisitions of medical equipmentEstablish partnerships with academic institutions to improve biomedical engineering and health- infrastructure programs to prioritize medical device manufacturingDevelop and implement rigorous accreditation processes and standards for health facilities to ensure high-quality health care servicesPA-35: Promoting Medical Tourism and Positioning Rwanda as a Hub for Specialized Healthcare ServicesOutcome 6: A high-tech and innovative health city – “Kigali Health City” established and Specialized Healthcare Services Expanded
+
+Pillar | Sector | NST2 Priority Area (NPA)| Goal | Sector Priority Area | Outcome | Strategic Interventions (SI)Responsible InstitutionsDevelop Kigali Health City (a zone reserved for high-tech healthcare provision and a green, clean, and
+ healthy environment for professionals, patients, caregivers, and others who need health-related services) 
+Lead: MoH, RDB, RHA,
+MINAFFET, Private Sector, DistrictsCreate enabling environment that incentivizes private sector players to invest in healthCreate an enabling environment for health facilities to specialize the healthcare suitable for medical tourismOutcome 7: Promoted Drug discovery Research and attracted investment in local manufacturing pharmaceuticalsCreate an enabling environment by putting in place adequate legal framework facilitating investment in local manufacturing pharmaceuticals.
+Lead: MoH, RBC, RDB, MINIJUST, FDACreate clinical trial sites for drugs in Rwanda2.3 Social Protection [Sector 11]2.3.1 Enhanced graduation from poverty and increased resilienceGoal 26: Reduced poverty and improved standards of livingPA-36: Promote graduation by creating an enabling environment for income opportunitiesOutcome 1: Enhanced households’ empowerment to sustainably graduate out of povertyTarget graduation participants through social registry and provide full package
+Lead: MINALOC, LODA,
+Districts, Private Sector, CSOs,Provide coaching, referrals and behaviour change support through para-social workers to empower graduation participantsImprove stakeholder coordination to stimulate contributions from CSOs and the private sector on graduation
+
+Pillar | Sector | NST2 Priority Area (NPA)| Goal | Sector Priority Area | Outcome | Strategic Interventions (SI)Responsible InstitutionsPA-37: Protect those in poverty by ensuring access to essential services, through social security and income supportOutcome 1: Increased access to social security and income support programmes, particularly among vulnerable peopleIncrease coverage of comprehensive safety nets and lifecycle approach
+Lead : MINALOC, RSSB,
+Districts, Private SectorIncrease coverage of mandatory social security and insurance schemes in the formal sectorEnsure full coverage of CBHI through mobilisation and complementary support to eligible beneficiariesIncrease coverage of individuals enrolled and saving with Ejo HezaOutcome 2: Reduced MalnutritionScale-up coverage of NSDS (cash transfers, behaviour change)Lead : MINALOC, MIGEPROF, LODA, NCDA,
+MoH, DistrictsProvide nutrition commodities to eligible populationOutcome 3: Increased access of vulnerable groups to high quality social care servicesIncrease access of vulnerable groups to psychosocial support, reintegration packages, community-based rehabilitation and livelihood support
+Lead: MINALOC, LODA,
+NCPD, DistrictsProvide training and capacity building for front-line workers to improve the quality and delivery of servicesPA-38: Prevent people from falling into poverty by providing income security and insurance mechanisms to safeguard individuals and families from shocksOutcome 1: Effective 6nd efficient dis6ster risk m6n6gement 6nd resilience to shocksEnsure all households affected by shocks receive support via asset insurance, cash and in-kind supportLead: MINALOC, LODA,
+MINEMA, DistrictsScale-up climate-smart public works projects to households
+
+Pillar | Sector | NST2 Priority Area (NPA)| Goal | Sector Priority Area | Outcome | Strategic Interventions (SI)Responsible Institutions2.4 Water and Sanitation (Infrastructure) [Sector 12]2.4.1 Increased access to Water for socioeconomic development [4.5]Goal 28: Universal access to improved water servicesPA-39: Scale up drinking water access to all villages countrywideOutcome 1: Increased access to drinking waterScale up access to drinking water in all villages
+
+Lead: MININFRA, WASAC,
+Districts, Private Sector, CSOsScale up the access to basic water for productive use centersIncrease by doubling the daily water production capacity to meet projected demandConstruct, upgrade and rehabilitate the Water infrastructureRehabilitate Non-functional Water Supply systems to reduce on the non-revenue water bill2.4.2 Increased access to Sanitation & Hygiene (WASH) services for improved wellbeing [5.3]Goal 29: Universal access to improved sanitation facilitiesPA-40: Increase access to Sanitation, and Hygiene (WASH) services for improved wellbeingOutcome 1: Increased access to sanitation servicesSensitize all households to develop their own sanitation, hygiene facilities and develop sanitation practices for disease prevention
+
+
+Lead: MININFRA, WASAC,
+Private Sector, MINALOC, CSOs, DistrictsScale up public and private facilities to cater for sanitation needsConstruct centralized sewerage systems including Kigali Centralized sewerage systemConstruct faecal sludge treatment plantsConstruct the solid waste management facilities for proper collection and disposal modern landfills including Nduba landfill
+
+Pillar | Sector | NST2 Priority Area (NPA)| Goal | Sector Priority Area | Outcome | Strategic Interventions (SI)Responsible InstitutionsDevelop and promote tailor-made sanitation solutions for different households in partnership with private sectorPILLAR 3: TRANSFORMATIONAL GOVERNANCE PILLAR3.1 Governance and Decentralization [Sector 13]3.1.1 Enhance citizen-centered local development and effective service delivery [6.2]Goal 30: Increase quality of service delivery to above 90%PA-41: Strengthen institutional frameworks, collaboration, and coordination for inclusive, climate- resilient, and gender-transformative Local Economic Development (LED)Outcome 1: Resilient and inclusive local economies are developed and sustainedFacilitate Districts and City of Kigali to update, publish and utilize local economic potentiality maps and investment profiles to accelerate resilient and inclusive LED
+
+
+
+Lead: MINALOC, LODA,
+MINAFFET, RCA, Financial Institutions, CoK, DistrictsEnable Districts and the City of Kigali to allocate resources to priority and flagship green and gender- inclusive LED projects/activities through capacity building for local economic actors (Cooperatives, SACCOs etc.)Strengthen Bilateral, Regional and Multilateral Cooperation to enhance Rwanda’s socio-economic transformation by establishing and formalizing high-impact partnershipsScale up mobilization of the Rwandan Community Abroad to actively participate in the national development agenda, and improve the quality of services provided to themPA-42: Strengthen local government institutional, organizational, and human resource capacities for effective coordination and collaboration and implementation of citizen-centered service deliveryOutcome 1: Quality and inclusive services are delivered and sustainedReform both central and local government and strengthen capacities in public serviceLead: MINALOC, LODA,
+MIFOTRA, Districts
+
+Pillar | Sector | NST2 Priority Area (NPA)| Goal | Sector Priority Area | Outcome | Strategic Interventions (SI)Responsible InstitutionsUpgrade citizen complaint management systems, and coordinate the operationalization of effective citizen complaint handling mechanismsEstablish a comprehensive multi-sectoral coordination framework to align human capital development projects and programs with local prioritiesMainstream and operationalize sectoral decentralization processes to enhance quality of service deliverySensitize private service providers to strengthen the quality of services delivered to the communityReinforce monitoring of service delivery (public and private) through regular assessments and research on governance and home-grown solutions (HGS)PA-43 Enhance effectiveness of existing citizen participation spaces and mechanisms to strengthen transparency and accountability for better service delivery and national transformationOutcome 2: Empowered citizens to effectively participate in governance and socioeconomic development processesEnhance the efficiency and effectiveness of existing citizen participation platforms and strengthening of effective feedback mechanisms to expedite citizens’ problem-solving and improve accountability
+
+
+
+Lead: MINALOC, MIFOTRA, RGB,LODA, CSOs, MINUBUMWEReinforce collaboration and coordination frameworks (Clusters, Joint Action Development Forum, Sector Working Groups, Citizen Assemblies, etc.) for more effective decision-making, planning, and implementation of development programStrengthen national unity, resilience, and community-based healing by institutionalizing Rwandan culture and values in civic education (Ndi Umunyarwanda, Itorero, etc.) and national development programs.Develop and sustain effective participation of Media, CSOs, and FBOs in local governance, transparency and accountabilityRevisit Media capacity building interventions to focus on practical and market-relevant skills
+
+Pillar | Sector | NST2 Priority Area (NPA)| Goal | Sector Priority Area | Outcome | Strategic Interventions (SI)Responsible Institutions3.2 Justice Reconciliation, Law and Order (JRLO) [Sector 14]3.2.1 Enhanced Rule of LawGoal 31: Enhanced Universal access to quality justicePA-44: Improve justice service delivery and reduce case backlogsOutcome 1: Reduced case backlogs by halfImplement Alternative Dispute Resolution (ADR) and Criminal Justice Policies to increase cases settled through mediation and plea-bargaining of all cases
+
+
+Lead: MINIJUST, RLRC, RNPReview Court procedures and lawsImplement career development policy in the JudiciaryExpand Legal aid provision to vulnerable people through semestrial legal aid weekOutcome 2: Improved justice service deliveryUpgrade the Forensic Institute to increase cases timely handled and make it accessible to the publicLead: MINIJUST, Forensic Institute, RNPLeverage innovative technologies such as IECMS to improve justice service delivery3.2.2 Strengthen Accountability [6.3]Goal 32: Enhance Transparency and accountability and compliance of national lawsPA-45: Strengthen transparency and accountabilityOutcome 1: Reduced corruption and injustice in all its formsConduct anti-corruption and anti-injustice dialogues, trainings and awareness campaigns among various categories of RwandansLead: MINIJUST,
+Ombudsman, MINALOC,
+RGB, Districts, CSOs
+
+Pillar | Sector | NST2 Priority Area (NPA)| Goal | Sector Priority Area | Outcome | Strategic Interventions (SI)Responsible InstitutionsConduct corruption risk assessment, legal and compliance analysis to raise the level of citizen satisfaction with performance of institutions in fighting corruptionMonitor the implementation of Anti-corruption Policy and strategies to raise the level of citizen satisfaction with government commitment to fight corruptionConduct Annual Corruption Barometer3.2.3 National Unity, Resilience, culture and values [6.4]Goal 33: United, resilient and actively engaged Rwandan NationPA-46: To promote and uphold Rwandan identity and social healingOutcome 1: Strengthened National unity and community resiliencePromote Ndi Umunyarwanda values in different groups in Rwanda and Rwandan community abroad;Lead: MINIBUMWE, MINALOC, MINAFFET, RCA,
+DistrictsCoordinate social healing and social reintegration programs at community level by establishing guidelines and structures)PA-47: Prevention 6nd fight 6g6inst genocide ideologyOutcome 1: Combated genocide ideology and revisionismEnhance regional and international cooperation in genocide ideology prevention and prosecution
+
+Lead: MINIBUMWE, MINIJUST, MINALOC,
+DistrictsStrengthen legal and social media awareness on denial and revisionism of the Genocide against the TutsiDevelop and maintain Genocide memorial sites (equipping them with educational materials and enhancing preservation using technology)Organize annual Commemorations of Genocide against the TutsiCollect and preserve archives on Rwandan History
+
+Pillar | Sector | NST2 Priority Area (NPA)| Goal | Sector Priority Area | Outcome | Strategic Interventions (SI)Responsible Institutions3.2.4 Sustained Peace and Security [6.6]Goal 34: Preserving Peace, safety and securityPA-48: To sustain Peace and SecurityOutcome 1: Incre6sed confidence in pe6ce, person6l s6fety 6nd property securityStrengthen capacity and capabilities of security organs to preserve territorial integrity and protect people and their property
+
+
+Lead: MININTER, MINAFFET, RNP, RIB, MINALOC, RCSImprove crime prevention and public order through community policing initiativesContinue contributing to peace and security through strengthened bilateral, regional and international CooperationEnsure effective correctional, rehabilitation and reintegration services3.3 Sports and Culture [Sector 15]3.3.1 Fostering National Unity, Resilience, culture and values [6.4]Goal 35: Reinforce the preservation and promotion of Kinyarwanda, cultural values, norms and Rwandan heritagePA-49. Preserve and promote Rwandan Culture, values, norms and Rwandan HeritageOutcome 1: Rwandan cultural values and norms embedded into daily lifeConduct mobilization campaigns to promote the proper use of Ikinyarwanda and cultural values among
+ specific groups (Artists, Journalists, Parents, institutions, students, etc.,)	
+Lead: MoYA, MINUBUMWE, MINALOC, RCAOperationalize Itorero program at different levels (village level, schools, institutions and Rwandan Community Abroad)Develop infrastructure to promote culture
+
+Pillar | Sector | NST2 Priority Area (NPA)| Goal | Sector Priority Area | Outcome | Strategic Interventions (SI)Responsible InstitutionsOutcome 2: Rwandan cultural heritage promotedDigitize Rwandan cultural heritage through digital mapping of heritage sites, virtual visit of campaign against GenocideDevelop and adopt Legal frameworks governing Archives services and book management3.4 Public Finance Management (PFM) [Sector 16]3.4.1 Strengthen Accountability [6.3]Goal 36: Enhance Transparency, accountability and compliance with national lawsPA-50: Increase compliance with PFM rules and improve oversight of value-for-moneyOutcome 1: Public entities are increasingly able to comply with international accrual standards and with PFM laws and regulationsPhase in IPSAS accrual standards implementation
+Lead: MINECOFIN,
+RPPA,OAGImprove risk management and strengthen the quality of internal audit functionImprove the monitoring and inspection of procurement entities to minimize non-compliance in procuring entitiesOutcome 2: Increased value for money of public spendingWiden audit coverage and increase the capacity of the Supreme Audit for specialized audits
+Lead: MINECOFIN, OAGIncrease Supreme Audit Institute (SAI) public engagement and support to Parliament to scrutinize audit findingsPA-51: Strengthen and sustain critical capabilities for effective PFMOutcome 1: PFM systems are sustainable, well-integrated and more responsive to user needs and decision making
+
+Pillar | Sector | NST2 Priority Area (NPA)| Goal | Sector Priority Area | Outcome | Strategic Interventions (SI)Responsible InstitutionsEnhance IFMIS sustainability and utility as a decision-making tool
+
+
+Lead: MINECOFIN, RPPA, RRA, OAG, MINICT, RISA,
+DistrictsIncrease Umucyo (e-Procurement) coverage, security and user experienceFinalize and deploy Internal Audit Management Software (IAMS)Digitize Supreme Audit Institute’s audit processesModernize digital infrastructure for revenue collectionStrengthen local government systems and frameworks for resource mobilizationOutcome 2: The PFM sector is underpinned by a more sustainable pipeline of critical skillsRefocus Learning and development Strategy to provide required PFM skillsets with more emphasis on PFM upstream skills
+Lead: MINECOFIN,
+MINALOC, Districts, professional bodiesEnhance the delivery of PFM skills through professional bodiesIncrease subnational capacity to implement PFM practicesPA-52: Enhance Climate Responsive PFMOutcome 1: Strengthened Climate Responsive PFMStrengthen the framework and implementation support for “green public procurement”
+
+Lead: MINECOFIN, RPPAEnhance climate responsive budgeting as a tool for external oversight and internal decision-makingIntegrate sustainability more fully in the public investment management processDevelop and build capacity of PFM staff on climate risk reporting
+
+Pillar | Sector | NST2 Priority Area (NPA)| Goal | Sector Priority Area | Outcome | Strategic Interventions (SI)Responsible InstitutionsGoal 37: Deliver evidence for informed decision making and transparencyPA-53: Enh6nce the efficiency, tr6nsp6rency, 6nd 6ccount6bility for informed decision-m6kingOutcome 1: Av6iled timely, qu6lity, 6nd relev6nt offici6l st6tistics for effective PFMGenerate and disseminate high-quality data that supports evidence-based planning, budgeting, monitoring, and evaluation
+
+Lead: MINECOFIN, NISR, MIFOTRA, MINICT, RISAProvide capacity building and technical support across MDAs, Researchers and public for statistical literacy and informed decision makingEnhance the adherence to international statistical and reporting standards to promote Rwanda’s credibility in PFM
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
