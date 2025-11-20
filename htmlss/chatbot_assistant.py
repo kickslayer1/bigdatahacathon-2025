@@ -307,8 +307,17 @@ numbers provided above. If they want to navigate, suggest the appropriate page. 
 concise (2-4 sentences) unless detailed explanation is needed.
 """
             
-            # Generate response using Gemini
-            model = genai.GenerativeModel(self.model_name)
+            # Generate response using Gemini with proper configuration
+            generation_config = {
+                "temperature": 0.7,
+                "top_p": 1,
+                "max_output_tokens": 2048,
+            }
+            
+            model = genai.GenerativeModel(
+                model_name="models/gemini-pro",
+                generation_config=generation_config
+            )
             response = model.generate_content(prompt)
             
             # Extract suggested actions (navigation, queries, etc.)
