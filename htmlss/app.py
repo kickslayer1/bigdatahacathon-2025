@@ -626,6 +626,51 @@ def currency_trade_comparison():
     except Exception as e:
         return jsonify({'error': f'Error generating comparison: {str(e)}'}), 500
 
+# AI Chatbot endpoints
+@app.route('/api/chatbot/query', methods=['POST'])
+def chatbot_query():
+    """Handle chatbot queries"""
+    if 'username' not in session:
+        return jsonify({'error': 'Authentication required'}), 401
+    
+    try:
+        from chatbot_assistant import RwandaTradeAssistant
+        
+        data = request.get_json()
+        user_message = data.get('message', '')
+        current_page = data.get('current_page', None)
+        
+        if not user_message:
+            return jsonify({'error': 'Message is required'}), 400
+        
+        assistant = RwandaTradeAssistant()
+        response = assistant.generate_response(user_message, current_page)
+        
+        return jsonify(response)
+    
+    except Exception as e:
+        return jsonify({
+            'answer': f'Sorry, I encountered an error: {str(e)}',
+            'error': str(e)
+        }), 500
+
+@app.route('/api/chatbot/quick_actions')
+def chatbot_quick_actions():
+    """Get quick action suggestions"""
+    if 'username' not in session:
+        return jsonify({'error': 'Authentication required'}), 401
+    
+    try:
+        from chatbot_assistant import RwandaTradeAssistant
+        
+        assistant = RwandaTradeAssistant()
+        actions = assistant.get_quick_actions()
+        
+        return jsonify({'quick_actions': actions})
+    
+    except Exception as e:
+        return jsonify({'error': f'Error: {str(e)}'}), 500
+
 # Serve static files (like JS) - but protect HTML files
 @app.route('/<path:filename>')
 def serve_static(filename):
