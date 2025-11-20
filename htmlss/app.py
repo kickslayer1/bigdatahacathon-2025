@@ -1,8 +1,16 @@
 from flask import Flask, jsonify, request, send_from_directory, session, redirect, url_for
 import os
 import numpy as np
+from datetime import datetime, timedelta
 from db import register_user, check_user, get_db_connection
 from ml_predictions import generate_ml_predictions
+from currency_analysis import (
+    load_currency_data,
+    calculate_currency_statistics,
+    get_currency_data_by_period,
+    prepare_chart_data
+)
+from currency_forecasting import forecast_2026, forecast_all_currencies
 
 app = Flask(__name__)
 app.secret_key = os.urandom(24)  # Needed for session management
@@ -57,6 +65,12 @@ def serve_referencing():
     if 'username' not in session:
         return redirect('/gateway.html')
     return send_from_directory('.', 'referencing.html')
+
+@app.route('/currency_analysis.html')
+def serve_currency_analysis():
+    if 'username' not in session:
+        return redirect('/gateway.html')
+    return send_from_directory('.', 'currency_analysis.html')
 
 @app.route('/login', methods=['POST'])
 def login():
@@ -475,6 +489,126 @@ def imports_share_data():
     cursor.close()
     conn.close()
     return jsonify([dict(zip(columns, row)) for row in data])
+
+# Currency API Endpoints
+
+@app.route('/api/currency/statistics')
+def currency_statistics():
+    """Get currency statistics for a specific period"""
+    if 'username' not in session:
+        return jsonify({'error': 'Authentication required'}), 401
+    
+    currency = request.args.get('currency', 'USD')
+    period_days = int(request.args.get('period_days', 365))
+    
+    try:
+        # Load currency data
+        df = load_currency_data(currency)
+        if df is None or df.empty:
+            return jsonify({'error': f'No data available for {currency}'}), 404
+        
+        # Calculate date range
+        end_date = df['post_date'].max()
+        start_date = end_date - timedelta(days=period_days)
+        
+        # Filter data for the period
+        period_df = df[(df['post_date'] >= start_date) & (df['post_date'] <= end_date)]
+        
+        if period_df.empty:
+            return jsonify({'error': 'No data available for the selected period'}), 404
+        
+        # Calculate statistics
+        stats = calculate_currency_statistics(period_df, currency)
+        
+        # Add period info
+        stats['start_date'] = start_date.strftime('%Y-%m-%d')
+        stats['end_date'] = end_date.strftime('%Y-%m-%d')
+        stats['period_days'] = period_days
+        
+        return jsonify(stats)
+    
+    except Exception as e:
+        return jsonify({'error': f'Error calculating statistics: {str(e)}'}), 500
+
+@app.route('/api/currency/historical')
+def currency_historical():
+    """Get historical exchange rate data"""
+    if 'username' not in session:
+        return jsonify({'error': 'Authentication required'}), 401
+    
+    currency = request.args.get('currency', 'USD')
+    start_date = request.args.get('start_date')
+    end_date = request.args.get('end_date')
+    
+    try:
+        # Load currency data
+        df = load_currency_data(currency)
+        if df is None or df.empty:
+            return jsonify({'error': f'No data available for {currency}'}), 404
+        
+        # Filter by date range if provided
+        if start_date:
+            df = df[df['post_date'] >= datetime.strptime(start_date, '%Y-%m-%d')]
+        if end_date:
+            df = df[df['post_date'] <= datetime.strptime(end_date, '%Y-%m-%d')]
+        
+        if df.empty:
+            return jsonify({'error': 'No data available for the selected date range'}), 404
+        
+        # Prepare chart data
+        chart_data = prepare_chart_data(df)
+        chart_data['currency'] = currency
+        
+        return jsonify(chart_data)
+    
+    except Exception as e:
+        return jsonify({'error': f'Error loading historical data: {str(e)}'}), 500
+
+@app.route('/api/currency/forecast')
+def currency_forecast():
+    """Get 2026 currency forecast"""
+    if 'username' not in session:
+        return jsonify({'error': 'Authentication required'}), 401
+    
+    currency = request.args.get('currency', 'USD')
+    
+    try:
+        # Load currency data
+        df = load_currency_data(currency)
+        if df is None or df.empty:
+            return jsonify({'error': f'No data available for {currency}'}), 404
+        
+        # Generate forecast
+        forecast_results = forecast_2026(df, currency)
+        
+        if 'error' in forecast_results:
+            return jsonify(forecast_results), 500
+        
+        return jsonify(forecast_results)
+    
+    except Exception as e:
+        return jsonify({'error': f'Error generating forecast: {str(e)}'}), 500
+
+@app.route('/api/currency/all_forecasts')
+def all_currency_forecasts():
+    """Get 2026 forecasts for all currencies"""
+    if 'username' not in session:
+        return jsonify({'error': 'Authentication required'}), 401
+    
+    try:
+        all_forecasts = forecast_all_currencies()
+        
+        if not all_forecasts:
+            return jsonify({'error': 'No forecast data available'}), 404
+        
+        return jsonify({
+            'forecasts': all_forecasts,
+            'currencies': list(all_forecasts.keys()),
+            'forecast_year': 2026
+        })
+    
+    except Exception as e:
+        return jsonify({'error': f'Error generating forecasts: {str(e)}'}), 500
 
 # Serve static files (like JS) - but protect HTML files
 @app.route('/<path:filename>')
