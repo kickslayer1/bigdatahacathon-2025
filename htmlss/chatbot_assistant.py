@@ -23,7 +23,7 @@ class RwandaTradeAssistant:
     """AI Assistant for Rwanda Trade Intelligence Dashboard"""
     
     def __init__(self):
-        self.model_name = 'gemini-1.5-flash-latest'  # Using full model name format
+        self.model_name = 'gemini-1.5-pro'  # Using stable Gemini 1.5 Pro model
         self.conversation_history = []
         self.client = client
         
@@ -311,36 +311,19 @@ numbers provided above. If they want to navigate, suggest the appropriate page. 
 concise (2-4 sentences) unless detailed explanation is needed.
 """
             
-            # Use direct REST API with v1 (not v1beta) for better compatibility
-            import requests
-            
-            # Try v1 API endpoint with gemini-1.5-flash (without models/ prefix)
-            api_url = f"https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent?key={GEMINI_API_KEY}"
-            
-            payload = {
-                "contents": [{
-                    "parts": [{
-                        "text": prompt
-                    }]
-                }],
-                "generationConfig": {
-                    "temperature": 0.7,
-                    "topP": 0.95,
-                    "maxOutputTokens": 1024
-                }
-            }
-            
-            api_response = requests.post(api_url, json=payload, timeout=30)
-            
-            if api_response.status_code != 200:
-                error_detail = api_response.json() if api_response.content else api_response.text
+            # Use google-genai SDK with stable model
+            if not self.client:
                 return {
-                    'answer': f"API Error {api_response.status_code}: {error_detail}. Please try again.",
-                    'error': str(error_detail)
+                    'answer': "⚠️ Chatbot client not initialized. Please check GEMINI_API_KEY.",
+                    'requires_setup': True
                 }
             
-            result = api_response.json()
-            response_text = result['candidates'][0]['content']['parts'][0]['text']
+            response = self.client.models.generate_content(
+                model=self.model_name,
+                contents=prompt
+            )
+            
+            response_text = response.text
             
             # Extract suggested actions (navigation, queries, etc.)
             suggested_action = None
