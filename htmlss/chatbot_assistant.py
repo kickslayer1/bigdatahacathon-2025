@@ -307,18 +307,34 @@ numbers provided above. If they want to navigate, suggest the appropriate page. 
 concise (2-4 sentences) unless detailed explanation is needed.
 """
             
-            # Generate response using Gemini with proper configuration
-            generation_config = {
-                "temperature": 0.7,
-                "top_p": 1,
-                "max_output_tokens": 2048,
+            # Use REST API directly instead of SDK to avoid model version issues
+            import requests
+            
+            api_url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key={GEMINI_API_KEY}"
+            
+            payload = {
+                "contents": [{
+                    "parts": [{
+                        "text": prompt
+                    }]
+                }],
+                "generationConfig": {
+                    "temperature": 0.7,
+                    "topP": 1,
+                    "maxOutputTokens": 2048
+                }
             }
             
-            model = genai.GenerativeModel(
-                model_name="models/gemini-pro",
-                generation_config=generation_config
-            )
-            response = model.generate_content(prompt)
+            api_response = requests.post(api_url, json=payload)
+            
+            if api_response.status_code != 200:
+                return {
+                    'answer': f"API Error: {api_response.status_code} - {api_response.text}",
+                    'error': api_response.text
+                }
+            
+            result = api_response.json()
+            response_text = result['candidates'][0]['content']['parts'][0]['text']
             
             # Extract suggested actions (navigation, queries, etc.)
             suggested_action = None
@@ -339,7 +355,7 @@ concise (2-4 sentences) unless detailed explanation is needed.
                     suggested_action = {'type': 'navigate', 'page': 'front_page.html'}
             
             return {
-                'answer': response.text,
+                'answer': response_text,
                 'intent': intent,
                 'suggested_action': suggested_action,
                 'timestamp': datetime.now().isoformat(),
