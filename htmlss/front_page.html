@@ -24,25 +24,35 @@
 
   <main>
     <section>
-      <h2>Rwanda's next biggest export opportunity</h2>
-      <p>Gold, Health suppliers and Minerals rising in demand by 125%</p>
+      <h2>Rwanda's Next Biggest Export Opportunity</h2>
+      <p>Gold, Health Suppliers and Minerals Rising in Demand by 125%</p>
     </section>
 
     <article>
-      <h3>Global economy policy shifting towards AI and edge technology</h3>
+      <h3>Global Economy Policy Shifting Towards AI and Edge Technology</h3>
       <p>Investment in AI industry has quadrupled in the last 3 years marking a significant development in tech industry.</p>
     </article>
 
-    <section>
+    <section class="chart-container">
       <h3>Exports Data Visualization</h3>
-      <canvas id="exportsLineChart" width="900" height="400"></canvas>
-      
-      <h3>Exports Share by Country</h3>
-      <canvas id="exportsSharePie" width="200" height="200"></canvas>
-      
-      <h3>Imports Share by Country</h3>
-      <canvas id="importsSharePie" width="200" height="200"></canvas>
+      <canvas id="exportsLineChart" style="max-width: 100%; max-height: 400px;"></canvas>
     </section>
+    
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px; margin-top: 30px;">
+      <section class="chart-container">
+        <h3>Exports Share by Country</h3>
+        <div style="position: relative; height: 350px;">
+          <canvas id="exportsSharePie"></canvas>
+        </div>
+      </section>
+      
+      <section class="chart-container">
+        <h3>Imports Share by Country</h3>
+        <div style="position: relative; height: 350px;">
+          <canvas id="importsSharePie"></canvas>
+        </div>
+      </section>
+    </div>
     
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="exports_chart.js"></script>

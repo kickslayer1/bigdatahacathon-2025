@@ -1,10 +1,15 @@
-// Helper to generate random colors for the pie slices
-function getRandomColors(n) {
-  const colors = [];
+// Helper to generate consistent colors for the pie slices
+function getChartColors(n) {
+  const colors = [
+    '#003366', '#0066CC', '#3399FF', '#66B2FF', '#99CCFF',
+    '#C0C0C0', '#808080', '#404040', '#1a4d7a', '#2d5f8d',
+    '#4682B4', '#5F9EA0', '#6495ED', '#7B68EE', '#8B7D6B'
+  ];
+  const result = [];
   for (let i = 0; i < n; i++) {
-    colors.push(`hsl(${Math.floor(360 * Math.random())},70%,60%)`);
+    result.push(colors[i % colors.length]);
   }
-  return colors;
+  return result;
 }
 
 // Exports Share Pie Chart
@@ -19,7 +24,7 @@ function renderExportsSharePie() {
       
       const labels = data.map(row => row.country);
       const shares = data.map(row => row.share);
-      const bgColors = getRandomColors(labels.length);
+      const bgColors = getChartColors(labels.length);
 
       const ctx = document.getElementById('exportsSharePie').getContext('2d');
       new Chart(ctx, {
@@ -28,13 +33,27 @@ function renderExportsSharePie() {
           labels: labels,
           datasets: [{
             data: shares,
-            backgroundColor: bgColors
+            backgroundColor: bgColors,
+            borderColor: '#FFFFFF',
+            borderWidth: 2
           }]
         },
         options: {
           responsive: true,
+          maintainAspectRatio: true,
           plugins: {
             tooltip: {
+              backgroundColor: 'rgba(0, 31, 63, 0.95)',
+              titleColor: '#FFFFFF',
+              bodyColor: '#FFFFFF',
+              titleFont: {
+                size: 14,
+                weight: 'bold'
+              },
+              bodyFont: {
+                size: 13
+              },
+              padding: 12,
               callbacks: {
                 label: function(context) {
                   const idx = context.dataIndex;
@@ -48,13 +67,17 @@ function renderExportsSharePie() {
               }
             },
             title: {
-              display: true,
-              text: 'Exports Share by Country',
-              color: '#C0C0C0'
+              display: false
             },
             legend: {
+              position: 'bottom',
               labels: {
-                color: '#C0C0C0'
+                color: '#FFFFFF',
+                font: {
+                  size: 13
+                },
+                padding: 15,
+                boxWidth: 15
               }
             }
           }
@@ -71,9 +94,14 @@ function renderImportsSharePie() {
   fetch('/imports_share_data')
     .then(res => res.json())
     .then(data => {
+      if (!data || data.length === 0) {
+        console.warn('No imports share data available');
+        return;
+      }
+      
       const labels = data.map(row => row.country);
       const shares = data.map(row => row.share);
-      const bgColors = getRandomColors(labels.length);
+      const bgColors = getChartColors(labels.length);
 
       const ctx = document.getElementById('importsSharePie').getContext('2d');
       new Chart(ctx, {
@@ -82,12 +110,27 @@ function renderImportsSharePie() {
           labels: labels,
           datasets: [{
             data: shares,
-            backgroundColor: bgColors
+            backgroundColor: bgColors,
+            borderColor: '#FFFFFF',
+            borderWidth: 2
           }]
         },
         options: {
+          responsive: true,
+          maintainAspectRatio: true,
           plugins: {
             tooltip: {
+              backgroundColor: 'rgba(0, 31, 63, 0.95)',
+              titleColor: '#FFFFFF',
+              bodyColor: '#FFFFFF',
+              titleFont: {
+                size: 14,
+                weight: 'bold'
+              },
+              bodyFont: {
+                size: 13
+              },
+              padding: 12,
               callbacks: {
                 label: function(context) {
                   const idx = context.dataIndex;
@@ -96,19 +139,32 @@ function renderImportsSharePie() {
                     `Country: ${row.country}`,
                     `Share: ${row.share}%`,
                     `Value: $${row.value}M`,
-                    `Change1: ${row.change1}`,
-                    `Change2: ${row.change2}`
+                    `Change 1: ${row.change1}`,
+                    `Change 2: ${row.change2}`
                   ];
                 }
               }
             },
             title: {
-              display: true,
-              text: 'Imports Share by Country'
+              display: false
+            },
+            legend: {
+              position: 'bottom',
+              labels: {
+                color: '#FFFFFF',
+                font: {
+                  size: 13
+                },
+                padding: 15,
+                boxWidth: 15
+              }
             }
           }
         }
       });
+    })
+    .catch(error => {
+      console.error('Error loading imports share data:', error);
     });
 }
 
