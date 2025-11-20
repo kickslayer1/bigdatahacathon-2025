@@ -312,8 +312,22 @@
 
     <!-- 2026 Forecast Section -->
     <div class="forecast-container" id="forecastSection">
-      <div class="forecast-header">🔮 2026 Exchange Rate Forecast</div>
+      <div class="forecast-header">
+        🔮 2026 Exchange Rate Forecast
+        <div style="float: right; font-size: 0.9em;">
+          <label style="cursor: pointer; display: inline-flex; align-items: center; gap: 8px;">
+            <input type="checkbox" id="includeTradeToggle" style="cursor: pointer; width: 18px; height: 18px;">
+            <span>Include Trade Balance Impact</span>
+          </label>
+        </div>
+      </div>
       <div class="loading">Loading forecast data...</div>
+      
+      <!-- Trade Impact Metrics -->
+      <div id="tradeImpactMetrics" style="display: none; margin-top: 15px; padding: 15px; background: rgba(77, 166, 255, 0.1); border-radius: 8px; border-left: 4px solid #4da6ff;">
+        <h4 style="margin-top: 0; color: #4da6ff;">📊 Trade Balance Impact Analysis</h4>
+        <div id="tradeImpactContent" style="color: #C0C0C0; font-size: 0.95em;"></div>
+      </div>
     </div>
 
     <!-- Forecast Chart -->

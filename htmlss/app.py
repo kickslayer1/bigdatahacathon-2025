@@ -542,6 +542,7 @@ def currency_forecast():
         return jsonify({'error': 'Authentication required'}), 401
     
     currency = request.args.get('currency', 'USD')
+    include_trade = request.args.get('include_trade', 'false').lower() == 'true'
     
     try:
         # Load currency data
@@ -549,8 +550,8 @@ def currency_forecast():
         if df is None or df.empty:
             return jsonify({'error': f'No data available for {currency}'}), 404
         
-        # Generate forecast
-        forecast_results = forecast_2026(df, currency)
+        # Generate forecast with optional trade adjustment
+        forecast_results = forecast_2026(df, currency, include_trade_adjustment=include_trade)
         
         if 'error' in forecast_results:
             return jsonify(forecast_results), 500
@@ -580,6 +581,50 @@ def all_currency_forecasts():
     
     except Exception as e:
         return jsonify({'error': f'Error generating forecasts: {str(e)}'}), 500
+
+@app.route('/api/currency/trade_impact')
+def currency_trade_impact():
+    """Get trade balance impact analysis for currency"""
+    if 'username' not in session:
+        return jsonify({'error': 'Authentication required'}), 401
+    
+    currency = request.args.get('currency', 'USD')
+    period_quarters = int(request.args.get('period_quarters', 8))
+    
+    try:
+        from currency_trade_integration import calculate_trade_impact_score
+        
+        impact_data = calculate_trade_impact_score(currency, period_quarters)
+        
+        if 'error' in impact_data:
+            return jsonify(impact_data), 404
+        
+        return jsonify(impact_data)
+    
+    except Exception as e:
+        return jsonify({'error': f'Error calculating trade impact: {str(e)}'}), 500
+
+@app.route('/api/currency/trade_comparison')
+def currency_trade_comparison():
+    """Compare trade balance impact across all currencies"""
+    if 'username' not in session:
+        return jsonify({'error': 'Authentication required'}), 401
+    
+    try:
+        from currency_trade_integration import get_trade_currency_comparison
+        
+        comparison_data = get_trade_currency_comparison()
+        
+        if not comparison_data:
+            return jsonify({'error': 'No comparison data available'}), 404
+        
+        return jsonify({
+            'currencies': comparison_data,
+            'analysis_date': datetime.now().strftime('%Y-%m-%d')
+        })
+    
+    except Exception as e:
+        return jsonify({'error': f'Error generating comparison: {str(e)}'}), 500
 
 # Serve static files (like JS) - but protect HTML files
 @app.route('/<path:filename>')

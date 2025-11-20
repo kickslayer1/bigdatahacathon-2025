@@ -329,13 +329,14 @@ class CurrencyForecaster:
         return result
 
 
-def forecast_2026(df, currency_code='USD'):
+def forecast_2026(df, currency_code='USD', include_trade_adjustment=False):
     """
     Standalone function to forecast 2026 exchange rates
     
     Args:
         df: DataFrame with historical currency data
         currency_code: Currency code (USD, EUR, CNY, TSH)
+        include_trade_adjustment: Whether to adjust forecast based on trade balance data
     
     Returns:
         Dictionary with forecast results
@@ -343,7 +344,18 @@ def forecast_2026(df, currency_code='USD'):
     try:
         forecaster = CurrencyForecaster(currency_code)
         forecaster.historical_data = df
-        return forecaster.forecast_2026()
+        base_forecast = forecaster.forecast_2026()
+        
+        # Apply trade adjustment if requested
+        if include_trade_adjustment:
+            try:
+                from currency_trade_integration import get_trade_adjusted_forecast
+                base_forecast = get_trade_adjusted_forecast(currency_code, base_forecast)
+            except Exception as e:
+                print(f"Trade adjustment failed: {e}. Using base forecast.")
+                base_forecast['trade_adjustment_error'] = str(e)
+        
+        return base_forecast
     except Exception as e:
         return {'error': str(e)}
 

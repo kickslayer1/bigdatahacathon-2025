@@ -327,12 +327,31 @@ function loadSpreadChart(currency, startDate, endDate) {
  */
 function loadForecast(currency) {
     const forecastSection = document.getElementById('forecastSection');
+    const includeTrade = document.getElementById('includeTradeToggle')?.checked || false;
+    
     forecastSection.innerHTML = `
-        <div class="forecast-header">🔮 2026 Exchange Rate Forecast</div>
+        <div class="forecast-header">
+            🔮 2026 Exchange Rate Forecast
+            <div style="float: right; font-size: 0.9em;">
+                <label style="cursor: pointer; display: inline-flex; align-items: center; gap: 8px;">
+                    <input type="checkbox" id="includeTradeToggle" ${includeTrade ? 'checked' : ''} style="cursor: pointer; width: 18px; height: 18px;">
+                    <span>Include Trade Balance Impact</span>
+                </label>
+            </div>
+        </div>
         <div class="loading">Loading forecast data...</div>
+        <div id="tradeImpactMetrics" style="display: none; margin-top: 15px; padding: 15px; background: rgba(77, 166, 255, 0.1); border-radius: 8px; border-left: 4px solid #4da6ff;">
+            <h4 style="margin-top: 0; color: #4da6ff;">📊 Trade Balance Impact Analysis</h4>
+            <div id="tradeImpactContent" style="color: #C0C0C0; font-size: 0.95em;"></div>
+        </div>
     `;
 
-    fetch(`/api/currency/forecast?currency=${currency}`)
+    // Re-attach toggle event listener
+    document.getElementById('includeTradeToggle').addEventListener('change', function() {
+        loadForecast(currency);
+    });
+
+    fetch(`/api/currency/forecast?currency=${currency}&include_trade=${includeTrade}`)
         .then(response => response.json())
         .then(data => {
             if (data.error) {
@@ -345,9 +364,17 @@ function loadForecast(currency) {
 
             // Display forecast summary
             let summaryHTML = `
-                <div class="forecast-header">🔮 2026 Exchange Rate Forecast for ${data.currency_name}</div>
+                <div class="forecast-header">
+                    🔮 2026 Exchange Rate Forecast for ${data.currency_name}
+                    <div style="float: right; font-size: 0.9em;">
+                        <label style="cursor: pointer; display: inline-flex; align-items: center; gap: 8px;">
+                            <input type="checkbox" id="includeTradeToggle" ${includeTrade ? 'checked' : ''} style="cursor: pointer; width: 18px; height: 18px;">
+                            <span>Include Trade Balance Impact</span>
+                        </label>
+                    </div>
+                </div>
                 <div style="text-align: center; color: #C0C0C0; margin-bottom: 20px;">
-                    <p style="font-size: 1.1em;">Forecasting Method: <strong style="color: #4da6ff;">${data.method}</strong></p>
+                    <p style="font-size: 1.1em;">Forecasting Method: <strong style="color: #4da6ff;">${data.method}${includeTrade ? ' + Trade Balance Adjustment' : ''}</strong></p>
                     <p>Current Rate: <strong>${data.current_rate.toFixed(2)} RWF</strong> (${data.current_date})</p>
             `;
 
@@ -363,6 +390,18 @@ function loadForecast(currency) {
             }
 
             summaryHTML += '</div>';
+
+            // Re-attach toggle event listener
+            setTimeout(() => {
+                document.getElementById('includeTradeToggle')?.addEventListener('change', function() {
+                    loadForecast(currency);
+                });
+            }, 0);
+            
+            // Load trade impact data if toggle is enabled
+            if (includeTrade) {
+                loadTradeImpact(currency);
+            }
 
             // Monthly predictions
             if (data.predictions && data.predictions.length > 0) {
@@ -545,5 +584,63 @@ function loadForecastChart(currency, forecastData) {
         })
         .catch(error => {
             console.error('Error loading forecast chart:', error);
+        });
+}
+
+/**
+ * Load and display trade balance impact analysis
+ */
+function loadTradeImpact(currency) {
+    const metricsSection = document.getElementById('tradeImpactMetrics');
+    const contentDiv = document.getElementById('tradeImpactContent');
+    
+    if (!metricsSection || !contentDiv) return;
+    
+    metricsSection.style.display = 'block';
+    contentDiv.innerHTML = '<div class="loading">Analyzing trade balance impact...</div>';
+    
+    fetch(`/api/currency/trade_impact?currency=${currency}&period_quarters=8`)
+        .then(response => response.json())
+        .then(data => {
+            if (data.error) {
+                contentDiv.innerHTML = `<div class="error-message">${data.error}</div>`;
+                return;
+            }
+            
+            const correlation = data.correlation || 0;
+            const impactLevel = data.impact_level || 'Unknown';
+            const tradeTrend = data.trade_balance_trend || 'Unknown';
+            const interpretation = data.interpretation || 'No analysis available';
+            
+            // Determine correlation strength color
+            let corrColor = '#4da6ff';
+            if (Math.abs(correlation) > 0.7) corrColor = '#ff5252';
+            else if (Math.abs(correlation) > 0.4) corrColor = '#ffa500';
+            else corrColor = '#4caf50';
+            
+            contentDiv.innerHTML = `
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin-bottom: 15px;">
+                    <div style="text-align: center; padding: 10px; background: rgba(0, 0, 0, 0.2); border-radius: 6px;">
+                        <div style="font-size: 0.85em; color: #B0B0B0;">Correlation</div>
+                        <div style="font-size: 1.5em; font-weight: bold; color: ${corrColor};">${correlation.toFixed(3)}</div>
+                    </div>
+                    <div style="text-align: center; padding: 10px; background: rgba(0, 0, 0, 0.2); border-radius: 6px;">
+                        <div style="font-size: 0.85em; color: #B0B0B0;">Impact Level</div>
+                        <div style="font-size: 1.2em; font-weight: bold; color: ${corrColor};">${impactLevel}</div>
+                    </div>
+                    <div style="text-align: center; padding: 10px; background: rgba(0, 0, 0, 0.2); border-radius: 6px;">
+                        <div style="font-size: 0.85em; color: #B0B0B0;">Trade Balance Trend</div>
+                        <div style="font-size: 1.2em; font-weight: bold; color: #4da6ff;">${tradeTrend}</div>
+                    </div>
+                </div>
+                <div style="padding: 10px; background: rgba(0, 0, 0, 0.2); border-radius: 6px;">
+                    <div style="font-size: 0.9em; color: #B0B0B0; margin-bottom: 5px;">📝 Analysis:</div>
+                    <div style="line-height: 1.6;">${interpretation}</div>
+                </div>
+            `;
+        })
+        .catch(error => {
+            console.error('Error loading trade impact:', error);
+            contentDiv.innerHTML = `<div class="error-message">Failed to load trade impact data</div>`;
         });
 }
