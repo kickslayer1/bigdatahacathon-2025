@@ -311,19 +311,36 @@ numbers provided above. If they want to navigate, suggest the appropriate page. 
 concise (2-4 sentences) unless detailed explanation is needed.
 """
             
-            # Use new genai.Client() pattern with gemini-2.0-flash-exp
-            if not self.client:
+            # Use direct REST API with v1 (not v1beta) for better compatibility
+            import requests
+            
+            # Try v1 API endpoint with gemini-1.5-flash (without models/ prefix)
+            api_url = f"https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent?key={GEMINI_API_KEY}"
+            
+            payload = {
+                "contents": [{
+                    "parts": [{
+                        "text": prompt
+                    }]
+                }],
+                "generationConfig": {
+                    "temperature": 0.7,
+                    "topP": 0.95,
+                    "maxOutputTokens": 1024
+                }
+            }
+            
+            api_response = requests.post(api_url, json=payload, timeout=30)
+            
+            if api_response.status_code != 200:
+                error_detail = api_response.json() if api_response.content else api_response.text
                 return {
-                    'answer': "⚠️ Chatbot client not initialized. Please check GEMINI_API_KEY.",
-                    'requires_setup': True
+                    'answer': f"API Error {api_response.status_code}: {error_detail}. Please try again.",
+                    'error': str(error_detail)
                 }
             
-            response = self.client.models.generate_content(
-                model=self.model_name,
-                contents=prompt
-            )
-            
-            response_text = response.text
+            result = api_response.json()
+            response_text = result['candidates'][0]['content']['parts'][0]['text']
             
             # Extract suggested actions (navigation, queries, etc.)
             suggested_action = None
