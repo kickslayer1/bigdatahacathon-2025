@@ -329,6 +329,25 @@ class CurrencyForecaster:
         return result
 
 
+def forecast_2026(df, currency_code='USD'):
+    """
+    Standalone function to forecast 2026 exchange rates
+    
+    Args:
+        df: DataFrame with historical currency data
+        currency_code: Currency code (USD, EUR, CNY, TSH)
+    
+    Returns:
+        Dictionary with forecast results
+    """
+    try:
+        forecaster = CurrencyForecaster(currency_code)
+        forecaster.historical_data = df
+        return forecaster.forecast_2026()
+    except Exception as e:
+        return {'error': str(e)}
+
+
 def forecast_all_currencies():
     """
     Forecast 2026 rates for all available currencies
@@ -336,20 +355,16 @@ def forecast_all_currencies():
     Returns:
         Dictionary with forecasts for all currencies
     """
-    results = {
-        'forecast_date': datetime.now().strftime('%Y-%m-%d'),
-        'currencies': []
-    }
+    results = {}
     
     for code in AVAILABLE_CURRENCIES.keys():
         try:
             print(f"Forecasting {code}...")
-            forecaster = CurrencyForecaster(code)
-            forecast = forecaster.forecast_2026()
-            
-            if forecast:
-                results['currencies'].append(forecast)
-        
+            df = load_currency_data(code)
+            if df is not None and not df.empty:
+                forecast = forecast_2026(df, code)
+                if forecast and 'error' not in forecast:
+                    results[code] = forecast
         except Exception as e:
             print(f"Error forecasting {code}: {e}")
             continue
