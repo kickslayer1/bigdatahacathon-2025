@@ -502,28 +502,11 @@ def currency_statistics():
     period_days = int(request.args.get('period_days', 365))
     
     try:
-        # Load currency data
-        df = load_currency_data(currency)
-        if df is None or df.empty:
+        # Calculate statistics using the currency_analysis module
+        stats = calculate_currency_statistics(currency, period_days)
+        
+        if stats is None:
             return jsonify({'error': f'No data available for {currency}'}), 404
-        
-        # Calculate date range
-        end_date = df['post_date'].max()
-        start_date = end_date - timedelta(days=period_days)
-        
-        # Filter data for the period
-        period_df = df[(df['post_date'] >= start_date) & (df['post_date'] <= end_date)]
-        
-        if period_df.empty:
-            return jsonify({'error': 'No data available for the selected period'}), 404
-        
-        # Calculate statistics
-        stats = calculate_currency_statistics(period_df, currency)
-        
-        # Add period info
-        stats['start_date'] = start_date.strftime('%Y-%m-%d')
-        stats['end_date'] = end_date.strftime('%Y-%m-%d')
-        stats['period_days'] = period_days
         
         return jsonify(stats)
     
@@ -541,23 +524,11 @@ def currency_historical():
     end_date = request.args.get('end_date')
     
     try:
-        # Load currency data
-        df = load_currency_data(currency)
-        if df is None or df.empty:
+        # Prepare chart data using the currency_analysis module
+        chart_data = prepare_chart_data(currency, start_date, end_date)
+        
+        if chart_data is None:
             return jsonify({'error': f'No data available for {currency}'}), 404
-        
-        # Filter by date range if provided
-        if start_date:
-            df = df[df['post_date'] >= datetime.strptime(start_date, '%Y-%m-%d')]
-        if end_date:
-            df = df[df['post_date'] <= datetime.strptime(end_date, '%Y-%m-%d')]
-        
-        if df.empty:
-            return jsonify({'error': 'No data available for the selected date range'}), 404
-        
-        # Prepare chart data
-        chart_data = prepare_chart_data(df)
-        chart_data['currency'] = currency
         
         return jsonify(chart_data)
     
