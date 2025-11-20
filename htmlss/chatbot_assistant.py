@@ -20,7 +20,7 @@ class RwandaTradeAssistant:
     """AI Assistant for Rwanda Trade Intelligence Dashboard"""
     
     def __init__(self):
-        self.model_name = 'gemini-1.5-flash'
+        self.model_name = 'gemini-1.5-pro-latest'
         self.conversation_history = []
         
         # System context about the platform
