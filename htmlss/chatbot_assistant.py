@@ -6,22 +6,26 @@ Uses Google Gemini API (free tier) to provide intelligent assistance
 import os
 import json
 from datetime import datetime
-import google.generativeai as genai
+from google import genai
 from db import get_db_connection
 
-# Configure Gemini API
+# Configure Gemini API - Client gets API key from GEMINI_API_KEY environment variable
 GEMINI_API_KEY = os.environ.get('GEMINI_API_KEY', '')
 
+# Initialize Gemini client (automatically uses GEMINI_API_KEY env var)
 if GEMINI_API_KEY:
-    genai.configure(api_key=GEMINI_API_KEY)
+    client = genai.Client(api_key=GEMINI_API_KEY)
+else:
+    client = None
 
 
 class RwandaTradeAssistant:
     """AI Assistant for Rwanda Trade Intelligence Dashboard"""
     
     def __init__(self):
-        self.model_name = 'gemini-1.5-pro-latest'
+        self.model_name = 'gemini-2.0-flash-exp'  # Using newer Gemini 2.0 model
         self.conversation_history = []
+        self.client = client
         
         # System context about the platform
         self.system_context = """
@@ -307,34 +311,19 @@ numbers provided above. If they want to navigate, suggest the appropriate page. 
 concise (2-4 sentences) unless detailed explanation is needed.
 """
             
-            # Use REST API directly instead of SDK to avoid model version issues
-            import requests
-            
-            api_url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key={GEMINI_API_KEY}"
-            
-            payload = {
-                "contents": [{
-                    "parts": [{
-                        "text": prompt
-                    }]
-                }],
-                "generationConfig": {
-                    "temperature": 0.7,
-                    "topP": 1,
-                    "maxOutputTokens": 2048
-                }
-            }
-            
-            api_response = requests.post(api_url, json=payload)
-            
-            if api_response.status_code != 200:
+            # Use new genai.Client() pattern with gemini-2.0-flash-exp
+            if not self.client:
                 return {
-                    'answer': f"API Error: {api_response.status_code} - {api_response.text}",
-                    'error': api_response.text
+                    'answer': "⚠️ Chatbot client not initialized. Please check GEMINI_API_KEY.",
+                    'requires_setup': True
                 }
             
-            result = api_response.json()
-            response_text = result['candidates'][0]['content']['parts'][0]['text']
+            response = self.client.models.generate_content(
+                model=self.model_name,
+                contents=prompt
+            )
+            
+            response_text = response.text
             
             # Extract suggested actions (navigation, queries, etc.)
             suggested_action = None
