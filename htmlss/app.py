@@ -490,6 +490,212 @@ def imports_share_data():
     conn.close()
     return jsonify([dict(zip(columns, row)) for row in data])
 
+# GDP API Endpoints
+
+@app.route('/gdp_main_data')
+def gdp_main_data():
+    """Get main GDP sector data"""
+    if 'username' not in session:
+        return jsonify({'error': 'Authentication required'}), 401
+    
+    conn = get_db_connection()
+    cursor = conn.cursor()
+    try:
+        cursor.execute("SELECT * FROM gdp_main ORDER BY Code_No")
+        data = cursor.fetchall()
+        columns = [desc[0] for desc in cursor.description]
+        return jsonify([dict(zip(columns, row)) for row in data])
+    except Exception as e:
+        return jsonify({'error': f'Error fetching GDP main data: {str(e)}'}), 500
+    finally:
+        cursor.close()
+        conn.close()
+
+@app.route('/gdp_details_data')
+def gdp_details_data():
+    """Get detailed GDP subsector data"""
+    if 'username' not in session:
+        return jsonify({'error': 'Authentication required'}), 401
+    
+    conn = get_db_connection()
+    cursor = conn.cursor()
+    try:
+        cursor.execute("SELECT * FROM gdp_details ORDER BY Code_No, items")
+        data = cursor.fetchall()
+        columns = [desc[0] for desc in cursor.description]
+        return jsonify([dict(zip(columns, row)) for row in data])
+    except Exception as e:
+        return jsonify({'error': f'Error fetching GDP details data: {str(e)}'}), 500
+    finally:
+        cursor.close()
+        conn.close()
+
+@app.route('/gdp_growth_analysis')
+def gdp_growth_analysis():
+    """Calculate GDP growth rates by sector"""
+    if 'username' not in session:
+        return jsonify({'error': 'Authentication required'}), 401
+    
+    conn = get_db_connection()
+    cursor = conn.cursor()
+    try:
+        cursor.execute("SELECT * FROM gdp_main ORDER BY Code_No")
+        data = cursor.fetchall()
+        columns = [desc[0] for desc in cursor.description]
+        
+        growth_analysis = []
+        for row in data:
+            row_dict = dict(zip(columns, row))
+            sector_name = row_dict['items']
+            
+            # Get first and last quarter values (Q2020Q1 and Q2025Q1)
+            start_value = float(row_dict['Q2020Q1']) if row_dict['Q2020Q1'] else 0
+            end_value = float(row_dict['Q2025Q1']) if row_dict['Q2025Q1'] else 0
+            
+            if start_value > 0:
+                growth_percent = ((end_value - start_value) / start_value) * 100
+                growth_absolute = end_value - start_value
+                
+                growth_analysis.append({
+                    'sector': sector_name,
+                    'start_value': start_value,
+                    'end_value': end_value,
+                    'growth_percent': round(growth_percent, 2),
+                    'growth_absolute': round(growth_absolute, 2),
+                    'quarters': []
+                })
+                
+                # Add quarterly values for trend analysis
+                for col in columns:
+                    if col.startswith('Q20'):
+                        quarter = col[1:]  # Remove 'Q' prefix
+                        value = float(row_dict[col]) if row_dict[col] else 0
+                        growth_analysis[-1]['quarters'].append({
+                            'quarter': quarter,
+                            'value': value
+                        })
+        
+        return jsonify(growth_analysis)
+    except Exception as e:
+        return jsonify({'error': f'Error calculating growth analysis: {str(e)}'}), 500
+    finally:
+        cursor.close()
+        conn.close()
+
+@app.route('/gdp_subsector_growth')
+def gdp_subsector_growth():
+    """Get top growing subsectors from details table"""
+    if 'username' not in session:
+        return jsonify({'error': 'Authentication required'}), 401
+    
+    conn = get_db_connection()
+    cursor = conn.cursor()
+    try:
+        cursor.execute("SELECT * FROM gdp_details")
+        data = cursor.fetchall()
+        columns = [desc[0] for desc in cursor.description]
+        
+        subsector_growth = []
+        for row in data:
+            row_dict = dict(zip(columns, row))
+            subsector_name = row_dict['items']
+            
+            start_value = float(row_dict['Q2020Q1']) if row_dict['Q2020Q1'] else 0
+            end_value = float(row_dict['Q2025Q1']) if row_dict['Q2025Q1'] else 0
+            
+            if start_value > 0:
+                growth_percent = ((end_value - start_value) / start_value) * 100
+                subsector_growth.append({
+                    'subsector': subsector_name,
+                    'sector_code': row_dict['Code_No'],
+                    'start_value': start_value,
+                    'end_value': end_value,
+                    'growth_percent': round(growth_percent, 2)
+                })
+        
+        # Sort by growth percent descending
+        subsector_growth.sort(key=lambda x: x['growth_percent'], reverse=True)
+        return jsonify(subsector_growth)
+    except Exception as e:
+        return jsonify({'error': f'Error calculating subsector growth: {str(e)}'}), 500
+    finally:
+        cursor.close()
+        conn.close()
+
+@app.route('/gdp_export_correlation')
+def gdp_export_correlation():
+    """Calculate correlation between GDP growth and export volumes"""
+    if 'username' not in session:
+        return jsonify({'error': 'Authentication required'}), 401
+    
+    conn = get_db_connection()
+    cursor = conn.cursor()
+    try:
+        # Get GDP data (Industry sector - Code_No = 2)
+        cursor.execute("SELECT * FROM gdp_main WHERE Code_No = 2")
+        gdp_row = cursor.fetchone()
+        if not gdp_row:
+            return jsonify({'error': 'No GDP data found'}), 404
+        
+        gdp_columns = [desc[0] for desc in cursor.description]
+        gdp_dict = dict(zip(gdp_columns, gdp_row))
+        
+        # Get export data
+        cursor.execute("SELECT year, SUM(value) as total_exports FROM exportss GROUP BY year ORDER BY year")
+        export_data = cursor.fetchall()
+        
+        # Build correlation data
+        correlation_data = {
+            'gdp_industry': {
+                'sector': gdp_dict['items'],
+                'quarterly_values': []
+            },
+            'exports': {
+                'yearly_values': []
+            }
+        }
+        
+        # Extract GDP quarterly values
+        for col in gdp_columns:
+            if col.startswith('Q20'):
+                quarter = col[1:]
+                value = float(gdp_dict[col]) if gdp_dict[col] else 0
+                correlation_data['gdp_industry']['quarterly_values'].append({
+                    'quarter': quarter,
+                    'value': value
+                })
+        
+        # Extract export yearly values
+        for row in export_data:
+            correlation_data['exports']['yearly_values'].append({
+                'year': row[0],
+                'value': float(row[1]) if row[1] else 0
+            })
+        
+        # Calculate simple correlation coefficient if we have enough data
+        gdp_values = [item['value'] for item in correlation_data['gdp_industry']['quarterly_values'] if item['value'] > 0]
+        
+        if len(gdp_values) > 1:
+            # Calculate growth trends
+            gdp_growth_trend = ((gdp_values[-1] - gdp_values[0]) / gdp_values[0]) * 100
+            
+            export_values = [item['value'] for item in correlation_data['exports']['yearly_values'] if item['value'] > 0]
+            if len(export_values) > 1:
+                export_growth_trend = ((export_values[-1] - export_values[0]) / export_values[0]) * 100
+                
+                correlation_data['analysis'] = {
+                    'gdp_growth_trend': round(gdp_growth_trend, 2),
+                    'export_growth_trend': round(export_growth_trend, 2),
+                    'correlation_strength': 'positive' if gdp_growth_trend * export_growth_trend > 0 else 'negative'
+                }
+        
+        return jsonify(correlation_data)
+    except Exception as e:
+        return jsonify({'error': f'Error calculating correlation: {str(e)}'}), 500
+    finally:
+        cursor.close()
+        conn.close()
+
 # Currency API Endpoints
 
 @app.route('/api/currency/statistics')
